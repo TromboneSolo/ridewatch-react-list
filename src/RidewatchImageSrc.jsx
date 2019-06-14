@@ -1,1 +1,1 @@
-var zio = [];
+var zio = ["it's true", "I am zio."];
