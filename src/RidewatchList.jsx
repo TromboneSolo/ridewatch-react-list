@@ -14,7 +14,10 @@ export class RidewatchList extends Component {
   render() {
     return (
       <div>
-        <img src="C:\DATA\local\DEVEL\ridewatch-react-list\ridewatch-react\ridewatch\anotherwatch-2000-anotherkuuga.png"></img>
+        <h1>{this.state.series}</h1>
+        {this.state.imgsrc.map(i => {
+        return <ul><li>{<Ridewatch imgsrc={i}/> }</li></ul>
+      })}
       </div>
     );
   }
