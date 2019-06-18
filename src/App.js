@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import RidewatchList from "./RidewatchList.jsx";
 import {
   zio,
@@ -26,19 +25,11 @@ import {
 } from "./RidewatchImageSrc.jsx";
 import "./App.css";
 
-function importAll(r) {
-  let images = [];
-  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-  return images;
-}
-
-const images = importAll(require.context('./images', false, '/\.png/'));
-
 
 function App() {
   return (
     <div className="App">
-      <RidewatchList imgsrc={images} />
+      <RidewatchList imgsrc={zio} />
       <RidewatchList imgsrc={build} />
       <RidewatchList imgsrc={exaid} />
       <RidewatchList imgsrc={ghost} />

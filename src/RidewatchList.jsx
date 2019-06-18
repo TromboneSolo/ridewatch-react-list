@@ -15,9 +15,11 @@ export class RidewatchList extends Component {
     return (
       <div>
         <h1>{this.state.series}</h1>
-        {this.state.imgsrc.map(i => {
-        return <ul><li>{<Ridewatch imgsrc={i}/> }</li></ul>
-      })}
+        <ul>
+          {this.state.imgsrc.map(i => {
+            return <li>{<Ridewatch imgsrc={i} key={i.id} alt={i} />}</li>;
+          })}
+        </ul>
       </div>
     );
   }

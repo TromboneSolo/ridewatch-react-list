@@ -13,7 +13,7 @@ export class Ridewatch extends Component {
     return (
       <div>
         <button>
-          <img src={this.state.imgsrc} />
+          <img src={this.state.imgsrc} alt={this.props.alt} />
         </button>
       </div>
     );
