@@ -1,3 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 button {
   width: 317px;
   height: 333px;
@@ -12,4 +19,23 @@ img {
 h1 {
   color: black;
   font-size: 20px;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  clear: left;
+  font-size: 25px;
+  padding: 3px 0px 3px 10px;
+  margin: 0px;
 }

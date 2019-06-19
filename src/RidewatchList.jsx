@@ -17,7 +17,7 @@ export class RidewatchList extends Component {
         <h1>{this.state.series}</h1>
         <ul>
           {this.state.imgsrc.map(i => {
-            return <li>{<Ridewatch imgsrc={i} key={i.id} alt={i} />}</li>;
+            return <li>{<Ridewatch imgsrc={i} alt={i.toString()} />}</li>;
           })}
         </ul>
       </div>

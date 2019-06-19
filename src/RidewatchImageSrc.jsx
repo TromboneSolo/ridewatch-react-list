@@ -1,5 +1,19 @@
 
-var zio = ["wooods!"];
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const ridewatchArray = importAll(require.context('./ridewatch', false, /\.(png|jpe?g|svg)$/));
+
+var rLen = ridewatchArray.length;
+
+
+var zio = [];
+
+for (var i = rLen-1; i > 0; i--) {
+  zio.push(ridewatchArray[i]);
+}
+
 
 var build = [];
 
