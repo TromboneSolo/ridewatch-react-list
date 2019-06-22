@@ -10,14 +10,23 @@ var rLen = ridewatchArray.length;
 
 var zio = [];
 
-for (var i = rLen-1; i > 0; i--) {
+for (var i = rLen-1; i > 127; i--) {
+  console.log(ridewatchArray)
   zio.push(ridewatchArray[i]);
 }
 
 
 var build = [];
 
+for (var b = rLen-18; b > 115; b--) {
+  build.push(ridewatchArray[b]);
+}
+
 var exaid = [];
+
+for (var h = rLen-101; h > 1; h--) {
+  exaid.push(ridewatchArray[h]);
+}
 
 var ghost = [];
 

@@ -11,14 +11,21 @@ export class Ridewatch extends Component {
   }
 
   onClick() {
+    if(this.state.Checked === "false") {
     this.setState({
       Checked: "true"
     })
   }
+  else {
+    this.setState({
+      Checked: "false"
+    })
+  }
+}
 
   render() {
     return (
-      <div>
+      <div id="ridewatch">
         <button className={this.state.Checked} onClick={this.onClick}>
           <img src={this.state.imgsrc} alt={this.props.alt} />
         </button>

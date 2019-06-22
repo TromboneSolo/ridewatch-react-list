@@ -3,12 +3,16 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  
+  cursor: url("https://i.imgur.com/YyPyzFh.png"), auto;
 }
 
 button {
   width: 317px;
   height: 333px;
   border-radius: 6px;
+  
+  cursor: url("https://i.imgur.com/YyPyzFh.png"), auto;
 }
 
 img {
@@ -20,7 +24,6 @@ h1 {
   color: black;
   font-size: 20px;
 }
-
 
 ul {
   display: flex;
@@ -41,5 +44,5 @@ li {
 }
 
 .true {
-background-color: rgb(37, 190, 31);
+  background-color: rgb(37, 190, 31);
 }

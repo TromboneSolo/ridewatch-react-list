@@ -1,0 +1,20 @@
+{
+  "series": {
+    "product": [
+      {
+        "id": "1",
+        "name": "zio",
+        "year": "2018",
+        "owned": true,
+        "imagesource": "https://i.imgur.com/MMgSsb3.png"
+      },
+      {
+        "id": "2",
+        "name": "geiz",
+        "year": "2068",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/rkELP35.png"
+      }
+    ]
+  }
+}

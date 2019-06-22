@@ -5,16 +5,19 @@ export class RidewatchList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      series: "",
+      series: this.props.series,
       imgsrc: this.props.imgsrc,
       allChecked: false
     };
+    this.onClick = this.onClick.bind(this);
   }
+
+  onClick() {}
 
   render() {
     return (
-      <div>
-        <h1>{this.state.series}</h1>
+      <div className={this.props.series}>
+        <h1 onClick={this.onClick}>{this.state.series}</h1>
         <ul>
           {this.state.imgsrc.map(i => {
             return <li>{<Ridewatch imgsrc={i} alt={i.toString()} />}</li>;
