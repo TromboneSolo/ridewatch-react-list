@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "./logo.svg";
 import RidewatchList from "./RidewatchList.jsx";
 import {
   zio,
@@ -25,31 +26,39 @@ import {
 } from "./RidewatchImageSrc.jsx";
 import "./App.css";
 
+function importAll(r) {
+  let images = [];
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+
+const images = importAll(require.context('./ridewatch', false, '/\.png/'));
+
 
 function App() {
   return (
     <div className="App">
-      <RidewatchList series={"zio"} imgsrc={zio} />
-      <RidewatchList series={"build"} imgsrc={build} />
-      <RidewatchList series={"exaid"} imgsrc={exaid} />
-      <RidewatchList series={"ghost"} imgsrc={ghost} />
-      <RidewatchList series={"drive"} imgsrc={drive} />
-      <RidewatchList series={"gaim"} imgsrc={gaim} />
-      <RidewatchList series={"wizard"} imgsrc={wizard} />
-      <RidewatchList series={"fourze"} imgsrc={fourze} />
-      <RidewatchList series={"ooo"} imgsrc={ooo} />
-      <RidewatchList series={"w"} imgsrc={w} />
-      <RidewatchList series={"decade"} imgsrc={decade} />
-      <RidewatchList series={"kiva"} imgsrc={kiva} />
-      <RidewatchList series={"deno"} imgsrc={deno} />
-      <RidewatchList series={"kabuto"} imgsrc={kabuto} />
-      <RidewatchList series={"hibiki"} imgsrc={hibiki} />
-      <RidewatchList series={"blade"} imgsrc={blade} />
-      <RidewatchList series={"faiz"} imgsrc={faiz} />
-      <RidewatchList series={"ryuki"} imgsrc={ryuki} />
-      <RidewatchList series={"agito"} imgsrc={agito} />
-      <RidewatchList series={"kuuga"} imgsrc={kuuga} />
-      <RidewatchList series={"misc"} imgsrc={misc} />
+      <RidewatchList imgsrc={images} />
+      <RidewatchList imgsrc={build} />
+      <RidewatchList imgsrc={exaid} />
+      <RidewatchList imgsrc={ghost} />
+      <RidewatchList imgsrc={drive} />
+      <RidewatchList imgsrc={gaim} />
+      <RidewatchList imgsrc={wizard} />
+      <RidewatchList imgsrc={fourze} />
+      <RidewatchList imgsrc={ooo} />
+      <RidewatchList imgsrc={w} />
+      <RidewatchList imgsrc={decade} />
+      <RidewatchList imgsrc={kiva} />
+      <RidewatchList imgsrc={deno} />
+      <RidewatchList imgsrc={kabuto} />
+      <RidewatchList imgsrc={hibiki} />
+      <RidewatchList imgsrc={blade} />
+      <RidewatchList imgsrc={faiz} />
+      <RidewatchList imgsrc={ryuki} />
+      <RidewatchList imgsrc={agito} />
+      <RidewatchList imgsrc={kuuga} />
+      <RidewatchList imgsrc={misc} />
     </div>
   );
 }
