@@ -7,12 +7,17 @@ export class RidewatchList extends Component {
     this.state = {
       series: this.props.series,
       imgsrc: this.props.imgsrc,
-      allChecked: false
+      allChecked: false,
+      Collapsed: false
     };
     this.onClick = this.onClick.bind(this);
   }
 
-  onClick() {}
+  onClick() {
+    this.setState({
+      Collapsed: true
+    })
+  }
 
   render() {
     return (

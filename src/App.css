@@ -22,7 +22,9 @@ img {
 
 h1 {
   color: black;
-  font-size: 20px;
+  font-size: 50px;
+  text-align: center;
+
 }
 
 ul {
@@ -30,10 +32,8 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-bottom: 20px;
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 25px;
 }
 
 li {
@@ -45,4 +45,16 @@ li {
 
 .true {
   background-color: rgb(37, 190, 31);
+}
+
+.zio{
+  background-image: linear-gradient(rgb(255, 255, 255) 60%, rgb(82, 51, 255));
+}
+
+.build {
+  background-image: linear-gradient(rgb(82, 51, 255)45%, red 45%, rgb(255, 100, 234));
+}
+.exaid {
+  
+  background-image: linear-gradient(rgb(255, 100, 234), rgb(255, 136, 0));
 }
