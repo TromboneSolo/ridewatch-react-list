@@ -1,20 +1,44 @@
 {
   "series": {
-    "product": [
+    "zio": [
       {
         "id": "1",
-        "name": "zio",
+        "name": "Zi-O",
+        "katakana": "",
         "year": "2018",
         "owned": true,
-        "imagesource": "https://i.imgur.com/MMgSsb3.png"
+        "imagesource": "https://i.imgur.com/MMgSsb3.png",
+        "primaryColor": "clear",
+        "secondaryColor": "black"
       },
       {
         "id": "2",
-        "name": "geiz",
+        "name": "Geiz",
         "year": "2068",
         "owned": false,
         "imagesource": "https://i.imgur.com/rkELP35.png"
       }
-    ]
+    ],
+    "build" : [],
+    "exaid" : [],
+    "ghost" : [],
+    "drive" : [],
+    "gaim" : [],
+    "wizard" : [],
+    "fourze" : [],
+    "ooo" : [],
+    "w" : [],
+    "decade" : [],
+    "kiva" : [],
+    "deno" : [],
+    "kabuto" : [],
+    "hibiki" : [],
+    "blade" : [],
+    "faiz" : [],
+    "ryuki" : [],
+    "agito" : [],
+    "kuuga" : [],
+    "misc" : []
+
   }
 }
