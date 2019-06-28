@@ -4,19 +4,52 @@
       {
         "id": "1",
         "name": "Zi-O",
-        "katakana": "",
+        "katakana": "ジオウ",
         "year": "2018",
-        "owned": true,
+        "owned": false,
         "imagesource": "https://i.imgur.com/MMgSsb3.png",
         "primaryColor": "clear",
         "secondaryColor": "black"
       },
       {
         "id": "2",
-        "name": "Geiz",
-        "year": "2068",
+        "name": "Zi-O II",
+        "katakana": "ジオウ ツ",
+        "year": "2019",
         "owned": false,
-        "imagesource": "https://i.imgur.com/rkELP35.png"
+        "imagesource": "",
+        "primaryColor": "gold",
+        "secondaryColor": "black"
+      },
+      {
+        "id": "3",
+        "name": "Zi-O Trinity",
+        "katakana": "ジオウ トリニティ",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "",
+        "primaryColor": "clear",
+        "secondaryColor": "black"
+      },
+      {
+        "id": "4",
+        "name": "Grand Zi-O",
+        "katakana": "グランド ジオウ",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "",
+        "primaryColor": "gold",
+        "secondaryColor": "gold"
+      },
+      {
+        "id": "5",
+        "name": "Ouma Zi-O",
+        "katakana": "オーマ ジオウ",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "",
+        "primaryColor": "gold",
+        "secondaryColor": "gold"
       }
     ],
     "build" : [],

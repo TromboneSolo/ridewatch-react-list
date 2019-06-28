@@ -37,7 +37,7 @@ export class RidewatchList extends Component {
     if (this.state.Collapsed === true) {
       return (
         <div className={this.state.series + "-div"}>
-          <h1 onClick={this.onClick} className={this.state.series}>
+          <h1 onClick={this.onClick} className={this.state.series + "-collapsed"}>
             {this.props.series}
           </h1>
         </div>
@@ -48,7 +48,7 @@ export class RidewatchList extends Component {
           <h1 onClick={this.onClick} className={this.state.series}>
             {this.state.series}
           </h1>
-          <ul className = {this.state.series + "-list"}>
+          <ul className = {this.state.series}>
             {this.state.imgsrc.map(i => {
               return <li>{<Ridewatch imgsrc={i} alt={i.toString()} />}</li>;
             })}
