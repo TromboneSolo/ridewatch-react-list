@@ -7,6 +7,7 @@ export class RidewatchList extends Component {
     this.state = {
       series: this.props.series,
       imgsrc: this.props.imgsrc,
+      watchJson: this.props.watchJson,
       allChecked: false,
       Collapsed: false
     };
@@ -28,16 +29,28 @@ export class RidewatchList extends Component {
       this.setState({
         Collapsed: false,
         series: this.props.series,
+        watchJson: this.props.watchJson,
         imgsrc: this.props.imgsrc
       });
     }
   }
 
   render() {
+    var tempWatchArray = [];
+    for (var i = 0; i < this.state.watchJson.length; i++) {
+      tempWatchArray.push(this.state.watchJson[i].imagesource);
+    }
+    let ridewatches = tempWatchArray.map(image => {
+      return <Ridewatch imgsrc={image} alt={"butts"} />;
+    });
+
     if (this.state.Collapsed === true) {
       return (
         <div className={this.state.series + "-div"}>
-          <h1 onClick={this.onClick} className={this.state.series + "-collapsed"}>
+          <h1
+            onClick={this.onClick}
+            className={this.state.series + "-collapsed"}
+          >
             {this.props.series}
           </h1>
         </div>
@@ -48,10 +61,8 @@ export class RidewatchList extends Component {
           <h1 onClick={this.onClick} className={this.state.series}>
             {this.state.series}
           </h1>
-          <ul className = {this.state.series}>
-            {this.state.imgsrc.map(i => {
-              return <li>{<Ridewatch imgsrc={i} alt={i.toString()} />}</li>;
-            })}
+          <ul className={this.state.series}>
+            <li>{ridewatches}</li>
           </ul>
         </div>
       );

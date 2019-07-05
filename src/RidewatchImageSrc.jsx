@@ -8,16 +8,16 @@ const ridewatchArray = importAll(
 
 var rLen = ridewatchArray.length;
 
+
 var zio = [];
 
 for (var a = rLen - 1; a > 127; a--) {
-  console.log(ridewatchArray);
   zio.push(ridewatchArray[a]);
 }
 
 var build = [];
 
-for (var b = rLen - 18; b > 111; b--) {
+for (var b = a; b > 111; b--) {
   build.push(ridewatchArray[b]);
 }
 
