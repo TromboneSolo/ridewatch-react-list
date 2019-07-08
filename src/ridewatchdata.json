@@ -72,6 +72,16 @@
         "secondaryColor": "black"
       },
       {
+        "id": "7",
+        "name": "Geiz Bibiru",
+        "katakana": "ゲイツ　ビビル",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "",
+        "primaryColor": "blue",
+        "secondaryColor": "black"
+      },
+      {
         "id": "8",
         "name": "Woz",
         "katakana": "ウォズ",

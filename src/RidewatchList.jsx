@@ -36,12 +36,23 @@ export class RidewatchList extends Component {
   }
 
   render() {
-    var tempWatchArray = [];
+    var tempWatchUrlArray = [];
+    var tempWatchNameArray = [];
     for (var i = 0; i < this.state.watchJson.length; i++) {
-      tempWatchArray.push(this.state.watchJson[i].imagesource);
+      tempWatchUrlArray.push(this.state.watchJson[i].imagesource);
+      tempWatchNameArray.push(
+        this.state.watchJson[i].name + " " + this.state.watchJson[i].katakana
+      );
     }
-    let ridewatches = tempWatchArray.map(image => {
-      return <Ridewatch imgsrc={image} alt={"butts"} />;
+    var tempRidewatches = [];
+    for (var t = 0; t < tempWatchUrlArray.length; t++) {
+      tempRidewatches.push([tempWatchUrlArray[t], tempWatchNameArray[t]]);
+    }
+
+    let ridewatches = tempRidewatches.map(alt => {
+      return (
+        <Ridewatch imgsrc={alt[0]} alt={alt[1]} identity={alt[1]} />
+      );
     });
 
     if (this.state.Collapsed === true) {

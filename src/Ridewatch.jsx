@@ -5,7 +5,9 @@ export class Ridewatch extends Component {
     super(props);
     this.state = {
       Checked: "false",
-      imgsrc: this.props.imgsrc
+      imgsrc: this.props.imgsrc,
+      alt: this.props.alt,
+      identity: this.props.identity
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -27,7 +29,7 @@ export class Ridewatch extends Component {
     return (
       <div id="ridewatch">
         <button className={this.state.Checked} onClick={this.onClick}>
-          <img src={this.state.imgsrc} alt={this.props.alt} />{this.state.imgsrc}
+          <img src={this.state.imgsrc} alt={this.state.alt} />{this.state.identity}
         </button>
       </div>
     );
