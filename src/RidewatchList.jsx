@@ -9,7 +9,8 @@ export class RidewatchList extends Component {
       imgsrc: this.props.imgsrc,
       watchJson: this.props.watchJson,
       allChecked: false,
-      Collapsed: false
+      Collapsed: false,
+      katakana: this.props.katakana
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -51,7 +52,7 @@ export class RidewatchList extends Component {
 
     let ridewatches = tempRidewatches.map(alt => {
       return (
-        <Ridewatch imgsrc={alt[0]} alt={alt[1]} identity={alt[1]} />
+        <li><Ridewatch imgsrc={alt[0]} alt={alt[1]} identity={alt[1]} key={alt[1]} /></li>
       );
     });
 
@@ -73,7 +74,7 @@ export class RidewatchList extends Component {
             {this.state.series}
           </h1>
           <ul className={this.state.series}>
-            <li>{ridewatches}</li>
+            {ridewatches}
           </ul>
         </div>
       );

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  
+
   cursor: url("https://i.imgur.com/YyPyzFh.png"), auto;
 }
 
@@ -10,13 +10,15 @@ button {
   width: 317px;
   height: 333px;
   border-radius: 6px;
-  
+  font-family: cursive;
+  line-height: 0px;
+
   cursor: url("https://i.imgur.com/YyPyzFh.png"), auto;
 }
 
 img {
   max-width: 300px;
-  max-height: 310px;
+  max-height: 300px;
 }
 
 h1 {
@@ -25,7 +27,6 @@ h1 {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
 
 ul {
@@ -48,17 +49,20 @@ li {
   background-color: rgb(37, 190, 31);
 }
 
-.zio{
+.zio {
   background-image: linear-gradient(rgb(255, 255, 255) 60%, rgb(82, 51, 255));
 }
-.zio-closed{
+.zio-closed {
   background-image: linear-gradient(red, blue);
 }
 
 .build {
-  background-image: linear-gradient(rgb(82, 51, 255)45%, red 45%, rgb(255, 100, 234));
+  background-image: linear-gradient(
+    rgb(82, 51, 255) 45%,
+    red 45%,
+    rgb(255, 100, 234)
+  );
 }
 .exaid {
-  
   background-image: linear-gradient(rgb(255, 100, 234), rgb(255, 136, 0));
 }

@@ -7,7 +7,37 @@
         "katakana": "ジオウ",
         "year": "2018",
         "owned": false,
-        "imagesource": "https://i.imgur.com/MMgSsb3.png",
+        "imagesource": "https://i.imgur.com/v2Yv3CR.png",
+        "primaryColor": "clear",
+        "secondaryColor": "black"
+      },
+      {
+        "id": "1.5",
+        "name": "Aurora Zi-O",
+        "katakana": "アロラ　ジオウ",
+        "year": "2018",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/n4to5ZY.png",
+        "primaryColor": "aurora",
+        "secondaryColor": "black"
+      },
+      {
+        "id": "1.6",
+        "name": "Christmas Zi-O",
+        "katakana": "クリスマス　ジオウ",
+        "year": "2018",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/ANoNFfc.png",
+        "primaryColor": "red",
+        "secondaryColor": "green"
+      },
+      {
+        "id": "1.7",
+        "name": "Mirror Zi-O",
+        "katakana": "ミーラーワルド　ジオウ",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/WLaUCbA.png",
         "primaryColor": "clear",
         "secondaryColor": "black"
       },
@@ -17,7 +47,7 @@
         "katakana": "ジオウ ツ",
         "year": "2019",
         "owned": false,
-        "imagesource": "https://i.imgur.com/rkELP35.png",
+        "imagesource": "https://i.imgur.com/t8NrqaK.png",
         "primaryColor": "gold",
         "secondaryColor": "black"
       },
@@ -27,7 +57,7 @@
         "katakana": "ジオウ トリニティ",
         "year": "2019",
         "owned": false,
-        "imagesource": "",
+        "imagesource": "https://i.imgur.com/6dwNLbG.png",
         "primaryColor": "clear",
         "secondaryColor": "black"
       },
@@ -37,7 +67,7 @@
         "katakana": "グランド ジオウ",
         "year": "2019",
         "owned": false,
-        "imagesource": "",
+        "imagesource": "https://i.imgur.com/1gxHfQe.png",
         "primaryColor": "gold",
         "secondaryColor": "gold"
       },
@@ -57,7 +87,7 @@
         "katakana": "ゲイツ",
         "year": "2068",
         "owned": false,
-        "imagesource": "https://i.imgur.com/rkELP35.png",
+        "imagesource": "https://i.imgur.com/f7ZzxtP.png",
         "primaryColor": "red",
         "secondaryColor": "black"
       },
@@ -67,7 +97,7 @@
         "katakana": "ゲイツ　リバイブ",
         "year": "2019",
         "owned": false,
-        "imagesource": "",
+        "imagesource": "https://i.imgur.com/2iBsoNz.png",
         "primaryColor": ["black", "blue"],
         "secondaryColor": "black"
       },
@@ -87,7 +117,7 @@
         "katakana": "ウォズ",
         "year": "N/A",
         "owned": false,
-        "imagesource": "",
+        "imagesource": "https://i.imgur.com/SY6SyKu.png",
         "primaryColor": ["silver", "green"],
         "secondaryColor": "black"
       },
@@ -97,7 +127,7 @@
         "katakana": "シノビ",
         "year": "2022",
         "owned": false,
-        "imagesource": "",
+        "imagesource": "https://i.imgur.com/2fjSauZ.png",
         "primaryColor": ["silver", "purple"],
         "secondaryColor": "purple"
       },
@@ -107,7 +137,7 @@
         "katakana": "クイズ",
         "year": "N/A",
         "owned": false,
-        "imagesource": "",
+        "imagesource": "https://i.imgur.com/NmbrYVm.png",
         "primaryColor": ["silver", "orange"],
         "secondaryColor": "orange"
       },
@@ -117,7 +147,7 @@
         "katakana": "キカイ",
         "year": "N/A",
         "owned": false,
-        "imagesource": "",
+        "imagesource": "https://i.imgur.com/HnyLcaY.png",
         "primaryColor": ["silver", "yellow"],
         "secondaryColor": "yellow"
       },
@@ -127,12 +157,173 @@
         "katakana": "ギンガ",
         "year": "N/A",
         "owned": false,
-        "imagesource": "",
+        "imagesource": "https://i.imgur.com/6cVgACc.png",
         "primaryColor": ["gold", "black"],
         "secondaryColor": "silver"
       }
     ],
-    "build": [],
+    "build": [
+      {
+        "id": "1",
+        "name": "Build",
+        "katakana": "ビルド",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/KaNNSWG.png",
+        "primaryColor": "red",
+        "secondaryColor": "blue"
+      },
+      {
+        "id": "2",
+        "name": "RabbitTank Sparkling",
+        "katakana": "ビルド　ラビットタンク　スパークリング",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/kBlUQ2l.png",
+        "primaryColor": "blue",
+        "secondaryColor": "red"
+      },
+      {
+        "id": "3",
+        "name": "Build Hazard",
+        "katakana": "ビルド　ハザード",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/I9koGCv.png",
+        "primaryColor": "black",
+        "secondaryColor": "black"
+      },
+      {
+        "id": "4",
+        "name": "RabbitRabbit Form",
+        "katakana": "ビルド　ラビットラビット　フォーム",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/eKpdBTb.png",
+        "primaryColor": "yellow",
+        "secondaryColor": "red"
+      },
+      {
+        "id": "5",
+        "name": "TankTank Form",
+        "katakana": "ビルド　タンクタンク　フォーム",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/offgtxa.png",
+        "primaryColor": "yellow",
+        "secondaryColor": "blue"
+      },
+      {
+        "id": "6",
+        "name": "Build Genius",
+        "katakana": "ビルド　ジーニアス",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/U5AU8LZ.png",
+        "primaryColor": "white",
+        "secondaryColor": "white"
+      },
+      {
+        "id": "7",
+        "name": "RabbitDragon Form",
+        "katakana": "ビルド　ラビットドラゴン　フォーム",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/tJiYeSG.png",
+        "primaryColor": "silver",
+        "secondaryColor": "gold"
+      },
+      {
+        "id": "8",
+        "name": "Cross-Z",
+        "katakana": "クローズ",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/jRCxgku.png",
+        "primaryColor": "orange",
+        "secondaryColor": "blue"
+      },
+      {
+        "id": "9",
+        "name": "Cross-Z Charge",
+        "katakana": "クローズ　チャジ",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/96aMzP6.png",
+        "primaryColor": "blue",
+        "secondaryColor": "grey"
+      },
+      {
+        "id": "10",
+        "name": "Cross-Z Magma",
+        "katakana": "クローズ　マグマ",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/TXhqEOa.png",
+        "primaryColor": "black",
+        "secondaryColor": "orange"
+      },
+      {
+        "id": "11",
+        "name": "Grease",
+        "katakana": "グリス",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/cAstu0I.png",
+        "primaryColor": "gold",
+        "secondaryColor": "black"
+      },
+      {
+        "id": "12",
+        "name": "Grease Blizzard",
+        "katakana": "グリス　ブリザード",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/eICbAVJ.png",
+        "primaryColor": "blue",
+        "secondaryColor": "black"
+      },
+      {
+        "id": "13",
+        "name": "Rogue",
+        "katakana": "ローグ",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/tYli2O7.png",
+        "primaryColor": "purple",
+        "secondaryColor": "blue"
+      },
+      {
+        "id": "14",
+        "name": "Evol",
+        "katakana": "エボル",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/8Tu2Oos.png",
+        "primaryColor": "mustard",
+        "secondaryColor": "maroon"
+      },
+      {
+        "id": "15",
+        "name": "Evol Black Hole",
+        "katakana": "エボル　ブラックホール　フォーム",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/q1TxbZF.png",
+        "primaryColor": "white",
+        "secondaryColor": "black"
+      },
+      {
+        "id": "16",
+        "name": "MadRogue",
+        "katakana": "マッドローグ",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/EmSA7Yx.png",
+        "primaryColor": "white",
+        "secondaryColor": "purple"
+      }
+    ],
     "exaid": [],
     "ghost": [],
     "drive": [],
@@ -151,6 +342,7 @@
     "ryuki": [],
     "agito": [],
     "kuuga": [],
+    "another": [],
     "misc": []
   }
 }
