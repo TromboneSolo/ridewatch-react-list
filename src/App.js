@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import RidewatchList from "./RidewatchList.jsx";
 
 import ridewatchJson from "./ridewatchdata.json";

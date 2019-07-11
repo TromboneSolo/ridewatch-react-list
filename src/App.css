@@ -9,9 +9,9 @@
 button {
   width: 317px;
   height: 333px;
-  border-radius: 6px;
+  border-radius: 20px;
   font-family: cursive;
-  line-height: 0px;
+  font-size: 20px;
 
   cursor: url("https://i.imgur.com/YyPyzFh.png"), auto;
 }
@@ -50,7 +50,7 @@ li {
 }
 
 .zio {
-  background-image: linear-gradient(rgb(255, 255, 255) 60%, rgb(82, 51, 255));
+  background-image: linear-gradient(rgb(255, 255, 255) 40%, rgb(82, 51, 255));
 }
 .zio-closed {
   background-image: linear-gradient(red, blue);
@@ -58,11 +58,27 @@ li {
 
 .build {
   background-image: linear-gradient(
-    rgb(82, 51, 255) 45%,
-    red 45%,
+    rgb(82, 51, 255) 30%,
+    red 60%,
     rgb(255, 100, 234)
   );
 }
 .exaid {
   background-image: linear-gradient(rgb(255, 100, 234), rgb(255, 136, 0));
+}
+
+.ghost {
+  background-image: linear-gradient(rgb(255, 136, 0), rgb(255, 0, 0));
+}
+
+.drive {
+  background-image: linear-gradient(rgb(255, 0, 0), rgb(30, 34, 255));
+}
+
+.gaim {
+  background-image: linear-gradient(rgb(30, 34, 255), rgb(206, 29, 29));
+}
+
+.wizard {
+  background-image: linear-gradient(rgb(206, 29, 29), rgb(255, 123, 0));
 }

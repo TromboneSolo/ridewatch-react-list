@@ -42,7 +42,7 @@ export class RidewatchList extends Component {
     for (var i = 0; i < this.state.watchJson.length; i++) {
       tempWatchUrlArray.push(this.state.watchJson[i].imagesource);
       tempWatchNameArray.push(
-        this.state.watchJson[i].name + " " + this.state.watchJson[i].katakana
+        this.state.watchJson[i].name + "\n" + this.state.watchJson[i].katakana
       );
     }
     var tempRidewatches = [];
