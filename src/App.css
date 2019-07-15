@@ -58,27 +58,27 @@ li {
 
 .build {
   background-image: linear-gradient(
-    rgb(82, 51, 255) 30%,
-    red 60%,
+    rgb(82, 51, 255) 40%,
+    red 59%,
     rgb(255, 100, 234)
   );
 }
 .exaid {
-  background-image: linear-gradient(rgb(255, 100, 234), rgb(255, 136, 0));
+  background-image: linear-gradient(rgb(255, 100, 234) 95%, rgb(255, 136, 0));
 }
 
 .ghost {
-  background-image: linear-gradient(rgb(255, 136, 0), rgb(255, 0, 0));
+  background-image: linear-gradient(rgb(255, 136, 0) 95%, rgb(255, 0, 0));
 }
 
 .drive {
-  background-image: linear-gradient(rgb(255, 0, 0), rgb(30, 34, 255));
+  background-image: linear-gradient(rgb(255, 0, 0) 95%, rgb(30, 34, 255));
 }
 
 .gaim {
-  background-image: linear-gradient(rgb(30, 34, 255), rgb(206, 29, 29));
+  background-image: linear-gradient(rgb(30, 34, 255) 95%, rgb(206, 29, 29));
 }
 
 .wizard {
-  background-image: linear-gradient(rgb(206, 29, 29), rgb(255, 123, 0));
+  background-image: linear-gradient(rgb(206, 29, 29) 95%, rgb(255, 123, 0));
 }
