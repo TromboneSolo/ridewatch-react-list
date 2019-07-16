@@ -14,11 +14,6 @@ export class RidewatchList extends Component {
     };
     this.onClick = this.onClick.bind(this);
   }
-
-  componentDidMount() {
-    this.setState({});
-  }
-
   onClick() {
     if (this.state.Collapsed === false) {
       this.setState({
@@ -52,7 +47,15 @@ export class RidewatchList extends Component {
 
     let ridewatches = tempRidewatches.map(alt => {
       return (
-        <li><Ridewatch imgsrc={alt[0]} alt={alt[1]} identity={alt[1]} key={alt[1]} /></li>
+        <li>
+          <Ridewatch
+            imgsrc={alt[0]}
+            alt={alt[1]}
+            identity={alt[1]}
+            key={alt[1]}
+            series={this.state.series}
+          />
+        </li>
       );
     });
 
@@ -73,9 +76,7 @@ export class RidewatchList extends Component {
           <h1 onClick={this.onClick} className={this.state.series}>
             {this.state.series}
           </h1>
-          <ul className={this.state.series}>
-            {ridewatches}
-          </ul>
+          <ul className={this.state.series}>{ridewatches}</ul>
         </div>
       );
     }

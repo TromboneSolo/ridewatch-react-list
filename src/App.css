@@ -12,6 +12,7 @@ button {
   border-radius: 20px;
   font-family: cursive;
   font-size: 20px;
+  
 
   cursor: url("https://i.imgur.com/YyPyzFh.png"), auto;
 }
@@ -48,6 +49,74 @@ li {
 .true {
   background-color: rgb(37, 190, 31);
 }
+
+.true-zio {
+  background-color: rgb(246, 74, 148);
+}
+.true-build {
+  background-color: rgb(255, 0, 0);
+}
+.true-exaid {
+  background-color: rgb(255, 230, 0);
+}
+.true-ghost {
+  background-color: rgb(255, 153, 0);
+}
+.true-drive {
+  background-color: rgb(138, 138, 138);
+}
+.true-gaim {
+  background-color: rgb(255, 166, 0);
+}
+.true-wizard {
+  background-color: rgb(233, 0, 0);
+}
+.true-fourze {
+  background-color: rgb(255, 164, 27);
+}
+.true-ooo {
+  background-color: rgb(61, 207, 32);
+}
+.true-w {
+  background-color: rgb(255, 0, 0);
+}
+.true-decade {
+  background-color: rgb(37, 190, 31);
+}
+.true-kiva {
+  background-color: rgb(251, 255, 0);
+}
+.true-deno {
+  background-color: rgb(255, 57, 57);
+}
+.true-kabuto {
+  background-color: rgb(44, 111, 255);
+}
+.true-hibiki {
+  background-color: rgb(97, 0, 153);
+}
+.true-blade {
+  background-color: rgb(177, 39, 39);
+}
+.true-faiz {
+  background-color: rgb(251, 255, 0);
+}
+.true-ryuki {
+  background-color: rgb(255, 0, 0);
+}
+.true-agito {
+  background-color: rgb(255, 0, 0);
+}
+.true-kuuga {
+  background-color: rgb(255, 0, 0);
+}
+.true-another {
+  background-color: rgb(37, 0, 71);
+}
+.true-misc {
+  background-color: rgb(0, 255, 255);
+}
+
 
 .zio {
   background-image: linear-gradient(rgb(255, 255, 255) 40%, rgb(82, 51, 255));

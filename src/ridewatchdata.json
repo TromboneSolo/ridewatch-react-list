@@ -149,7 +149,7 @@
         "DX": true,
         "name": "Quiz",
         "katakana": "クイズ",
-        "year": "N/A",
+        "year": "2040",
         "owned": false,
         "imagesource": "https://i.imgur.com/NmbrYVm.png",
         "primaryColor": ["silver", "orange"],
@@ -160,7 +160,7 @@
         "DX": true,
         "name": "Kikai",
         "katakana": "キカイ",
-        "year": "N/A",
+        "year": "2121",
         "owned": false,
         "imagesource": "https://i.imgur.com/HnyLcaY.png",
         "primaryColor": ["silver", "yellow"],
@@ -171,7 +171,7 @@
         "DX": true,
         "name": "Ginga",
         "katakana": "ギンガ",
-        "year": "N/A",
+        "year": "2019",
         "owned": false,
         "imagesource": "https://i.imgur.com/6cVgACc.png",
         "primaryColor": ["gold", "black"],
@@ -1481,7 +1481,291 @@
         "secondaryColor": "black"
       }
     ],
-    "another": [],
-    "misc": []
+    "another": [
+      {
+        "id": "127",
+        "DX": true,
+        "name": "Another Kuuga",
+        "katakana": "アナザークウガ",
+        "year": "2000",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/PKhnDip.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "128",
+        "DX": true,
+        "name": "Another Agito",
+        "katakana": "アナザーアギト",
+        "year": "2001",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/jwY5KuX.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "129",
+        "DX": true,
+        "name": "Another Ryuki",
+        "katakana": "アナザー龍騎",
+        "year": "2002",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/dREZrCx.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "129",
+        "DX": true,
+        "name": "Another Ryuga",
+        "katakana": "アナザーリュウガ",
+        "year": "2002",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/mDYeOv8.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "130",
+        "DX": true,
+        "name": "Another Faiz",
+        "katakana": "アナザーファイズ",
+        "year": "2003",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/DpLzDu9.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "131",
+        "DX": true,
+        "name": "Another Blade",
+        "katakana": "アナザーブレイド",
+        "year": "2004",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/9ttNhWy.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "132",
+        "DX": true,
+        "name": "Another Hibiki",
+        "katakana": "アナザー響鬼",
+        "year": "2005",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/A7lE0qT.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "133",
+        "DX": true,
+        "name": "Another Kabuto",
+        "katakana": "アナザーカブト",
+        "year": "2006",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/aZLWaoI.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "134",
+        "DX": true,
+        "name": "Another Den-O",
+        "katakana": "アナザー電王",
+        "year": "2007",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/34PyWpl.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "135",
+        "DX": true,
+        "name": "Another Kiva",
+        "katakana": "アナザーキバ",
+        "year": "2008",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/MB7e7FR.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "136",
+        "DX": true,
+        "name": "Another Decade",
+        "katakana": "アナザーディケイド",
+        "year": "2009",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/I6AvHBC.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "137",
+        "DX": true,
+        "name": "Another W",
+        "katakana": "アナザーダブル",
+        "year": "2009",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/b4I8I29.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "138",
+        "DX": true,
+        "name": "Another OOO",
+        "katakana": "アナザーオーズ",
+        "year": "2010",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/uzwBNj3.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "139",
+        "DX": true,
+        "name": "Another Fourze",
+        "katakana": "アナザーフォーゼ",
+        "year": "2011",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/Gtbznnt.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "140",
+        "DX": true,
+        "name": "Another Wizard",
+        "katakana": "アナザーウィザード",
+        "year": "2012",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/nOjuITQ.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "141",
+        "DX": true,
+        "name": "Another Gaim",
+        "katakana": "アナザー鎧武",
+        "year": "2013",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/vorEjdm.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "142",
+        "DX": true,
+        "name": "Another Drive",
+        "katakana": "アナザードライブ",
+        "year": "2014",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/udF9GGo.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "143",
+        "DX": true,
+        "name": "Another Ghost",
+        "katakana": "アナザーゴースト",
+        "year": "2015",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/8oyRn0k.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "144",
+        "DX": true,
+        "name": "Another Ex-Aid",
+        "katakana": "アナザーエグゼイド",
+        "year": "2016",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/FYIRTLx.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "145",
+        "DX": true,
+        "name": "Another Build",
+        "katakana": "アナザービルド",
+        "year": "2017",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/zf2nGBY.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "146",
+        "DX": true,
+        "name": "Another Zi-O",
+        "katakana": "アナザージオウ",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/QS5NMMy.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "147",
+        "DX": true,
+        "name": "Another Zi-O II",
+        "katakana": "アンザージオウツ",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/vCqZZIn.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "148",
+        "DX": true,
+        "name": "Another Shinobi",
+        "katakana": "アナザーシノビ",
+        "year": "2022",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/SV77Txo.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "149",
+        "DX": true,
+        "name": "Another Quiz",
+        "katakana": "アンザークイズ",
+        "year": "2040",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/nKZsO7m.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      },{
+        "id": "150",
+        "DX": true,
+        "name": "Another Kikai",
+        "katakana": "アナザーキカイ",
+        "year": "2121",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/0uqVZGb.png",
+        "primaryColor": "black",
+        "secondaryColor": "purple"
+      }
+    ],
+    "misc": [
+      {
+        "id": "151",
+        "DX": true,
+        "name": "Amazon Omega",
+        "katakana": "アマゾンオメガ",
+        "year": "2016",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/YK5wmTk.png",
+        "primaryColor": "black",
+        "secondaryColor": "green"
+      },{
+        "id": "152",
+        "DX": false,
+        "name": "Ryusoulger",
+        "katakana": "リュウソウジャー",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/BE3eyIC.png",
+        "primaryColor": "grey",
+        "secondaryColor": "red"
+      },{
+        "id": "153",
+        "DX": false,
+        "name": "Zero-One",
+        "katakana": "セロワン",
+        "year": "2019",
+        "owned": false,
+        "imagesource": "https://i.imgur.com/W4H6RH0.png",
+        "primaryColor": "yellow",
+        "secondaryColor": "black"
+      }
+    ]
   }
 }
