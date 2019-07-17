@@ -17,6 +17,10 @@ export class Ridewatch extends Component {
     if (this.state.Checked === "false") {
       switch (this.state.series) {
         default:
+          this.setState({
+            Checked: "true"
+          });
+          break;
         case "zio":
           this.setState({
             Checked: "true-zio"

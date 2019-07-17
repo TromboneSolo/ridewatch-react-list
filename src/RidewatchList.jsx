@@ -64,7 +64,7 @@ export class RidewatchList extends Component {
         <div className={this.state.series + "-div"}>
           <h1
             onClick={this.onClick}
-            className={this.state.series + "-collapsed"}
+            className={this.state.series}
           >
             {this.props.series}
           </h1>
@@ -73,7 +73,7 @@ export class RidewatchList extends Component {
     } else {
       return (
         <div className={this.state.series + "-div"}>
-          <h1 onClick={this.onClick} className={this.state.series}>
+          <h1 onClick={this.onClick} className={this.state.series+"-open"}>
             {this.state.series}
           </h1>
           <ul className={this.state.series}>{ridewatches}</ul>
