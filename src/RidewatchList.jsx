@@ -31,41 +31,46 @@ export class RidewatchList extends Component {
     }
   }
 
-  render() {
+  ridewatchMaker() {
     var tempWatchUrlArray = [];
     var tempWatchNameArray = [];
-    for (var i = 0; i < this.state.watchJson.length; i++) {
-      tempWatchUrlArray.push(this.state.watchJson[i].imagesource);
-      tempWatchNameArray.push(
-        this.state.watchJson[i].name + "\n" + this.state.watchJson[i].katakana
-      );
+    if (this.props.katakana === true) {
+      for (var i = 0; i < this.state.watchJson.length; i++) {
+        tempWatchUrlArray.push(this.state.watchJson[i].imagesource);
+        tempWatchNameArray.push(this.state.watchJson[i].katakana);
+      }
+    } else {
+      for (var n = 0; n < this.state.watchJson.length; n++) {
+        tempWatchUrlArray.push(this.state.watchJson[n].imagesource);
+        tempWatchNameArray.push(this.state.watchJson[n].name);
+      }
     }
     var tempRidewatches = [];
     for (var t = 0; t < tempWatchUrlArray.length; t++) {
       tempRidewatches.push([tempWatchUrlArray[t], tempWatchNameArray[t]]);
     }
 
-    let ridewatches = tempRidewatches.map(alt => {
+    let ridewatches = tempRidewatches.map(watch => {
       return (
         <li>
           <Ridewatch
-            imgsrc={alt[0]}
-            alt={alt[1]}
-            identity={alt[1]}
-            key={alt[1]}
+            imgsrc={watch[0]}
+            alt={watch[1]}
+            identity={watch[1]}
+            key={watch[1]}
             series={this.state.series}
           />
         </li>
       );
     });
+    return ridewatches;
+  }
 
+  render() {
     if (this.state.Collapsed === true) {
       return (
         <div className={this.state.series + "-div"}>
-          <h1
-            onClick={this.onClick}
-            className={this.state.series}
-          >
+          <h1 onClick={this.onClick} className={this.state.series}>
             {this.props.series}
           </h1>
         </div>
@@ -73,10 +78,10 @@ export class RidewatchList extends Component {
     } else {
       return (
         <div className={this.state.series + "-div"}>
-          <h1 onClick={this.onClick} className={this.state.series+"-open"}>
+          <h1 onClick={this.onClick} className={this.state.series + "-open"}>
             {this.state.series}
           </h1>
-          <ul className={this.state.series}>{ridewatches}</ul>
+          <ul className={this.state.series}>{this.ridewatchMaker()}</ul>
         </div>
       );
     }

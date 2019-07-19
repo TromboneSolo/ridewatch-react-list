@@ -3,17 +3,31 @@
   flex-direction: column;
   flex-wrap: wrap;
 
-  cursor: url("https://i.imgur.com/YyPyzFh.png"), auto;
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 
 button {
   width: 317px;
   height: 333px;
   border-radius: 20px;
-  font-family: cursive;
-  font-size: 20px;
 
-  cursor: url("https://i.imgur.com/YyPyzFh.png"), auto;
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
+}
+
+#japaneseSwitch {
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 1;
+
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
+}
+
+p {
+  font-size: 16px;
+  font-family: cursive;
+  position: center;
 }
 
 img {
@@ -43,6 +57,7 @@ li {
   font-size: 25px;
   padding: 3px 0px 25px 10px;
   margin: 0px;
+  text-align: center;
 }
 
 .true {
@@ -53,10 +68,7 @@ li {
   background-color: rgb(246, 74, 148);
 }
 .true-build {
-  background-image: linear-gradient(
-    rgb(82, 51, 255),
-    red
-  );
+  background-image: linear-gradient(rgb(82, 51, 255), red);
 }
 .true-exaid {
   background-color: rgb(255, 230, 0);
@@ -119,20 +131,25 @@ li {
   background-color: rgb(0, 255, 255);
 }
 
+.false {
+  cursor: url("https://i.imgur.com/XqSw7Ok.png"), auto;
+}
+
 .zio {
   background-image: linear-gradient(rgb(255, 255, 255) 40%, rgb(82, 51, 255));
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 .zio-open {
   background: rgb(255, 255, 255);
 }
 .zio-closed {
-  background-image: linear-gradient(rgb(255, 255, 255) 30%, rgb(82, 51, 255));
+  background-image: linear-gradient(rgb(255, 255, 255) 80%, rgb(82, 51, 255));
 }
 
 .build {
   background-image: linear-gradient(
-    rgb(82, 51, 255) 40%,
-    red 59%,
+    rgb(82, 51, 255) 20%,
+    red 80%,
     rgb(255, 100, 234)
   );
 }
@@ -147,18 +164,18 @@ li {
   );
 }
 .exaid {
-  background-image: linear-gradient(rgb(255, 100, 234) 25%, rgb(255, 136, 0));
+  background-image: linear-gradient(rgb(255, 100, 234) 60%, rgb(255, 136, 0));
 }
 .exaid-open {
   background: rgb(255, 100, 234);
 }
 
 .exaid-closed {
-  background-image: linear-gradient(rgb(255, 100, 234) 60%, rgb(255, 136, 0));
+  background-image: linear-gradient(rgb(255, 100, 234) 90%, rgb(255, 136, 0));
 }
 
 .ghost {
-  background-image: linear-gradient(rgb(255, 136, 0) 95%, rgb(255, 0, 0));
+  background-image: linear-gradient(rgb(255, 136, 0) 70%, rgb(255, 0, 0));
 }
 
 .ghost-open {
@@ -166,17 +183,85 @@ li {
 }
 
 .ghost-closed {
-  background-image: linear-gradient(rgb(255, 136, 0) 60%, rgb(255, 0, 0));
+  background-image: linear-gradient(rgb(255, 136, 0) 90%, rgb(255, 0, 0));
 }
 
 .drive {
-  background-image: linear-gradient(rgb(255, 0, 0) 95%, rgb(30, 34, 255));
+  background-image: linear-gradient(rgb(255, 0, 0) 70%, rgb(30, 34, 255));
+}
+
+.drive-open {
+  background: rgb(255, 0, 0);
+}
+
+.drive-closed {
+  background-image: linear-gradient(rgb(255, 0, 0) 80%, rgb(30, 34, 255));
 }
 
 .gaim {
-  background-image: linear-gradient(rgb(30, 34, 255) 95%, rgb(206, 29, 29));
+  background-image: linear-gradient(rgb(30, 34, 255) 70%, rgb(206, 29, 29));
+}
+
+.gaim-open {
+  background: rgb(30, 34, 255);
+}
+
+.gaim-closed {
+  background-image: linear-gradient(rgb(30, 34, 255) 70%, rgb(206, 29, 29));
 }
 
 .wizard {
   background-image: linear-gradient(rgb(206, 29, 29) 95%, rgb(255, 123, 0));
+}
+
+.wizard-open {
+  background: rgb(206, 29, 29);
+}
+
+.wizard-closed {
+  background-image: linear-gradient(rgb(206, 29, 29) 70%, rgb(255, 123, 0));
+}
+
+.fourze {
+  background-image: linear-gradient(rgb(255, 123, 0) 95%, rgb(241, 42, 42));
+}
+
+.fourze-open {
+  background: rgb(255, 123, 0);
+}
+
+.fourze-closed {
+  background-image: linear-gradient(rgb(255, 123, 0) 70%, rgb(241, 42, 42));
+}
+
+.ooo {
+  background-image: linear-gradient(
+    rgb(241, 42, 42),
+    rgb(226, 230, 0) 40%,
+    rgb(0, 170, 0)
+  );
+}
+
+.ooo-open {
+  background: rgb(241, 42, 42);
+}
+
+.ooo-closed {
+  background-image: linear-gradient(
+    rgb(241, 42, 42),
+    rgb(226, 230, 0) 40%,
+    rgb(0, 170, 0)
+  );
+}
+
+.w {
+  background-image: linear-gradient(rgb(0, 170, 0), rgb(92, 0, 80));
+}
+
+.w-open {
+  background: rgb(0, 170, 0);
+}
+
+.w-closed {
+  background-image: linear-gradient(rgb(0, 170, 0), rgb(92, 0, 80));
 }

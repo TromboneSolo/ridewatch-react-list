@@ -144,8 +144,8 @@ export class Ridewatch extends Component {
       <div id="ridewatch">
         <button className={this.state.Checked} onClick={this.onClick}>
           <img src={this.state.imgsrc} alt={this.state.alt} />
-          {this.state.identity}
         </button>
+        <p>{this.state.identity}</p>
       </div>
     );
   }
