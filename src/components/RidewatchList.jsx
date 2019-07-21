@@ -8,9 +8,11 @@ export class RidewatchList extends Component {
       series: this.props.series,
       imgsrc: this.props.imgsrc,
       watchJson: this.props.watchJson,
+      ownedJson: this.props.ownedJson,
       allChecked: false,
       Collapsed: false,
-      katakana: this.props.katakana
+      katakana: this.props.katakana,
+      Checked: "false"
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -29,6 +31,11 @@ export class RidewatchList extends Component {
         imgsrc: this.props.imgsrc
       });
     }
+  }
+
+  ridewatchClick() {
+    var tempOwnedJson = this.state.ownedJson;
+    localStorage.setItem("owned", tempOwnedJson);
   }
 
   ridewatchMaker() {
@@ -59,6 +66,8 @@ export class RidewatchList extends Component {
             identity={watch[1]}
             key={watch[1]}
             series={this.state.series}
+            onClick={this.ridewatchClick.bind(this)}
+            checked={this.state.Checked}
           />
         </li>
       );

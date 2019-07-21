@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import RidewatchList from "./RidewatchList.jsx";
+import RidewatchList from "./components/RidewatchList.jsx";
 
 import ridewatchJson from "./ridewatchdata.json";
 import "./App.css";
@@ -9,7 +9,7 @@ export class App extends Component {
     super(props);
     this.state = {
       katakana: false,
-      language:"English"
+      language: "English"
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -27,10 +27,35 @@ export class App extends Component {
       });
     }
   }
+
+  componentWillMount() {
+    if (typeof Storage !== "undefined") {
+      var ownedJson = JSON.parse(localStorage.getItem("ownedJson"));
+
+      console.log(ownedJson);
+    } else {
+      alert("Sorry, your browser does not support web storage...");
+    }
+  }
   render() {
     return (
       <div className="App">
-        <button id="japaneseSwitch"onClick={this.onClick}>{this.state.language}</button>
+        <button id="japaneseSwitch" onClick={this.onClick}>
+          {this.state.language}
+        </button>
+        <div id="main-panel" className="main-panel" ref="mainPanel">
+          <Header {...this.props} />
+          <Switch>
+            {mainRoutes.map((prop, key) => {
+              if (prop.redirect)
+                return <Redirect from={prop.path} to={prop.to} key={key} />;
+              return (
+                <Route path={prop.path} component={prop.component} key={key} />
+              );
+            })}
+          </Switch>
+          <Footer />
+        </div>
         <RidewatchList
           series={"zio"}
           watchJson={ridewatchJson.series.zio}
