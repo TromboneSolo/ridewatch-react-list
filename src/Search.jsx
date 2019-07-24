@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 import RidewatchList from "./components/RidewatchList.jsx";
 import ridewatchJson from "./ridewatchdata.json";
 
@@ -7,7 +8,7 @@ class Search extends Component {
     this.state = {};
   }
   render() {
-    <div />;
+    return <div />;
   }
 }
 

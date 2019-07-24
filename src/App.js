@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import mainRoutes from "./routes/MainRoutes.jsx";
+import mainRoutes from "./MainRoutes";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";

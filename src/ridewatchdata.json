@@ -1037,7 +1037,7 @@
       },
       {
         "id": "98",
-        "DX": true,
+        "DX": false,
         "name": "Zeronos",
         "katakana": "ゼロノス",
         "year": "2007",
