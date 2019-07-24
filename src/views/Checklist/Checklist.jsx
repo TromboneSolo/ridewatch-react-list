@@ -1,9 +1,7 @@
 import RidewatchList from "./components/RidewatchList.jsx";
-
 import ridewatchJson from "./ridewatchdata.json";
-import "./App.css";
 
-export class Checklist extends Component {
+class Checklist extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -123,3 +121,5 @@ export class Checklist extends Component {
     </div>;
   }
 }
+
+export default Checklist;
