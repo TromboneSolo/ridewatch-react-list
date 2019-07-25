@@ -5,15 +5,17 @@ const mainRoutes = [
   {
     path: "/checklist",
     name: "Checklist",
+    icon: "checklist-icon",
     component: Checklist
   },
   
   {
-    path: "/checklist",
+    path: "/search",
     name: "Search",
+    icon: "search-icon",
     component: Search
   },
-  { redirect: true, path: "/", to: "/dashboard", name: "Dashboard" }
+  { redirect: true, path: "/", to: "/checklist", name: "Checklist" }
 ];
 
 export default mainRoutes;

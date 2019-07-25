@@ -5,10 +5,22 @@ import ridewatchJson from "./ridewatchdata.json";
 class Search extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      katakana: this.props.katakana
+    };
   }
   render() {
-    return <div />;
+    return (
+      <div>
+        <div>
+          <RidewatchList
+            series={"Search"}
+            watchJson={ridewatchJson}
+            katakana={this.state.katakana}
+          />
+        </div>
+      </div>
+    );
   }
 }
 

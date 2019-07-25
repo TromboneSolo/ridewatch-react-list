@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import mainRoutes from "./MainRoutes";
+import Sidebar from "./Sidebar.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
+import Checklist from "./Checklist";
 
 export class App extends Component {
   constructor(props) {
@@ -29,6 +31,12 @@ export class App extends Component {
     }
   }
 
+  ridewatchClick() {
+    this.setState({
+      language: "franch"
+    })
+  }
+
   componentWillMount() {
     if (typeof Storage !== "undefined") {
       var ownedJson = JSON.parse(localStorage.getItem("ownedJson"));
@@ -41,9 +49,8 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        <button id="japaneseSwitch" onClick={this.onClick}>
-          {this.state.language}
-        </button>
+        
+        <Sidebar {...this.props} language={this.state.language} languageClick={this.onClick} />
         <div id="main-panel" className="main-panel" ref="mainPanel">
           <Header {...this.props} />
           <Switch>
@@ -51,7 +58,7 @@ export class App extends Component {
               if (prop.redirect)
                 return <Redirect from={prop.path} to={prop.to} key={key} />;
               return (
-                <Route path={prop.path} component={prop.component} key={key} />
+                <Route path={prop.path} component={prop.component} key={key} render={(props) => <Checklist {...props} ridewatchClick = {this.ridewatchClick} />} />
               );
             })}
           </Switch>
