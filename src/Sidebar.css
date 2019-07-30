@@ -40,10 +40,40 @@
 }
 .sidebar .nav {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 .sidebar .nav li > a {
   color: #ffffff;
-  margin: 5px 15px;
   opacity: 0.86;
   border-radius: 4px;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.checklist-icon {
+  content: url("https://i.imgur.com/HiBdkkt.png");
+  height: 30px;
+}
+
+.search-icon {
+  content: url("https://i.imgur.com/vcdUgnM.png");
+  height: 30px;
+}
+
+#japaneseSwitch {
+  width: 130px;
+  height: 100px;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 1;
+  background-image: url("https://i.imgur.com/OS7M9H5.png");
+  margin-left: 10px;
+
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }

@@ -22,16 +22,6 @@ button:focus {
   margin-bottom: 0;
 }
 
-.checklist-icon {
-  content: url("https://i.imgur.com/HiBdkkt.png");
-  height: 30px;
-}
-
-.search-icon {
-  content: url("https://i.imgur.com/Y6iSK1e.png");
-  height: 30px;
-}
-
 button {
   width: 317px;
   height: 333px;
@@ -40,24 +30,11 @@ button {
   cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 
-.sidebar {
-  position: fixed;
-  z-index: 1;
-}
-#japaneseSwitch {
-  width: 70px;
-  height: 20px;
-  border-radius: 5px;
-  position: fixed;
-  z-index: 1;
-
-  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
-}
-
 p {
   font-size: 16px;
   font-family: cursive;
   position: center;
+  color: black;
   text-shadow: 0.1px 0.1px 7px rgb(255, 255, 255);
 }
 
@@ -167,38 +144,45 @@ li {
 }
 
 .zio {
-  background-image: linear-gradient(rgb(255, 255, 255) 40%, rgb(82, 51, 255));
+  background-image: linear-gradient(
+    rgba(255, 0, 234, 0.212),
+    rgb(255, 255, 255) 40%
+  );
   cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 .zio-open {
-  background: rgb(255, 255, 255);
+  background: rgba(255, 0, 234, 0.212);
 }
 .zio-closed {
-  background-image: linear-gradient(rgb(255, 255, 255) 80%, rgb(82, 51, 255));
+  background-image: linear-gradient(
+    rgba(255, 0, 234, 0.212),
+    rgb(255, 255, 255) 40%
+  );
 }
 
 .build {
   background-image: linear-gradient(
-    rgb(82, 51, 255) 20%,
-    red 80%,
-    rgb(255, 100, 234)
+    rgba(82, 51, 255, 0.212) 40%,
+    rgba(255, 255, 255) 59%
   );
 }
 .build-open {
-  background: rgb(82, 51, 255);
+  background: rgba(82, 51, 255, 0.212);
 }
 .build-closed {
   background-image: linear-gradient(
-    rgb(82, 51, 255) 40%,
-    red 59%,
-    rgb(255, 100, 234)
+    rgba(82, 51, 255, 0.212) 40%,
+    rgb(255, 255, 255)
   );
 }
 .exaid {
-  background-image: linear-gradient(rgb(255, 100, 234) 60%, rgb(255, 136, 0));
+  background-image: linear-gradient(
+    rgba(255, 0, 242, 0.212),
+    rgb(255, 255, 255) 40%
+  );
 }
 .exaid-open {
-  background: rgb(255, 100, 234);
+  background: rgba(255, 0, 242, 0.212);
 }
 
 .exaid-closed {

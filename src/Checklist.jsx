@@ -6,7 +6,6 @@ class Checklist extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      katakana: this.props.katakana
     };
   }
   render() {
@@ -15,7 +14,7 @@ class Checklist extends Component {
         <RidewatchList
           series={"zio"}
           watchJson={ridewatchJson.series.zio}
-          katakana={this.state.katakana}
+          katakana={this.props.katakana}
           ridewatchClick={this.props.ridewatchClick}
         />
         <RidewatchList

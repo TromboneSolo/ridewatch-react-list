@@ -11,7 +11,6 @@ export class RidewatchList extends Component {
       ownedJson: this.props.ownedJson,
       allChecked: false,
       Collapsed: false,
-      katakana: this.props.katakana,
       Checked: "false"
     };
     this.onClick = this.onClick.bind(this);
@@ -75,17 +74,25 @@ export class RidewatchList extends Component {
       return (
         <div className={this.state.series + "-div"}>
           <h1 onClick={this.onClick} className={this.state.series}>
-            <i id={this.state.series + "-header"}></i>{this.state.series}
+            <i id={this.state.series + "-header"} />
+            {this.state.series}
           </h1>
         </div>
       );
     } else {
       return (
-        <div className={this.state.series + "-div"}>
-          <h1 id={this.state.series + "-header"} onClick={this.onClick} className={this.state.series + "-open"}>
-            <i id={this.state.series + "-header"}></i>{this.state.series}
-          </h1>
-          <ul className={this.state.series}>{this.ridewatchMaker()}</ul>
+        <div className={this.state.series + "-background"}>
+          <div className={this.state.series + "-div"}>
+            <h1
+              id={this.state.series + "-header"}
+              onClick={this.onClick}
+              className={this.state.series + "-open"}
+            >
+              <i id={this.state.series + "-header"} />
+              {this.state.series}
+            </h1>
+            <ul className={this.state.series}>{this.ridewatchMaker()}</ul>
+          </div>
         </div>
       );
     }

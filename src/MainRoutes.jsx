@@ -8,7 +8,7 @@ const mainRoutes = [
     icon: "checklist-icon",
     component: Checklist
   },
-  
+
   {
     path: "/search",
     name: "Search",

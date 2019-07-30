@@ -6,13 +6,16 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
 import Checklist from "./Checklist";
+import JapaneseLogo from "./ridewatch/Japanese-logo.png";
+import EnglishLogo from "./ridewatch/English-logo.png";
 
 export class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       katakana: false,
-      language: "English"
+      language: "English",
+      logo: EnglishLogo
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -21,12 +24,14 @@ export class App extends Component {
     if (this.state.katakana === false) {
       this.setState({
         katakana: true,
-        language: "Japanese"
+        language: "Japanese",
+        logo: JapaneseLogo
       });
     } else {
       this.setState({
         katakana: false,
-        language: "English"
+        language: "English",
+        logo: EnglishLogo
       });
     }
   }
@@ -34,7 +39,7 @@ export class App extends Component {
   ridewatchClick() {
     this.setState({
       language: "franch"
-    })
+    });
   }
 
   componentWillMount() {
@@ -49,8 +54,12 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        
-        <Sidebar {...this.props} language={this.state.language} languageClick={this.onClick} />
+        <Sidebar
+          {...this.props}
+          katakana={this.state.katakana}
+          languageClick={this.onClick}
+          logo={this.state.logo}
+        />
         <div id="main-panel" className="main-panel" ref="mainPanel">
           <Header {...this.props} />
           <Switch>
@@ -58,7 +67,18 @@ export class App extends Component {
               if (prop.redirect)
                 return <Redirect from={prop.path} to={prop.to} key={key} />;
               return (
-                <Route path={prop.path} component={prop.component} key={key} render={(props) => <Checklist {...props} ridewatchClick = {this.ridewatchClick} />} />
+                <Route
+                  path={prop.path}
+                  component={prop.component}
+                  key={key}
+                  render={props => (
+                    <Checklist
+                      {...props}
+                      ridewatchClick={this.ridewatchClick}
+                      katakana={this.state.katakana}
+                    />
+                  )}
+                />
               );
             })}
           </Switch>
