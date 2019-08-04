@@ -186,31 +186,31 @@ li {
 }
 
 .exaid-closed {
-  background-image: linear-gradient(rgb(255, 100, 234) 90%, rgb(255, 136, 0));
+  background-image: linear-gradient(rgba(255, 0, 242, 0.212), rgb(255, 255, 255));
 }
 
 .ghost {
-  background-image: linear-gradient(rgb(255, 136, 0) 70%, rgb(255, 0, 0));
+  background-image: linear-gradient(rgba(255, 123, 0, 0.212) 70%, rgb(255, 255, 255));
 }
 
 .ghost-open {
-  background: rgb(255, 136, 0);
+  background: rgba(255, 136, 0, 0.212);
 }
 
 .ghost-closed {
-  background-image: linear-gradient(rgb(255, 136, 0) 90%, rgb(255, 0, 0));
+  background-image: linear-gradient(rgba(255, 136, 0, 0.21, rgb(255, 255, 255), 0));
 }
 
 .drive {
-  background-image: linear-gradient(rgb(255, 0, 0) 70%, rgb(30, 34, 255));
+  background-image: linear-gradient(rgba(255, 0, 0, 0.212) 70%, rgb(255, 255, 255));
 }
 
 .drive-open {
-  background: rgb(255, 0, 0);
+  background: rgba(255, 0, 0, 0.212);
 }
 
 .drive-closed {
-  background-image: linear-gradient(rgb(255, 0, 0) 80%, rgb(30, 34, 255));
+  background-image: linear-gradient(rgba(255, 0, 0, 0.212), rgb(255, 255, 255));
 }
 
 .gaim {
