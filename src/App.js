@@ -18,6 +18,7 @@ export class App extends Component {
       logo: EnglishLogo
     };
     this.onClick = this.onClick.bind(this);
+    this.ridewatchClick = this.ridewatchClick.bind(this);
   }
 
   onClick() {
@@ -69,7 +70,6 @@ export class App extends Component {
               return (
                 <Route
                   path={prop.path}
-                  component={prop.component}
                   key={key}
                   render={props => (
                     <Checklist
