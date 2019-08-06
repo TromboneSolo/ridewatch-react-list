@@ -9,12 +9,12 @@ const mainRoutes = [
     component: Checklist
   },
 
-  {
+  {/*
     path: "/search",
     name: "Search",
     icon: "search-icon",
     component: Search
-  },
+  */},
   { redirect: true, path: "/", to: "/checklist", name: "Checklist" }
 ];
 
