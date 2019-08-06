@@ -8,7 +8,6 @@ export class RidewatchList extends Component {
       series: this.props.series,
       imgsrc: this.props.imgsrc,
       watchJson: this.props.watchJson,
-      ownedJson: this.props.ownedJson,
       allChecked: false,
       Collapsed: false,
       Checked: "false"

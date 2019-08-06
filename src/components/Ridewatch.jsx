@@ -10,15 +10,44 @@ export class Ridewatch extends Component {
       identity: this.props.identity,
       series: this.props.series
     };
+
+    this.onClick = this.onClick.bind(this);
   }
 
-  
+  componentWillMount() {
+    var tempIdentity = this.props.imgsrc;
+    if (localStorage.getItem(tempIdentity)) {
+      this.setState({
+        Checked: "true-" + this.state.series
+      });
+    } else {
+      this.setState({
+        Checked: "false"
+      });
+    }
+  }
+
+  onClick() {
+    var tempIdentity = this.props.imgsrc;
+
+    if (localStorage.getItem(tempIdentity)) {
+      this.setState({
+        Checked: "false"
+      });
+      localStorage.removeItem(tempIdentity);
+    } else {
+      localStorage.setItem(tempIdentity, "owned");
+      this.setState({
+        Checked: "true-" + this.state.series
+      });
+    }
+  }
 
   render() {
     return (
       <div id="ridewatch">
-        <button className={this.state.Checked} onClick={this.props.onClick}>
-          <img src={this.state.imgsrc} alt={this.state.alt}/>
+        <button className={this.state.Checked} onClick={this.onClick}>
+          <img src={this.state.imgsrc} alt={this.state.alt} />
         </button>
         <p>{this.state.identity}</p>
       </div>

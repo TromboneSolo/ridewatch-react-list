@@ -18,7 +18,6 @@ export class App extends Component {
       logo: EnglishLogo
     };
     this.onClick = this.onClick.bind(this);
-    this.ridewatchClick = this.ridewatchClick.bind(this);
   }
 
   onClick() {
@@ -37,21 +36,6 @@ export class App extends Component {
     }
   }
 
-  ridewatchClick() {
-    this.setState({
-      language: "franch"
-    });
-  }
-
-  componentWillMount() {
-    if (typeof Storage !== "undefined") {
-      var ownedJson = JSON.parse(localStorage.getItem("ownedJson"));
-
-      console.log(ownedJson);
-    } else {
-      alert("Sorry, your browser does not support web storage...");
-    }
-  }
   render() {
     return (
       <div className="App">
@@ -74,7 +58,6 @@ export class App extends Component {
                   render={props => (
                     <Checklist
                       {...props}
-                      ridewatchClick={this.ridewatchClick}
                       katakana={this.state.katakana}
                     />
                   )}
