@@ -1,9 +1,25 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-
   cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
+}
+
+button:focus {
+  outline: none;
+}
+
+.main-panel {
+  position: relative;
+  float: right;
+  width: calc(100% - 260px);
+}
+.main-panel > .content {
+  padding: 30px 15px;
+  min-height: calc(100% - 123px);
+}
+.main-panel > .footer {
+  border-top: 1px solid #e7e7e7;
+}
+.main-panel .navbar {
+  margin-bottom: 0;
 }
 
 button {
@@ -14,21 +30,12 @@ button {
   cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 
-#japaneseSwitch {
-  width: 70px;
-  height: 20px;
-  border-radius: 5px;
-  position: fixed;
-  z-index: 1;
-
-  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
-}
-
 p {
   font-size: 16px;
   font-family: cursive;
   position: center;
-  text-shadow: .1px .1px 7px rgb(255, 255, 255);
+  color: black;
+  text-shadow: 0.1px 0.1px 7px rgb(255, 255, 255);
 }
 
 img {
@@ -137,66 +144,73 @@ li {
 }
 
 .zio {
-  background-image: linear-gradient(rgb(255, 255, 255) 40%, rgb(82, 51, 255));
+  background-image: linear-gradient(
+    rgba(255, 0, 234, 0.212),
+    rgb(255, 255, 255) 40%
+  );
   cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 .zio-open {
-  background: rgb(255, 255, 255);
+  background: rgba(255, 0, 234, 0.212);
 }
 .zio-closed {
-  background-image: linear-gradient(rgb(255, 255, 255) 80%, rgb(82, 51, 255));
+  background-image: linear-gradient(
+    rgba(255, 0, 234, 0.212),
+    rgb(255, 255, 255) 40%
+  );
 }
 
 .build {
   background-image: linear-gradient(
-    rgb(82, 51, 255) 20%,
-    red 80%,
-    rgb(255, 100, 234)
+    rgba(82, 51, 255, 0.212) 40%,
+    rgba(255, 255, 255) 59%
   );
 }
 .build-open {
-  background: rgb(82, 51, 255);
+  background: rgba(82, 51, 255, 0.212);
 }
 .build-closed {
   background-image: linear-gradient(
-    rgb(82, 51, 255) 40%,
-    red 59%,
-    rgb(255, 100, 234)
+    rgba(82, 51, 255, 0.212) 40%,
+    rgb(255, 255, 255)
   );
 }
 .exaid {
-  background-image: linear-gradient(rgb(255, 100, 234) 60%, rgb(255, 136, 0));
+  background-image: linear-gradient(
+    rgba(255, 0, 242, 0.212),
+    rgb(255, 255, 255) 40%
+  );
 }
 .exaid-open {
-  background: rgb(255, 100, 234);
+  background: rgba(255, 0, 242, 0.212);
 }
 
 .exaid-closed {
-  background-image: linear-gradient(rgb(255, 100, 234) 90%, rgb(255, 136, 0));
+  background-image: linear-gradient(rgba(255, 0, 242, 0.212), rgb(255, 255, 255));
 }
 
 .ghost {
-  background-image: linear-gradient(rgb(255, 136, 0) 70%, rgb(255, 0, 0));
+  background-image: linear-gradient(rgba(255, 123, 0, 0.212) 70%, rgb(255, 255, 255));
 }
 
 .ghost-open {
-  background: rgb(255, 136, 0);
+  background: rgba(255, 136, 0, 0.212);
 }
 
 .ghost-closed {
-  background-image: linear-gradient(rgb(255, 136, 0) 90%, rgb(255, 0, 0));
+  background-image: linear-gradient(rgba(255, 136, 0, 0.21, rgb(255, 255, 255), 0));
 }
 
 .drive {
-  background-image: linear-gradient(rgb(255, 0, 0) 70%, rgb(30, 34, 255));
+  background-image: linear-gradient(rgba(255, 0, 0, 0.212) 70%, rgb(255, 255, 255));
 }
 
 .drive-open {
-  background: rgb(255, 0, 0);
+  background: rgba(255, 0, 0, 0.212);
 }
 
 .drive-closed {
-  background-image: linear-gradient(rgb(255, 0, 0) 80%, rgb(30, 34, 255));
+  background-image: linear-gradient(rgba(255, 0, 0, 0.212), rgb(255, 255, 255));
 }
 
 .gaim {

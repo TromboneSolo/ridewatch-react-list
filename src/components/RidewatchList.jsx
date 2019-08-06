@@ -8,10 +8,8 @@ export class RidewatchList extends Component {
       series: this.props.series,
       imgsrc: this.props.imgsrc,
       watchJson: this.props.watchJson,
-      ownedJson: this.props.ownedJson,
       allChecked: false,
       Collapsed: false,
-      katakana: this.props.katakana,
       Checked: "false"
     };
     this.onClick = this.onClick.bind(this);
@@ -31,11 +29,6 @@ export class RidewatchList extends Component {
         imgsrc: this.props.imgsrc
       });
     }
-  }
-
-  ridewatchClick() {
-    var tempOwnedJson = this.state.ownedJson;
-    localStorage.setItem("owned", tempOwnedJson);
   }
 
   ridewatchMaker() {
@@ -66,7 +59,7 @@ export class RidewatchList extends Component {
             identity={watch[1]}
             key={watch[1]}
             series={this.state.series}
-            onClick={this.ridewatchClick.bind(this)}
+            onClick={this.props.ridewatchClick}
             checked={this.state.Checked}
           />
         </li>
@@ -80,17 +73,25 @@ export class RidewatchList extends Component {
       return (
         <div className={this.state.series + "-div"}>
           <h1 onClick={this.onClick} className={this.state.series}>
-            {this.props.series}
+            <i id={this.state.series + "-header"} />
+            {this.state.series}
           </h1>
         </div>
       );
     } else {
       return (
-        <div className={this.state.series + "-div"}>
-          <h1 onClick={this.onClick} className={this.state.series + "-open"}>
-            {this.state.series}
-          </h1>
-          <ul className={this.state.series}>{this.ridewatchMaker()}</ul>
+        <div className={this.state.series + "-background"}>
+          <div className={this.state.series + "-div"}>
+            <h1
+              id={this.state.series + "-header"}
+              onClick={this.onClick}
+              className={this.state.series + "-open"}
+            >
+              <i id={this.state.series + "-header"} />
+              {this.state.series}
+            </h1>
+            <ul className={this.state.series}>{this.ridewatchMaker()}</ul>
+          </div>
         </div>
       );
     }

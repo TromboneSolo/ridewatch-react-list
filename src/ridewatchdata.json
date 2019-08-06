@@ -12,7 +12,7 @@
         "secondaryColor": "black"
       },
       {
-        "id": "1.5",
+        "id": "1.1",
         "DX": false,
         "name": "Aurora Zi-O",
         "katakana": "アロラ　ジオウ",
@@ -22,7 +22,7 @@
         "secondaryColor": "black"
       },
       {
-        "id": "1.6",
+        "id": "1.2",
         "DX": false,
         "name": "Christmas Zi-O",
         "katakana": "クリスマス　ジオウ",
@@ -32,7 +32,7 @@
         "secondaryColor": "green"
       },
       {
-        "id": "1.7",
+        "id": "1.3",
         "DX": true,
         "name": "Mirror Zi-O",
         "katakana": "ミーラーワルド　ジオウ",
@@ -77,8 +77,8 @@
         "name": "Ouma Zi-O",
         "katakana": "オーマ ジオウ",
         "year": "2019",
-        "imagesource": "",
-        "primaryColor": "gold",
+        "imagesource": "https://i.imgur.com/lnT8uqs.png",
+        "primaryColor": ["gold", "black"],
         "secondaryColor": "gold"
       },
       {
@@ -102,7 +102,7 @@
         "secondaryColor": "black"
       },
       {
-        "id": "7",
+        "id": "7.1",
         "DX": false,
         "name": "Geiz Bibiru",
         "katakana": "ゲイツ　ビビル",
@@ -160,6 +160,33 @@
         "imagesource": "https://i.imgur.com/6cVgACc.png",
         "primaryColor": ["gold", "black"],
         "secondaryColor": "silver"
+      },{
+        "id": "12.1",
+        "DX": true,
+        "name": "Barlckxs",
+        "katakana": "バールクス",
+        "year": "0000",
+        "imagesource": "https://i.imgur.com/bsRPGgF.png",
+        "primaryColor": "black",
+        "secondaryColor": "gold"
+      },{
+        "id": "12.2",
+        "DX": true,
+        "name": "Zonjis",
+        "katakana": "ゾンジス",
+        "year": "0000",
+        "imagesource": "https://i.imgur.com/ulF2e7r.png",
+        "primaryColor": "green",
+        "secondaryColor": "gold"
+      },{
+        "id": "12.3",
+        "DX": true,
+        "name": "Zamonas",
+        "katakana": "マモナス",
+        "year": "0000",
+        "imagesource": "https://i.imgur.com/oKSrPSD.png",
+        "primaryColor": "blue",
+        "secondaryColor": "gold"
       }
     ],
     "build": [
@@ -1037,7 +1064,7 @@
       },
       {
         "id": "98",
-        "DX": true,
+        "DX": false,
         "name": "Zeronos",
         "katakana": "ゼロノス",
         "year": "2007",
