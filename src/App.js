@@ -5,7 +5,6 @@ import Sidebar from "./Sidebar.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
-import Checklist from "./Checklist";
 import JapaneseLogo from "./ridewatch/Japanese-logo.png";
 import EnglishLogo from "./ridewatch/English-logo.png";
 
@@ -56,7 +55,7 @@ export class App extends Component {
                   path={prop.path}
                   key={key}
                   render={props => (
-                    <Checklist
+                    <prop.page
                       {...props}
                       katakana={this.state.katakana}
                     />
