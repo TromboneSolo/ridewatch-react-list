@@ -7,15 +7,26 @@ class Search extends Component {
     super(props);
     this.state = {
       katakana: this.props.katakana,
-      watchJson: ridewatchJson
+      displayWatches: []
     };
+
+    this.ridewatchSearcher = this.ridewatchSearcher.bind(this);
   }
 
   ridewatchSearcher() {
+    var primaryColor = document.getElementById("primaryColorSelect");
+    var i = null;
     var tempWatchUrlArray = [];
     var tempWatchNameArray = [];
+    for (i = 0; ridewatchJson.length > i; i += 1) {
+      if (ridewatchJson[i].primaryColor === primaryColor) {
+        return true;
+      }
+    }
+
+
     if (this.props.katakana === true) {
-      for (var i = 0; i < this.state.watchJson.length; i++) {
+      for (i = 0; i < this.state.watchJson.length; i++) {
         tempWatchUrlArray.push(this.state.watchJson[i].imagesource);
         tempWatchNameArray.push(this.state.watchJson[i].katakana);
       }
@@ -38,8 +49,6 @@ class Search extends Component {
             alt={watch[1]}
             identity={watch[1]}
             key={watch[1]}
-            series={this.state.series}
-            onClick={this.props.ridewatchClick}
             checked={this.state.Checked}
           />
         </li>
@@ -55,8 +64,12 @@ class Search extends Component {
           Search
         </h1>
         <div className="parameters-container">
-          <textarea id="searchBar" placeholder="Rider Time"></textarea>
-          <select name="primary" className="colorSelector">
+          <textarea id="searchBar" placeholder="Rider Time" />
+          <select
+            name="primary"
+            id="primaryColorSelect"
+            className="colorSelector"
+          >
             <option value="red">red</option>
             <option value="pink">pink</option>
             <option value="yellow">yellow</option>
@@ -74,7 +87,11 @@ class Search extends Component {
             <option value="clear">clear</option>
             <option value="mustard">mustard</option>
           </select>
-          <select name="secondary" className="colorSelector">
+          <select
+            name="secondary"
+            id="secondaryColorSelect"
+            className="colorSelector"
+          >
             <option value="red">red</option>
             <option value="yellow">yellow</option>
             <option value="purple">purple</option>
@@ -93,8 +110,11 @@ class Search extends Component {
             <option value="maroon">maroon</option>
             <option value="brown">brown</option>
           </select>
-          DX<input type="checkbox" name="DX" value="false" id="searchCheckbox"></input>
-          <button id="submitButton">Search</button>
+          DX
+          <input type="checkbox" name="DX" value="false" id="searchCheckbox" />
+          <button id="submitButton" >
+            Search
+          </button>
         </div>
         <div className={this.state.series + "-background"}>
           <div className={this.state.series + "-div"}>
@@ -106,7 +126,7 @@ class Search extends Component {
               <i id={this.state.series + "-header"} />
               {this.state.series}
             </h1>
-            <ul className={this.state.series}>{this.ridewatchSearcher()}</ul>
+            <ul className={"searchList"}>{this.displayWatches}</ul>
           </div>
         </div>
       </div>

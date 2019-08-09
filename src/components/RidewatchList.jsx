@@ -34,20 +34,23 @@ export class RidewatchList extends Component {
   ridewatchMaker() {
     var tempWatchUrlArray = [];
     var tempWatchNameArray = [];
+    var tempWatchYearArray = [];
     if (this.props.katakana === true) {
       for (var i = 0; i < this.state.watchJson.length; i++) {
         tempWatchUrlArray.push(this.state.watchJson[i].imagesource);
         tempWatchNameArray.push(this.state.watchJson[i].katakana);
+        tempWatchYearArray.push(this.state.watchJson[i].year);
       }
     } else {
       for (var n = 0; n < this.state.watchJson.length; n++) {
         tempWatchUrlArray.push(this.state.watchJson[n].imagesource);
         tempWatchNameArray.push(this.state.watchJson[n].name);
+        tempWatchYearArray.push(this.state.watchJson[n].year);
       }
     }
     var tempRidewatches = [];
     for (var t = 0; t < tempWatchUrlArray.length; t++) {
-      tempRidewatches.push([tempWatchUrlArray[t], tempWatchNameArray[t]]);
+      tempRidewatches.push([tempWatchUrlArray[t], tempWatchNameArray[t], tempWatchYearArray[t]]);
     }
 
     let ridewatches = tempRidewatches.map(watch => {
@@ -57,6 +60,7 @@ export class RidewatchList extends Component {
             imgsrc={watch[0]}
             alt={watch[1]}
             identity={watch[1]}
+            year={watch[2]}
             key={watch[1]}
             series={this.state.series}
             onClick={this.props.ridewatchClick}

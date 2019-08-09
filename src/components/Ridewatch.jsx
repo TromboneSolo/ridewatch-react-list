@@ -8,7 +8,8 @@ export class Ridewatch extends Component {
       imgsrc: this.props.imgsrc,
       alt: this.props.alt,
       identity: this.props.identity,
-      series: this.props.series
+      series: this.props.series,
+      year: this.props.year
     };
 
     this.onClick = this.onClick.bind(this);
@@ -49,7 +50,10 @@ export class Ridewatch extends Component {
         <button className={this.state.Checked} onClick={this.onClick}>
           <img src={this.state.imgsrc} alt={this.state.alt} />
         </button>
-        <p>{this.state.identity}</p>
+        <p>
+          {this.state.identity}
+          <br /> {this.state.year}
+        </p>
       </div>
     );
   }
