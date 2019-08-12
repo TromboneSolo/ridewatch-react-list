@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ridewatch-react-list/static/css/main.1ad3a76d.chunk.css",
-    "main.js": "/ridewatch-react-list/static/js/main.0f19bd64.chunk.js",
-    "main.js.map": "/ridewatch-react-list/static/js/main.0f19bd64.chunk.js.map",
+    "main.css": "/ridewatch-react-list/static/css/main.fdd63dff.chunk.css",
+    "main.js": "/ridewatch-react-list/static/js/main.3718f4f6.chunk.js",
+    "main.js.map": "/ridewatch-react-list/static/js/main.3718f4f6.chunk.js.map",
     "runtime~main.js": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js",
     "runtime~main.js.map": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js.map",
-    "static/js/2.30732dac.chunk.js": "/ridewatch-react-list/static/js/2.30732dac.chunk.js",
-    "static/js/2.30732dac.chunk.js.map": "/ridewatch-react-list/static/js/2.30732dac.chunk.js.map",
+    "static/js/2.a33afb6d.chunk.js": "/ridewatch-react-list/static/js/2.a33afb6d.chunk.js",
+    "static/js/2.a33afb6d.chunk.js.map": "/ridewatch-react-list/static/js/2.a33afb6d.chunk.js.map",
     "index.html": "/ridewatch-react-list/index.html",
-    "precache-manifest.26d233102a409e9e46a94ea1acd8256f.js": "/ridewatch-react-list/precache-manifest.26d233102a409e9e46a94ea1acd8256f.js",
+    "precache-manifest.b1393acf1953d0d05bf9745ea9dea6f7.js": "/ridewatch-react-list/precache-manifest.b1393acf1953d0d05bf9745ea9dea6f7.js",
     "service-worker.js": "/ridewatch-react-list/service-worker.js",
-    "static/css/main.1ad3a76d.chunk.css.map": "/ridewatch-react-list/static/css/main.1ad3a76d.chunk.css.map",
+    "static/css/main.fdd63dff.chunk.css.map": "/ridewatch-react-list/static/css/main.fdd63dff.chunk.css.map",
     "static/media/English-logo.png": "/ridewatch-react-list/static/media/English-logo.ec6ffb09.png",
     "static/media/Japanese-logo.png": "/ridewatch-react-list/static/media/Japanese-logo.ccef89ea.png",
     "static/media/test.png": "/ridewatch-react-list/static/media/test.862cf77f.png"
