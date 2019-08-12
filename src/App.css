@@ -51,6 +51,42 @@ h1 {
   margin-bottom: 0px;
 }
 
+.parameters-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
+}
+
+#submitButton{
+  height: 40px;
+  width: 80px;
+}
+
+#searchBar {
+  margin-right: 20px;
+  height: 25px;
+  width:150px;
+  
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
+}
+
+.colorSelector {
+  margin-left: 10px;
+  margin-right: 20px;
+  height: 25px;
+  width:80px;
+  
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
+}
+
+#searchCheckbox {
+  margin-top:5px;
+  margin-right: 20px;
+}
+
 ul {
   display: flex;
   flex-direction: row;
@@ -186,11 +222,17 @@ li {
 }
 
 .exaid-closed {
-  background-image: linear-gradient(rgba(255, 0, 242, 0.212), rgb(255, 255, 255));
+  background-image: linear-gradient(
+    rgba(255, 0, 242, 0.212),
+    rgb(255, 255, 255)
+  );
 }
 
 .ghost {
-  background-image: linear-gradient(rgba(255, 123, 0, 0.212) 70%, rgb(255, 255, 255));
+  background-image: linear-gradient(
+    rgba(255, 123, 0, 0.212) 70%,
+    rgb(255, 255, 255)
+  );
 }
 
 .ghost-open {
@@ -198,11 +240,16 @@ li {
 }
 
 .ghost-closed {
-  background-image: linear-gradient(rgba(255, 136, 0, 0.21, rgb(255, 255, 255), 0));
+  background-image: linear-gradient(
+    rgba(255, 136, 0, 0.21, rgb(255, 255, 255), 0)
+  );
 }
 
 .drive {
-  background-image: linear-gradient(rgba(255, 0, 0, 0.212) 70%, rgb(255, 255, 255));
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 0.212) 70%,
+    rgb(255, 255, 255)
+  );
 }
 
 .drive-open {

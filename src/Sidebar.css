@@ -40,6 +40,7 @@
 }
 .sidebar .nav {
   margin-top: 20px;
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,4 +77,8 @@
   margin-left: 10px;
 
   cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
+}
+
+#totalText {
+  margin-left:40px;
 }

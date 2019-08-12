@@ -4,11 +4,7 @@ export class Ridewatch extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      Checked: this.props.checked,
-      imgsrc: this.props.imgsrc,
-      alt: this.props.alt,
-      identity: this.props.identity,
-      series: this.props.series
+      Checked: "false"
     };
 
     this.onClick = this.onClick.bind(this);
@@ -18,7 +14,7 @@ export class Ridewatch extends Component {
     var tempIdentity = this.props.imgsrc;
     if (localStorage.getItem(tempIdentity)) {
       this.setState({
-        Checked: "true-" + this.state.series
+        Checked: "true-" + this.props.series
       });
     } else {
       this.setState({
@@ -38,18 +34,23 @@ export class Ridewatch extends Component {
     } else {
       localStorage.setItem(tempIdentity, "owned");
       this.setState({
-        Checked: "true-" + this.state.series
+        Checked: "true-" + this.props.series
       });
     }
+    
+    this.props.ridewatchClick();
   }
 
   render() {
     return (
       <div id="ridewatch">
         <button className={this.state.Checked} onClick={this.onClick}>
-          <img src={this.state.imgsrc} alt={this.state.alt} />
+          <img src={this.props.imgsrc} alt={this.props.alt} />
         </button>
-        <p>{this.state.identity}</p>
+        <p>
+          {this.props.identity}
+          <br /> {this.props.year}
+        </p>
       </div>
     );
   }
