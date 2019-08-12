@@ -86,9 +86,8 @@
     },
     {
       "id": "5",
-      "DX": false,
+      "DX": true,
       "series": "zio",
-
       "name": "Ouma Zi-O",
       "katakana": "オーマ ジオウ",
       "year": "2019",
@@ -99,7 +98,6 @@
     {
       "id": "6",
       "DX": true,
-
       "series": "zio",
       "name": "Geiz",
       "katakana": "ゲイツ",
@@ -111,7 +109,6 @@
     {
       "id": "7",
       "DX": true,
-
       "series": "zio",
       "name": "Geiz Revive",
       "katakana": "ゲイツ　リバイブ",
@@ -122,9 +119,8 @@
     },
     {
       "id": "7.1",
-      "DX": false,
+      "DX": true,
       "series": "zio",
-
       "name": "Geiz Bibiru",
       "katakana": "ゲイツ　ビビル",
       "year": "2019",

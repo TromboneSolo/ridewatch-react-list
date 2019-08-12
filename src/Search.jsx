@@ -11,7 +11,7 @@ class Search extends Component {
       displayWatches: null,
       primaryColorSearch: "all",
       secondaryColorSearch: "all",
-      DX: "both",
+      DX: null,
       nameSearch: ""
     };
 
@@ -36,9 +36,20 @@ class Search extends Component {
 
   handleDXChange(event) {
     let value = event.target.value;
-    this.setState({
-      DX: value
-    });
+    if (value === "both") {
+      this.setState({
+        DX: null
+      });
+    } else if (value === "true") {
+      this.setState({
+        DX: true
+      });
+    }
+    else if (value === "false") {
+      this.setState({
+        DX: false
+      });
+    }
   }
 
   handleNamedChange(event) {
@@ -51,7 +62,9 @@ class Search extends Component {
   searchClick() {
     var filteredList = ridewatchJson.watch;
     if (this.state.nameSearch !== "") {
-      filteredList = filteredList.filter(this.state.nameSearch);
+      filteredList = filteredList.filter(watch => {
+        return watch.name === this.state.nameSearch;
+      });
     }
     if (this.state.primaryColorSearch !== "all") {
       filteredList = filteredList.filter(watch => {
@@ -63,7 +76,7 @@ class Search extends Component {
         return watch.secondaryColor === this.state.secondaryColorSearch;
       });
     }
-    if (this.state.DX !== "both") {
+    if (this.state.DX !== null) {
       filteredList = filteredList.filter(watch => {
         return watch.DX === this.state.DX;
       });
@@ -181,7 +194,7 @@ class Search extends Component {
             className="colorSelector"
             onChange={this.handleDXChange.bind(this)}
           >
-            <option value="both">both</option>
+            <option value={null}>both</option>
             <option value={true}>DX</option>
             <option value={false}>GP</option>
           </select>
