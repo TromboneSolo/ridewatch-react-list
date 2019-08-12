@@ -14,12 +14,13 @@ export class App extends Component {
     this.state = {
       katakana: false,
       language: "English",
-      logo: EnglishLogo
+      logo: EnglishLogo,
+      totalOwned: ""
     };
-    this.onClick = this.onClick.bind(this);
+    this.languageClick = this.languageClick.bind(this);
   }
 
-  onClick() {
+  languageClick() {
     if (this.state.katakana === false) {
       this.setState({
         katakana: true,
@@ -35,14 +36,23 @@ export class App extends Component {
     }
   }
 
+  componentWillMount() {
+    this.setState({ totalOwned: localStorage.length.toString() });
+  }
+
+  ridewatchClick() {
+    this.setState({ totalOwned: localStorage.length.toString() });
+  }
+
   render() {
     return (
       <div className="App">
         <Sidebar
           {...this.props}
           katakana={this.state.katakana}
-          languageClick={this.onClick}
+          languageClick={this.languageClick}
           logo={this.state.logo}
+          totalOwned={this.state.totalOwned}
         />
         <div id="main-panel" className="main-panel" ref="mainPanel">
           <Header {...this.props} />
@@ -58,6 +68,7 @@ export class App extends Component {
                     <prop.page
                       {...props}
                       katakana={this.state.katakana}
+                      ridewatchClick={this.ridewatchClick.bind(this)}
                     />
                   )}
                 />

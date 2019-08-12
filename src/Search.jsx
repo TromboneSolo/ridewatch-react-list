@@ -6,54 +6,108 @@ class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      katakana: this.props.katakana,
-      displayWatches: []
+      Checked: "false",
+      searchResult: [],
+      displayWatches: null,
+      primaryColorSearch: "all",
+      secondaryColorSearch: "all",
+      DX: "both",
+      nameSearch: ""
     };
 
     this.ridewatchSearcher = this.ridewatchSearcher.bind(this);
+
+    this.searchClick = this.searchClick.bind(this);
   }
 
-  ridewatchSearcher() {
-    var primaryColor = document.getElementById("primaryColorSelect");
-    var i = null;
-    var tempWatchUrlArray = [];
-    var tempWatchNameArray = [];
-    for (i = 0; ridewatchJson.length > i; i += 1) {
-      if (ridewatchJson[i].primaryColor === primaryColor) {
-        return true;
-      }
+  handlePrimaryChange(event) {
+    let value = event.target.value;
+    this.setState({
+      primaryColorSearch: value
+    });
+  }
+
+  handleSecondaryChange(event) {
+    let value = event.target.value;
+    this.setState({
+      secondaryColorSearch: value
+    });
+  }
+
+  handleDXChange(event) {
+    let value = event.target.value;
+    this.setState({
+      DX: value
+    });
+  }
+
+  handleNamedChange(event) {
+    let value = event.target.value;
+    this.setState({
+      nameSearch: value
+    });
+  }
+
+  searchClick() {
+    var filteredList = ridewatchJson.watch;
+    if (this.state.nameSearch !== "") {
+      filteredList = filteredList.filter(this.state.nameSearch);
+    }
+    if (this.state.primaryColorSearch !== "all") {
+      filteredList = filteredList.filter(watch => {
+        return watch.primaryColor === this.state.primaryColorSearch;
+      });
+    }
+    if (this.state.secondaryColorSearch !== "all") {
+      filteredList = filteredList.filter(watch => {
+        return watch.secondaryColor === this.state.secondaryColorSearch;
+      });
+    }
+    if (this.state.DX !== "both") {
+      filteredList = filteredList.filter(watch => {
+        return watch.DX === this.state.DX;
+      });
     }
 
+    /*let tempWatchArray = [];
 
-    if (this.props.katakana === true) {
-      for (i = 0; i < this.state.watchJson.length; i++) {
-        tempWatchUrlArray.push(this.state.watchJson[i].imagesource);
-        tempWatchNameArray.push(this.state.watchJson[i].katakana);
-      }
-    } else {
-      for (var n = 0; n < this.state.watchJson.length; n++) {
-        tempWatchUrlArray.push(this.state.watchJson[n].imagesource);
-        tempWatchNameArray.push(this.state.watchJson[n].name);
-      }
+    if (this.state.nameSearch !== "") {
+      ridewatchJson.watch.map(watch => {
+        if (watch.name === this.state.nameSearch) {
+          tempWatchArray.push(watch);
+        }
+      });
     }
-    var tempRidewatches = [];
-    for (var t = 0; t < tempWatchUrlArray.length; t++) {
-      tempRidewatches.push([tempWatchUrlArray[t], tempWatchNameArray[t]]);
-    }
-
-    let ridewatches = tempRidewatches.map(watch => {
+    if (tempWatchArray[1]) {
+      if (this.state.primaryColorSearch !== "all") {
+        tempWatchArray.map(watch => {
+          if (watch.primaryColor !== this.state.primaryColorSearch) {
+            tempWatchArray.pop(watch);
+          }
+        });
+      }
+    }*/
+    let finalWatchArray = filteredList.map(watch => {
       return (
         <li>
           <Ridewatch
-            imgsrc={watch[0]}
-            alt={watch[1]}
-            identity={watch[1]}
-            key={watch[1]}
+            imgsrc={watch.imagesource}
+            alt={watch.name}
+            identity={this.props.katakana ? watch.katakana : watch.name}
+            year={watch.year}
+            key={watch.id}
+            series={watch.series}
             checked={this.state.Checked}
+            ridewatchClick={this.props.ridewatchClick}
           />
         </li>
       );
     });
+    this.setState({ displayWatches: finalWatchArray });
+  }
+
+  ridewatchSearcher() {
+    let ridewatches = this.state.searchResult;
     return ridewatches;
   }
 
@@ -64,12 +118,19 @@ class Search extends Component {
           Search
         </h1>
         <div className="parameters-container">
-          <textarea id="searchBar" placeholder="Rider Time" />
+          <textarea
+            id="searchBar"
+            placeholder="Rider Time"
+            onChange={this.handleNamedChange.bind(this)}
+          />
+          Primary Color:
           <select
             name="primary"
             id="primaryColorSelect"
             className="colorSelector"
+            onChange={this.handlePrimaryChange.bind(this)}
           >
+            <option value="all">all</option>
             <option value="red">red</option>
             <option value="pink">pink</option>
             <option value="yellow">yellow</option>
@@ -87,11 +148,14 @@ class Search extends Component {
             <option value="clear">clear</option>
             <option value="mustard">mustard</option>
           </select>
+          Secondary Color:
           <select
             name="secondary"
             id="secondaryColorSelect"
             className="colorSelector"
+            onChange={this.handleSecondaryChange.bind(this)}
           >
+            <option value="all">all</option>
             <option value="red">red</option>
             <option value="yellow">yellow</option>
             <option value="purple">purple</option>
@@ -111,22 +175,23 @@ class Search extends Component {
             <option value="brown">brown</option>
           </select>
           DX
-          <input type="checkbox" name="DX" value="false" id="searchCheckbox" />
-          <button id="submitButton" >
+          <select
+            name="DX"
+            id="dxSelect"
+            className="colorSelector"
+            onChange={this.handleDXChange.bind(this)}
+          >
+            <option value="both">both</option>
+            <option value={true}>DX</option>
+            <option value={false}>GP</option>
+          </select>
+          <button id="submitButton" onClick={this.searchClick.bind(this)}>
             Search
           </button>
         </div>
-        <div className={this.state.series + "-background"}>
+        <div className={"search-background"}>
           <div className={this.state.series + "-div"}>
-            <h1
-              id={this.state.series + "-header"}
-              onClick={this.onClick}
-              className={this.state.series + "-open"}
-            >
-              <i id={this.state.series + "-header"} />
-              {this.state.series}
-            </h1>
-            <ul className={"searchList"}>{this.displayWatches}</ul>
+            <ul className="searchList">{this.state.displayWatches}</ul>
           </div>
         </div>
       </div>

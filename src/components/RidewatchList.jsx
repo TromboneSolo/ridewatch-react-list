@@ -5,9 +5,7 @@ export class RidewatchList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      series: this.props.series,
       imgsrc: this.props.imgsrc,
-      watchJson: this.props.watchJson,
       allChecked: false,
       Collapsed: false,
       Checked: "false"
@@ -25,49 +23,29 @@ export class RidewatchList extends Component {
       this.setState({
         Collapsed: false,
         series: this.props.series,
-        watchJson: this.props.watchJson,
         imgsrc: this.props.imgsrc
       });
     }
   }
 
   ridewatchMaker() {
-    var tempWatchUrlArray = [];
-    var tempWatchNameArray = [];
-    var tempWatchYearArray = [];
-    if (this.props.katakana === true) {
-      for (var i = 0; i < this.state.watchJson.length; i++) {
-        tempWatchUrlArray.push(this.state.watchJson[i].imagesource);
-        tempWatchNameArray.push(this.state.watchJson[i].katakana);
-        tempWatchYearArray.push(this.state.watchJson[i].year);
+    let ridewatches = this.props.watchJson.watch.map(watch => {
+      if (watch.series === this.props.series) {
+        return (
+          <li>
+            <Ridewatch
+              imgsrc={watch.imagesource}
+              alt={watch.name}
+              identity={this.props.katakana ? watch.katakana : watch.name}
+              year={watch.year}
+              key={watch.id}
+              series={watch.series}
+              checked={this.state.Checked}
+              ridewatchClick={this.props.ridewatchClick}
+            />
+          </li>
+        );
       }
-    } else {
-      for (var n = 0; n < this.state.watchJson.length; n++) {
-        tempWatchUrlArray.push(this.state.watchJson[n].imagesource);
-        tempWatchNameArray.push(this.state.watchJson[n].name);
-        tempWatchYearArray.push(this.state.watchJson[n].year);
-      }
-    }
-    var tempRidewatches = [];
-    for (var t = 0; t < tempWatchUrlArray.length; t++) {
-      tempRidewatches.push([tempWatchUrlArray[t], tempWatchNameArray[t], tempWatchYearArray[t]]);
-    }
-
-    let ridewatches = tempRidewatches.map(watch => {
-      return (
-        <li>
-          <Ridewatch
-            imgsrc={watch[0]}
-            alt={watch[1]}
-            identity={watch[1]}
-            year={watch[2]}
-            key={watch[1]}
-            series={this.state.series}
-            onClick={this.props.ridewatchClick}
-            checked={this.state.Checked}
-          />
-        </li>
-      );
     });
     return ridewatches;
   }
@@ -84,17 +62,17 @@ export class RidewatchList extends Component {
       );
     } else {
       return (
-        <div className={this.state.series + "-background"}>
-          <div className={this.state.series + "-div"}>
+        <div className={this.props.series + "-background"}>
+          <div className={this.props.series + "-div"}>
             <h1
-              id={this.state.series + "-header"}
+              id={this.props.series + "-header"}
               onClick={this.onClick}
-              className={this.state.series + "-open"}
+              className={this.props.series + "-open"}
             >
-              <i id={this.state.series + "-header"} />
-              {this.state.series}
+              <i id={this.props.series + "-header"} />
+              {this.props.series}
             </h1>
-            <ul className={this.state.series}>{this.ridewatchMaker()}</ul>
+            <ul className={this.props.series}>{this.ridewatchMaker()}</ul>
           </div>
         </div>
       );

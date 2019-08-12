@@ -69,12 +69,17 @@ h1 {
   margin-right: 20px;
   height: 25px;
   width:150px;
+  
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 
 .colorSelector {
+  margin-left: 10px;
   margin-right: 20px;
   height: 25px;
-  width:70px;
+  width:80px;
+  
+  cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 
 #searchCheckbox {

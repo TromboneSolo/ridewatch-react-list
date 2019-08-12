@@ -8,9 +8,10 @@ class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      width: window.innerWidth
+      width: window.innerWidth,
     };
   }
+
   render() {
     const sidebarBackground = {
       backgroundImage: "url(" + imagine + ")"
@@ -32,9 +33,6 @@ class Sidebar extends Component {
               alt="logo_image"
               onClick={this.props.languageClick}
             />
-            {/*<button id="japaneseSwitch" onClick={this.props.languageClick}>
-                {this.props.language}
-    </button>*/}
           </div>
         </div>
         <div>
@@ -57,6 +55,9 @@ class Sidebar extends Component {
                 return null;
               })}
             </ul>
+            <div>
+              <p id="totalText">Total Owned: {this.props.totalOwned}/162</p>
+            </div>
           </div>
         </div>
       </div>
