@@ -9,7 +9,7 @@ export class Ridewatch extends Component {
 
     this.onClick = this.onClick.bind(this);
   }
-
+/*this function (and the Checked state altogether) is only for changing the background css of ridewatches*/
   componentWillMount() {
     var tempIdentity = this.props.id;
     if (localStorage.getItem(tempIdentity)) {
@@ -22,7 +22,7 @@ export class Ridewatch extends Component {
       });
     }
   }
-
+/*when you click, grab the id and use it to mark the watch as owned in local storage, and change background*/
   onClick() {
     var tempIdentity = this.props.id;
 

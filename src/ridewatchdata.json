@@ -81,7 +81,7 @@
       "katakana": "ジオウ ツ",
       "year": "2019",
       "imagesource": "https://i.imgur.com/t8NrqaK.png",
-      "primaryColor": "gold",
+      "primaryColor": "silver",
       "secondaryColor": "black"
     },
     {
@@ -116,7 +116,7 @@
       "katakana": "オーマ ジオウ",
       "year": "2019",
       "imagesource": "https://i.imgur.com/lnT8uqs.png",
-      "primaryColor": ["gold", "black"],
+      "primaryColor": "gold",
       "secondaryColor": "gold"
     },
     {
@@ -138,7 +138,7 @@
       "katakana": "ゲイツ　リバイブ",
       "year": "2019",
       "imagesource": "https://i.imgur.com/2iBsoNz.png",
-      "primaryColor": ["black", "blue"],
+      "primaryColor": "blue",
       "secondaryColor": "black"
     },
     {
@@ -161,7 +161,7 @@
       "katakana": "ウォズ",
       "year": "N/A",
       "imagesource": "https://i.imgur.com/SY6SyKu.png",
-      "primaryColor": ["silver", "green"],
+      "primaryColor": "silver",
       "secondaryColor": "black"
     },
     {
@@ -173,7 +173,7 @@
       "katakana": "シノビ",
       "year": "2022",
       "imagesource": "https://i.imgur.com/2fjSauZ.png",
-      "primaryColor": ["silver", "purple"],
+      "primaryColor": "silver",
       "secondaryColor": "purple"
     },
     {
@@ -185,7 +185,7 @@
       "katakana": "クイズ",
       "year": "2040",
       "imagesource": "https://i.imgur.com/NmbrYVm.png",
-      "primaryColor": ["silver", "orange"],
+      "primaryColor": "silver",
       "secondaryColor": "orange"
     },
     {
@@ -197,7 +197,7 @@
       "katakana": "キカイ",
       "year": "2121",
       "imagesource": "https://i.imgur.com/HnyLcaY.png",
-      "primaryColor": ["silver", "yellow"],
+      "primaryColor": "silver",
       "secondaryColor": "yellow"
     },
     {
@@ -209,7 +209,7 @@
       "katakana": "ギンガ",
       "year": "2019",
       "imagesource": "https://i.imgur.com/6cVgACc.png",
-      "primaryColor": ["gold", "black"],
+      "primaryColor": "gold",
       "secondaryColor": "silver"
     },
     {
@@ -1461,7 +1461,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "112",
+      "id": "112.1",
       "DX": false,
       "series": "faiz",
 
@@ -1677,7 +1677,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "129",
+      "id": "129.1",
       "DX": true,
 
       "series": "another",
