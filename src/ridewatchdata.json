@@ -13,6 +13,30 @@
       "secondaryColor": "black"
     },
     {
+      "id": "1.12",
+      "DX": false,
+      "series": "zio",
+
+      "name": "Zi-O Limited Game Ver.",
+      "katakana": "ジオウ ゲーム　バージョン",
+      "year": "2018",
+      "imagesource": "https://i.imgur.com/v2Yv3CR.png",
+      "primaryColor": "clear",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "1.13",
+      "DX": false,
+      "series": "zio",
+
+      "name": "Zi-O Theme Song Ver.",
+      "katakana": "ジオウ チーム　バジョン",
+      "year": "2018",
+      "imagesource": "https://i.imgur.com/v2Yv3CR.png",
+      "primaryColor": "clear",
+      "secondaryColor": "black"
+    },
+    {
       "id": "1.1",
       "DX": false,
       "series": "zio",
@@ -1051,6 +1075,18 @@
       "imagesource": "https://i.imgur.com/OUge4JV.png",
       "primaryColor": "green",
       "secondaryColor": "white"
+    },
+    {
+      "id": "81.1",
+      "DX": false,
+
+      "series": "w",
+      "name": "Joker",
+      "katakana": "ジョーカー",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/sgZ4zvK.png",
+      "primaryColor": "purple",
+      "secondaryColor": "black"
     },
     {
       "id": "82",

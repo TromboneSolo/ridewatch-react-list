@@ -38,6 +38,7 @@ export class RidewatchList extends Component {
               alt={watch.name}
               identity={this.props.katakana ? watch.katakana : watch.name}
               year={watch.year}
+              id={watch.id}
               key={watch.id}
               series={watch.series}
               checked={this.state.Checked}

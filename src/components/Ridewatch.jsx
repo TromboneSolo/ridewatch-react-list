@@ -11,7 +11,7 @@ export class Ridewatch extends Component {
   }
 
   componentWillMount() {
-    var tempIdentity = this.props.imgsrc;
+    var tempIdentity = this.props.id;
     if (localStorage.getItem(tempIdentity)) {
       this.setState({
         Checked: "true-" + this.props.series
@@ -24,7 +24,7 @@ export class Ridewatch extends Component {
   }
 
   onClick() {
-    var tempIdentity = this.props.imgsrc;
+    var tempIdentity = this.props.id;
 
     if (localStorage.getItem(tempIdentity)) {
       this.setState({
@@ -32,7 +32,7 @@ export class Ridewatch extends Component {
       });
       localStorage.removeItem(tempIdentity);
     } else {
-      localStorage.setItem(tempIdentity, "owned");
+      localStorage.setItem(tempIdentity, tempIdentity);
       this.setState({
         Checked: "true-" + this.props.series
       });

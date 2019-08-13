@@ -12,7 +12,8 @@ class Search extends Component {
       primaryColorSearch: "all",
       secondaryColorSearch: "all",
       DX: null,
-      nameSearch: ""
+      nameSearch: "",
+      ownedSearch: "all"
     };
 
     this.ridewatchSearcher = this.ridewatchSearcher.bind(this);
@@ -34,6 +35,13 @@ class Search extends Component {
     });
   }
 
+  handleOwnedChange(event) {
+    let value = event.target.value;
+    this.setState({
+      ownedSearch: value
+    });
+  }
+
   handleDXChange(event) {
     let value = event.target.value;
     if (value === "both") {
@@ -44,8 +52,7 @@ class Search extends Component {
       this.setState({
         DX: true
       });
-    }
-    else if (value === "false") {
+    } else if (value === "false") {
       this.setState({
         DX: false
       });
@@ -61,6 +68,19 @@ class Search extends Component {
 
   searchClick() {
     var filteredList = ridewatchJson.watch;
+    let a;
+    if (this.state.ownedSearch !== "all") {
+      if (this.state.ownedSearch === "owned") {
+        filteredList = filteredList.filter(watch => {
+          a = localStorage.getItem(watch.id)
+          return watch.id === a;
+        });
+      } else {
+        filteredList = filteredList.filter(watch => {
+          return watch.id !== localStorage.getItem(watch.id);
+        });
+      }
+    }
     if (this.state.nameSearch !== "") {
       filteredList = filteredList.filter(watch => {
         return watch.name === this.state.nameSearch;
@@ -108,6 +128,7 @@ class Search extends Component {
             alt={watch.name}
             identity={this.props.katakana ? watch.katakana : watch.name}
             year={watch.year}
+            id={watch.id}
             key={watch.id}
             series={watch.series}
             checked={this.state.Checked}
@@ -131,6 +152,17 @@ class Search extends Component {
           Search
         </h1>
         <div className="parameters-container">
+          Owned
+          <select
+            name="Owned"
+            id="ownedSelect"
+            className="colorSelector"
+            onChange={this.handleOwnedChange.bind(this)}
+          >
+            <option value="all">both</option>
+            <option value="owned">Owned</option>
+            <option value="notOwned">Not Owned</option>
+          </select>
           <textarea
             id="searchBar"
             placeholder="Rider Time"
