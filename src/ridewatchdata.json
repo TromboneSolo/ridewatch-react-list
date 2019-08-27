@@ -14,11 +14,11 @@
     },
     {
       "id": "1.12",
-      "DX": false,
+      "DX": true,
       "series": "zio",
 
       "name": "Zi-O Limited Game Ver.",
-      "katakana": "ジオウ ゲーム　バージョン",
+      "katakana": "ジオウ (ゲーム　バージョン)",
       "year": "2018",
       "imagesource": "https://i.imgur.com/v2Yv3CR.png",
       "primaryColor": "clear",
@@ -26,11 +26,11 @@
     },
     {
       "id": "1.13",
-      "DX": false,
+      "DX": true,
       "series": "zio",
 
       "name": "Zi-O Theme Song Ver.",
-      "katakana": "ジオウ チーム　バジョン",
+      "katakana": "ジオウ (チーム　バージョン)",
       "year": "2018",
       "imagesource": "https://i.imgur.com/v2Yv3CR.png",
       "primaryColor": "clear",
@@ -69,6 +69,18 @@
       "katakana": "ミーラーワルド　ジオウ",
       "year": "2019",
       "imagesource": "https://i.imgur.com/WLaUCbA.png",
+      "primaryColor": "clear",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "1.4",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Zi-O (Memorial Version)",
+      "katakana": "ジオウ (メモリアル　バージョン)",
+      "year": "2018",
+      "imagesource": "https://i.imgur.com/v2Yv3CR.png",
       "primaryColor": "clear",
       "secondaryColor": "black"
     },
@@ -131,6 +143,28 @@
       "secondaryColor": "black"
     },
     {
+      "id": "6.1",
+      "DX": true,
+      "series": "zio",
+      "name": "Geiz (CCG Exclusive)",
+      "katakana": "ゲイツ (CCG バージョン)",
+      "year": "2068",
+      "imagesource": "https://i.imgur.com/f7ZzxtP.png",
+      "primaryColor": "black",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "6.2",
+      "DX": true,
+      "series": "zio",
+      "name": "Geiz (Memorial Version)",
+      "katakana": "ゲイツ (メモリアル　バージョン)",
+      "year": "2068",
+      "imagesource": "https://i.imgur.com/f7ZzxtP.png",
+      "primaryColor": "red",
+      "secondaryColor": "black"
+    },
+    {
       "id": "7",
       "DX": true,
       "series": "zio",
@@ -153,12 +187,46 @@
       "secondaryColor": "black"
     },
     {
+      "id": "7.2",
+      "DX": true,
+      "series": "zio",
+      "name": "Geiz Majesty",
+      "katakana": "ゲイツ　マジェスティ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/MDfRem8.png",
+      "primaryColor": "red",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "12.4",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Tsukuyomi",
+      "katakana": "ツクヨミ",
+      "year": "2068",
+      "imagesource": "https://i.imgur.com/WeaJGz2.png",
+      "primaryColor": "white",
+      "secondaryColor": "white"
+    },
+    {
       "id": "8",
       "DX": true,
 
       "series": "zio",
       "name": "Woz",
       "katakana": "ウォズ",
+      "year": "N/A",
+      "imagesource": "https://i.imgur.com/SY6SyKu.png",
+      "primaryColor": "silver",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "8.1",
+      "DX": true,
+      "series": "zio",
+      "name": "Woz (Memorial Version)",
+      "katakana": "ウォズ (メモリアル　バージョン)",
       "year": "N/A",
       "imagesource": "https://i.imgur.com/SY6SyKu.png",
       "primaryColor": "silver",
