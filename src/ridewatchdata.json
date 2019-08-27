@@ -1,1639 +1,1944 @@
 {
-  "series": {
-    "zio": [
-      {
-        "id": "1",
-        "DX": true,
-        "name": "Zi-O",
-        "katakana": "ジオウ",
-        "year": "2018",
-        "imagesource": "https://i.imgur.com/v2Yv3CR.png",
-        "primaryColor": "clear",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "1.1",
-        "DX": false,
-        "name": "Aurora Zi-O",
-        "katakana": "アロラ　ジオウ",
-        "year": "2018",
-        "imagesource": "https://i.imgur.com/n4to5ZY.png",
-        "primaryColor": "aurora",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "1.2",
-        "DX": false,
-        "name": "Christmas Zi-O",
-        "katakana": "クリスマス　ジオウ",
-        "year": "2018",
-        "imagesource": "https://i.imgur.com/ANoNFfc.png",
-        "primaryColor": "red",
-        "secondaryColor": "green"
-      },
-      {
-        "id": "1.3",
-        "DX": true,
-        "name": "Mirror Zi-O",
-        "katakana": "ミーラーワルド　ジオウ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/WLaUCbA.png",
-        "primaryColor": "clear",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "2",
-        "DX": true,
-        "name": "Zi-O II",
-        "katakana": "ジオウ ツ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/t8NrqaK.png",
-        "primaryColor": "gold",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "3",
-        "DX": true,
-        "name": "Zi-O Trinity",
-        "katakana": "ジオウ トリニティ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/6dwNLbG.png",
-        "primaryColor": "clear",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "4",
-        "DX": true,
-        "name": "Grand Zi-O",
-        "katakana": "グランド ジオウ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/1gxHfQe.png",
-        "primaryColor": "gold",
-        "secondaryColor": "gold"
-      },
-      {
-        "id": "5",
-        "DX": false,
-        "name": "Ouma Zi-O",
-        "katakana": "オーマ ジオウ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/lnT8uqs.png",
-        "primaryColor": ["gold", "black"],
-        "secondaryColor": "gold"
-      },
-      {
-        "id": "6",
-        "DX": true,
-        "name": "Geiz",
-        "katakana": "ゲイツ",
-        "year": "2068",
-        "imagesource": "https://i.imgur.com/f7ZzxtP.png",
-        "primaryColor": "red",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "7",
-        "DX": true,
-        "name": "Geiz Revive",
-        "katakana": "ゲイツ　リバイブ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/2iBsoNz.png",
-        "primaryColor": ["black", "blue"],
-        "secondaryColor": "black"
-      },
-      {
-        "id": "7.1",
-        "DX": false,
-        "name": "Geiz Bibiru",
-        "katakana": "ゲイツ　ビビル",
-        "year": "2019",
-        "imagesource": "",
-        "primaryColor": "blue",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "8",
-        "DX": true,
-        "name": "Woz",
-        "katakana": "ウォズ",
-        "year": "N/A",
-        "imagesource": "https://i.imgur.com/SY6SyKu.png",
-        "primaryColor": ["silver", "green"],
-        "secondaryColor": "black"
-      },
-      {
-        "id": "9",
-        "DX": true,
-        "name": "Shinobi",
-        "katakana": "シノビ",
-        "year": "2022",
-        "imagesource": "https://i.imgur.com/2fjSauZ.png",
-        "primaryColor": ["silver", "purple"],
-        "secondaryColor": "purple"
-      },
-      {
-        "id": "10",
-        "DX": true,
-        "name": "Quiz",
-        "katakana": "クイズ",
-        "year": "2040",
-        "imagesource": "https://i.imgur.com/NmbrYVm.png",
-        "primaryColor": ["silver", "orange"],
-        "secondaryColor": "orange"
-      },
-      {
-        "id": "11",
-        "DX": true,
-        "name": "Kikai",
-        "katakana": "キカイ",
-        "year": "2121",
-        "imagesource": "https://i.imgur.com/HnyLcaY.png",
-        "primaryColor": ["silver", "yellow"],
-        "secondaryColor": "yellow"
-      },
-      {
-        "id": "12",
-        "DX": true,
-        "name": "Ginga",
-        "katakana": "ギンガ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/6cVgACc.png",
-        "primaryColor": ["gold", "black"],
-        "secondaryColor": "silver"
-      },{
-        "id": "12.1",
-        "DX": true,
-        "name": "Barlckxs",
-        "katakana": "バールクス",
-        "year": "0000",
-        "imagesource": "https://i.imgur.com/bsRPGgF.png",
-        "primaryColor": "black",
-        "secondaryColor": "gold"
-      },{
-        "id": "12.2",
-        "DX": true,
-        "name": "Zonjis",
-        "katakana": "ゾンジス",
-        "year": "0000",
-        "imagesource": "https://i.imgur.com/ulF2e7r.png",
-        "primaryColor": "green",
-        "secondaryColor": "gold"
-      },{
-        "id": "12.3",
-        "DX": true,
-        "name": "Zamonas",
-        "katakana": "マモナス",
-        "year": "0000",
-        "imagesource": "https://i.imgur.com/oKSrPSD.png",
-        "primaryColor": "blue",
-        "secondaryColor": "gold"
-      }
-    ],
-    "build": [
-      {
-        "id": "13",
-        "DX": true,
-        "name": "Build",
-        "katakana": "ビルド",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/KaNNSWG.png",
-        "primaryColor": "red",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "14",
-        "DX": false,
-        "name": "RabbitTank Sparkling",
-        "katakana": "ビルド　ラビットタンク　スパークリング",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/kBlUQ2l.png",
-        "primaryColor": "blue",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "15",
-        "DX": true,
-        "name": "Build Hazard",
-        "katakana": "ビルド　ハザード",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/I9koGCv.png",
-        "primaryColor": "black",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "16",
-        "DX": false,
-        "name": "RabbitRabbit Form",
-        "katakana": "ビルド　ラビットラビット　フォーム",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/eKpdBTb.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "17",
-        "DX": false,
-        "name": "TankTank Form",
-        "katakana": "ビルド　タンクタンク　フォーム",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/offgtxa.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "18",
-        "DX": true,
-        "name": "Build Genius",
-        "katakana": "ビルド　ジーニアス",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/U5AU8LZ.png",
-        "primaryColor": "white",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "19",
-        "DX": false,
-        "name": "RabbitDragon Form",
-        "katakana": "ビルド　ラビットドラゴン　フォーム",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/tJiYeSG.png",
-        "primaryColor": "silver",
-        "secondaryColor": "gold"
-      },
-      {
-        "id": "20",
-        "DX": false,
-        "name": "Cross-Z",
-        "katakana": "クローズ",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/jRCxgku.png",
-        "primaryColor": "orange",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "21",
-        "DX": true,
-        "name": "Cross-Z Charge",
-        "katakana": "クローズ　チャジ",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/96aMzP6.png",
-        "primaryColor": "blue",
-        "secondaryColor": "grey"
-      },
-      {
-        "id": "22",
-        "DX": false,
-        "name": "Cross-Z Magma",
-        "katakana": "クローズ　マグマ",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/TXhqEOa.png",
-        "primaryColor": "black",
-        "secondaryColor": "orange"
-      },
-      {
-        "id": "23",
-        "DX": true,
-        "name": "Grease",
-        "katakana": "グリス",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/cAstu0I.png",
-        "primaryColor": "gold",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "24",
-        "DX": false,
-        "name": "Grease Blizzard",
-        "katakana": "グリス　ブリザード",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/eICbAVJ.png",
-        "primaryColor": "blue",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "25",
-        "DX": false,
-        "name": "Rogue",
-        "katakana": "ローグ",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/tYli2O7.png",
-        "primaryColor": "purple",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "26",
-        "DX": false,
-        "name": "Evol",
-        "katakana": "エボル",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/8Tu2Oos.png",
-        "primaryColor": "mustard",
-        "secondaryColor": "maroon"
-      },
-      {
-        "id": "27",
-        "DX": false,
-        "name": "Evol Black Hole",
-        "katakana": "エボル　ブラックホール　フォーム",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/q1TxbZF.png",
-        "primaryColor": "white",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "28",
-        "DX": false,
-        "name": "MadRogue",
-        "katakana": "マッドローグ",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/EmSA7Yx.png",
-        "primaryColor": "white",
-        "secondaryColor": "purple"
-      }
-    ],
-    "exaid": [
-      {
-        "id": "29",
-        "DX": true,
-        "name": "Ex-Aid",
-        "katakana": "エグゼイド",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/oUqnFtY.png",
-        "primaryColor": "pink",
-        "secondaryColor": "green"
-      },
-      {
-        "id": "30",
-        "DX": false,
-        "name": "Double Action Gamer XXL",
-        "katakana": "ダブルアクションゲーマー　XXL",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/drmmWpp.png",
-        "primaryColor": "orange",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "31",
-        "DX": false,
-        "name": "Double Action Gamer XXR",
-        "katakana": "ダブルアクションゲーマー　XXR",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/TkVrPEa.png",
-        "primaryColor": "blue",
-        "secondaryColor": "orange"
-      },
-      {
-        "id": "32",
-        "DX": false,
-        "name": "Maximum Gamer",
-        "katakana": "マクシマムゲーマー",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/zB45Rxk.png",
-        "primaryColor": "green",
-        "secondaryColor": "pink"
-      },
-      {
-        "id": "33",
-        "DX": true,
-        "name": "Hyper Muteki",
-        "katakana": "ムテキゲーマー",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/zJtelix.png",
-        "primaryColor": "gold",
-        "secondaryColor": "orange"
-      },
-      {
-        "id": "34",
-        "DX": false,
-        "name": "Brave",
-        "katakana": "ブレイブ",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/uLxhIEP.png",
-        "primaryColor": "silver",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "35",
-        "DX": false,
-        "name": "Legacy Gamer",
-        "katakana": "レガシーゲーマー",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/0wDgsDl.png",
-        "primaryColor": "white",
-        "secondaryColor": "gold"
-      },
-      {
-        "id": "36",
-        "DX": false,
-        "name": "Snipe",
-        "katakana": "スナイプ",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/xbY37kj.png",
-        "primaryColor": "dark blue",
-        "secondaryColor": "green"
-      },
-      {
-        "id": "37",
-        "DX": false,
-        "name": "Simulations Gamer",
-        "katakana": "シミュレションゲーマー",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/8wvxTYp.png",
-        "primaryColor": "dark blue",
-        "secondaryColor": "maroon"
-      },
-      {
-        "id": "38",
-        "DX": false,
-        "name": "Lazer",
-        "katakana": "レザ",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/cYeneRT.png",
-        "primaryColor": "pink",
-        "secondaryColor": "yellow"
-      },
-      {
-        "id": "39",
-        "DX": false,
-        "name": "Genm",
-        "katakana": "ゲンム",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/svsdeUm.png",
-        "primaryColor": "purple",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "40",
-        "DX": true,
-        "name": "Zombie Gamer",
-        "katakana": "ゾンビゲーマー",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/j3lwlXC.png",
-        "primaryColor": "white",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "41",
-        "DX": false,
-        "name": "Para-DX",
-        "katakana": "パラドクス",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/JZgNE27.png",
-        "primaryColor": "blue",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "42",
-        "DX": true,
-        "name": "Poppy",
-        "katakana": "ポッピー",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/1x3MKKb.png",
-        "primaryColor": "white",
-        "secondaryColor": "pink"
-      },
-      {
-        "id": "43",
-        "DX": true,
-        "name": "Cronus",
-        "katakana": "クロノス",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/HaG62QP.png",
-        "primaryColor": "green",
-        "secondaryColor": "black"
-      }
-    ],
-    "ghost": [
-      {
-        "id": "44",
-        "DX": true,
-        "name": "Ghost",
-        "katakana": "ゴースト",
-        "year": "2015",
-        "imagesource": "https://i.imgur.com/cHVSJA0.png",
-        "primaryColor": "orange",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "45",
-        "DX": false,
-        "name": "Toucon Boost",
-        "katakana": "闘魂ブースト魂",
-        "year": "2015",
-        "imagesource": "https://i.imgur.com/jFxCxxU.png",
-        "primaryColor": "red",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "46",
-        "DX": false,
-        "name": "Grateful Damashii",
-        "katakana": "グレイトフル魂",
-        "year": "2015",
-        "imagesource": "https://i.imgur.com/d3hmsTn.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "gold"
-      },
-      {
-        "id": "47",
-        "DX": true,
-        "name": "Mugen Damashii",
-        "katakana": "ムゲン魂",
-        "year": "2015",
-        "imagesource": "https://i.imgur.com/oaLHC3R.png",
-        "primaryColor": "white",
-        "secondaryColor": "orange"
-      },
-      {
-        "id": "48",
-        "DX": false,
-        "name": "Specter",
-        "katakana": "スペクタ",
-        "year": "2015",
-        "imagesource": "https://i.imgur.com/o4v9UjN.png",
-        "primaryColor": "blue",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "49",
-        "DX": false,
-        "name": "Deep Specter",
-        "katakana": "ディープ　スペクタ",
-        "year": "2015",
-        "imagesource": "https://i.imgur.com/26zqiU8.png",
-        "primaryColor": "purple",
-        "secondaryColor": "maroon"
-      },
-      {
-        "id": "50",
-        "DX": false,
-        "name": "Necrom",
-        "katakana": "ネクロム",
-        "year": "2015",
-        "imagesource": "https://i.imgur.com/9LB8PzM.png",
-        "primaryColor": "green",
-        "secondaryColor": "white"
-      }
-    ],
-    "drive": [
-      {
-        "id": "51",
-        "DX": true,
-        "name": "Drive",
-        "katakana": "ドライブ",
-        "year": "2014",
-        "imagesource": "https://i.imgur.com/LLWEa4h.png",
-        "primaryColor": "black",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "52",
-        "DX": false,
-        "name": "Type Dead Heat",
-        "katakana": "タイプデッドヒート",
-        "year": "2014",
-        "imagesource": "https://i.imgur.com/OfrLmKf.png",
-        "primaryColor": "white",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "53",
-        "DX": false,
-        "name": "Type Formula",
-        "katakana": "タイプフォーミュラ",
-        "year": "2014",
-        "imagesource": "https://i.imgur.com/NuCpr3e.png",
-        "primaryColor": "blue",
-        "secondaryColor": "yellow"
-      },
-      {
-        "id": "54",
-        "DX": true,
-        "name": "Type Tridoron",
-        "katakana": "タイプトライドロン",
-        "year": "2014",
-        "imagesource": "https://i.imgur.com/o8T8sK0.png",
-        "primaryColor": "red",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "55",
-        "DX": false,
-        "name": "Mach",
-        "katakana": "マッハ",
-        "year": "2014",
-        "imagesource": "https://i.imgur.com/wq5PuhE.png",
-        "primaryColor": "black",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "56",
-        "DX": false,
-        "name": "Chaser Mach",
-        "katakana": "チェイサーマッハ",
-        "year": "2014",
-        "imagesource": "https://i.imgur.com/IVy7GZU.png",
-        "primaryColor": "purple",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "57",
-        "DX": false,
-        "name": "Chaser",
-        "katakana": "チェイサー",
-        "year": "2014",
-        "imagesource": "https://i.imgur.com/kHOmbn1.png",
-        "primaryColor": "purple",
-        "secondaryColor": "white"
-      }
-    ],
-    "gaim": [
-      {
-        "id": "58",
-        "DX": true,
-        "name": "Gaim",
-        "katakana": "鎧武",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/9biCYH1.png",
-        "primaryColor": "blue",
-        "secondaryColor": "orange"
-      },
-      {
-        "id": "59",
-        "DX": false,
-        "name": "Jimber Lemon Arms",
-        "katakana": "ジンバーレモンアームズ",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/zEW9jiY.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "60",
-        "DX": false,
-        "name": "Kachidoki Arms",
-        "katakana": "カチドキアームズ",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/jyQU2MZ.png",
-        "primaryColor": "orange",
-        "secondaryColor": "orange"
-      },
-      {
-        "id": "61",
-        "DX": true,
-        "name": "Kiwami Arms",
-        "katakana": "極アームズ",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/OZLUIUm.png",
-        "primaryColor": "white",
-        "secondaryColor": "silver"
-      },
-      {
-        "id": "62",
-        "DX": false,
-        "name": "Baron",
-        "katakana": "バロン",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/e0I80pL.png",
-        "primaryColor": "red",
-        "secondaryColor": "yellow"
-      },
-      {
-        "id": "63",
-        "DX": false,
-        "name": "Ryugen",
-        "katakana": "龍玄",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/9PmseB8.png",
-        "primaryColor": "purple",
-        "secondaryColor": "green"
-      },
-      {
-        "id": "64",
-        "DX": false,
-        "name": "Zangetsu",
-        "katakana": "斬月",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/sOdFoxJ.png",
-        "primaryColor": "white",
-        "secondaryColor": "green"
-      },
-      {
-        "id": "65",
-        "DX": true,
-        "name": "Zangetsu Kachidoki Arms",
-        "katakana": "斬月カチドキアムーズ",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/Nmj74y0.png",
-        "primaryColor": "gold",
-        "secondaryColor": "green"
-      }
-    ],
-    "wizard": [
-      {
-        "id": "66",
-        "DX": true,
-        "name": "Wizard",
-        "katakana": "ウィザード",
-        "year": "2012",
-        "imagesource": "https://i.imgur.com/QxLTzaV.png",
-        "primaryColor": "silver",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "67",
-        "DX": false,
-        "name": "All Dragon",
-        "katakana": "オールドラゴン",
-        "year": "2012",
-        "imagesource": "https://i.imgur.com/gTBsdBL.png",
-        "primaryColor": "black",
-        "secondaryColor": "mustard"
-      },
-      {
-        "id": "68",
-        "DX": true,
-        "name": "Infinity Style",
-        "katakana": "インフィニティスタイル",
-        "year": "2012",
-        "imagesource": "https://i.imgur.com/omjYmI3.png",
-        "primaryColor": "clear",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "69",
-        "DX": false,
-        "name": "Beast",
-        "katakana": "ビースト",
-        "year": "2012",
-        "imagesource": "https://i.imgur.com/Db26Bve.png",
-        "primaryColor": "black",
-        "secondaryColor": "gold"
-      },
-      {
-        "id": "70",
-        "DX": false,
-        "name": "Beast Hyper",
-        "katakana": "ビーストハイパー",
-        "year": "2012",
-        "imagesource": "https://i.imgur.com/NdWWNA8.png",
-        "primaryColor": "blue",
-        "secondaryColor": "gold"
-      }
-    ],
-    "fourze": [
-      {
-        "id": "71",
-        "DX": true,
-        "name": "Fourze",
-        "katakana": "フォーゼ",
-        "year": "2011",
-        "imagesource": "https://i.imgur.com/Xch8q39.png",
-        "primaryColor": "orange",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "72",
-        "DX": true,
-        "name": "Cosmic States",
-        "katakana": "コスミックステイツ",
-        "year": "2011",
-        "imagesource": "https://i.imgur.com/7BC72s0.png",
-        "primaryColor": "blue",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "73",
-        "DX": false,
-        "name": "Meteor",
-        "katakana": "メテオ",
-        "year": "2011",
-        "imagesource": "https://i.imgur.com/5lSEhiz.png",
-        "primaryColor": "black",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "74",
-        "DX": false,
-        "name": "Meteor Storm",
-        "katakana": "メテオストーム",
-        "year": "2011",
-        "imagesource": "https://i.imgur.com/WgjtHKY.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "blue"
-      }
-    ],
-    "ooo": [
-      {
-        "id": "75",
-        "DX": true,
-        "name": "OOO",
-        "katakana": "オーズ",
-        "year": "2010",
-        "imagesource": "https://i.imgur.com/pF1uiAs.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "green"
-      },
-      {
-        "id": "76",
-        "DX": true,
-        "name": "Tajador Combo",
-        "katakana": "タジャドルコンボ",
-        "year": "2010",
-        "imagesource": "https://i.imgur.com/EYWUpqM.png",
-        "primaryColor": "red",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "77",
-        "DX": true,
-        "name": "Putotyra Combo",
-        "katakana": "プトティラコンボ",
-        "year": "2010",
-        "imagesource": "https://i.imgur.com/hLKqmbR.png",
-        "primaryColor": "gold",
-        "secondaryColor": "purple"
-      },
-      {
-        "id": "78",
-        "DX": false,
-        "name": "Birth",
-        "katakana": "バース",
-        "year": "2010",
-        "imagesource": "https://i.imgur.com/1KimHBP.png",
-        "primaryColor": "green",
-        "secondaryColor": "silver"
-      }
-    ],
-    "w": [
-      {
-        "id": "79",
-        "DX": true,
-        "name": "W",
-        "katakana": "ダブル",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/rKkNYt6.png",
-        "primaryColor": "green",
-        "secondaryColor": "purple"
-      },
-      {
-        "id": "80",
-        "DX": true,
-        "name": "FangJoker",
-        "katakana": "ファングジョーカー",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/gNJs5T7.png",
-        "primaryColor": "black",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "81",
-        "DX": true,
-        "name": "CycloneJokerExtreme",
-        "katakana": "サイクロンジョーカーエクストリーム",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/OUge4JV.png",
-        "primaryColor": "green",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "82",
-        "DX": false,
-        "name": "Accel",
-        "katakana": "アクセル",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/kbWNDH7.png",
-        "primaryColor": "red",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "83",
-        "DX": false,
-        "name": "Accel Trial",
-        "katakana": "アクセルトライアル",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/PJvcoJ7.png",
-        "primaryColor": "blue",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "84",
-        "DX": false,
-        "name": "Skull",
-        "katakana": "スカル",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/9Xo4zJ3.png",
-        "primaryColor": "black",
-        "secondaryColor": "silver"
-      },
-      {
-        "id": "85",
-        "DX": true,
-        "name": "Eternal",
-        "katakana": "エターナル",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/kQWiCkx.png",
-        "primaryColor": "blue",
-        "secondaryColor": "white"
-      }
-    ],
-    "decade": [
-      {
-        "id": "86",
-        "DX": true,
-        "name": "Decade",
-        "katakana": "ヂケイド",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/f227jw0.png",
-        "primaryColor": ["black", "white"],
-        "secondaryColor": "magenta"
-      },
-      {
-        "id": "87",
-        "DX": false,
-        "name": "Decade (GP)",
-        "katakana": "ヂケイド（GP)",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/DX45cNC.png",
-        "primaryColor": "black",
-        "secondaryColor": "magenta"
-      },
-      {
-        "id": "88",
-        "DX": false,
-        "name": "Decade Violent Emotion",
-        "katakana": "ヂケイド激情態",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/y5AfNMc.png",
-        "primaryColor": "black",
-        "secondaryColor": "magenta"
-      },
-      {
-        "id": "89",
-        "DX": true,
-        "name": "Decade Complete",
-        "katakana": "デケイドコンプリートフォーム",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/rpUvZ5V.png",
-        "primaryColor": "silver",
-        "secondaryColor": "magenta"
-      },
-      {
-        "id": "90",
-        "DX": true,
-        "name": "Diend",
-        "katakana": "ディエンド",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/Mhi6Gw8.png",
-        "primaryColor": "black",
-        "secondaryColor": "cyan"
-      }
-    ],
-    "kiva": [
-      {
-        "id": "91",
-        "DX": true,
-        "name": "Kiva",
-        "katakana": "キバ",
-        "year": "2008",
-        "imagesource": "https://i.imgur.com/K467lQr.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "92",
-        "DX": true,
-        "name": "Kiva Emperor",
-        "katakana": "キバエンペラーフォーム",
-        "year": "2008",
-        "imagesource": "https://i.imgur.com/BkJdcLk.png",
-        "primaryColor": "gold",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "93",
-        "DX": false,
-        "name": "Ixa",
-        "katakana": "イクサ",
-        "year": "2008",
-        "imagesource": "https://i.imgur.com/qp7MZTZ.png",
-        "primaryColor": "white",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "94",
-        "DX": true,
-        "name": "Dark Kiva",
-        "katakana": "ダークキバ",
-        "year": "2008",
-        "imagesource": "https://i.imgur.com/hLpZws7.png",
-        "primaryColor": "black",
-        "secondaryColor": "red"
-      }
-    ],
-    "deno": [
-      {
-        "id": "95",
-        "DX": true,
-        "name": "Den-O",
-        "katakana": "電王",
-        "year": "2007",
-        "imagesource": "https://i.imgur.com/4KPfOzI.png",
-        "primaryColor": "white",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "96",
-        "DX": true,
-        "name": "Climax Form",
-        "katakana": "クライマクスフォーム",
-        "year": "2007",
-        "imagesource": "https://i.imgur.com/lgaq0kz.png",
-        "primaryColor": "red",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "97",
-        "DX": true,
-        "name": "Liner Form",
-        "katakana": "ァイナーフォーム",
-        "year": "2007",
-        "imagesource": "https://i.imgur.com/WunDSgO.png",
-        "primaryColor": "red",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "98",
-        "DX": false,
-        "name": "Zeronos",
-        "katakana": "ゼロノス",
-        "year": "2007",
-        "imagesource": "https://i.imgur.com/deoHX8l.png",
-        "primaryColor": "green",
-        "secondaryColor": "black"
-      }
-    ],
-    "kabuto": [
-      {
-        "id": "99",
-        "DX": true,
-        "name": "Kabuto",
-        "katakana": "カブト",
-        "year": "2006",
-        "imagesource": "https://i.imgur.com/jI0Wiz4.png",
-        "primaryColor": "red",
-        "secondaryColor": "silver"
-      },
-      {
-        "id": "100",
-        "DX": true,
-        "name": "Hyper Kabuto",
-        "katakana": "ハイパーフォーム",
-        "year": "2006",
-        "imagesource": "https://i.imgur.com/eXdHwHn.png",
-        "primaryColor": "red",
-        "secondaryColor": "gold"
-      },
-      {
-        "id": "101",
-        "DX": false,
-        "name": "Gatack",
-        "katakana": "ガタック",
-        "year": "2006",
-        "imagesource": "https://i.imgur.com/8RTX0fK.png",
-        "primaryColor": "blue",
-        "secondaryColor": "silver"
-      }
-    ],
-    "hibiki": [
-      {
-        "id": "102",
-        "DX": true,
-        "name": "Hibiki",
-        "katakana": "響鬼",
-        "year": "2005",
-        "imagesource": "https://i.imgur.com/x71DE1x.png",
-        "primaryColor": "pink",
-        "secondaryColor": "purple"
-      },
-      {
-        "id": "103",
-        "DX": true,
-        "name": "Armed Hibiki",
-        "katakana": "アームド響鬼",
-        "year": "2005",
-        "imagesource": "https://i.imgur.com/ZD1FGnt.png",
-        "primaryColor": "red",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "104",
-        "DX": false,
-        "name": "Ibuki",
-        "katakana": "威吹鬼",
-        "year": "2005",
-        "imagesource": "https://i.imgur.com/mLdMmhM.png",
-        "primaryColor": "blue",
-        "secondaryColor": "black"
-      }
-    ],
-    "blade": [
-      {
-        "id": "105",
-        "DX": true,
-        "name": "Blade",
-        "katakana": "ブレイド",
-        "year": "2004",
-        "imagesource": "https://i.imgur.com/BBGuXIe.png",
-        "primaryColor": "silver",
-        "secondaryColor": "blue"
-      },
-      {
-        "id": "106",
-        "DX": true,
-        "name": "Blade King Form",
-        "katakana": "ブレイドキングフォーム",
-        "year": "2004",
-        "imagesource": "https://i.imgur.com/dWrfHup.png",
-        "primaryColor": "gold",
-        "secondaryColor": "silver"
-      },
-      {
-        "id": "107",
-        "DX": false,
-        "name": "Garren",
-        "katakana": "ギャレン",
-        "year": "2004",
-        "imagesource": "https://i.imgur.com/jEjb6PE.png",
-        "primaryColor": "grey",
-        "secondaryColor": "maroon"
-      },
-      {
-        "id": "108",
-        "DX": true,
-        "name": "Chalice",
-        "katakana": "カリス",
-        "year": "2004",
-        "imagesource": "https://i.imgur.com/DFEpsBR.png",
-        "primaryColor": "gold",
-        "secondaryColor": "black"
-      }
-    ],
-    "faiz": [
-      {
-        "id": "109",
-        "DX": true,
-        "name": "Faiz",
-        "katakana": "ファイズ",
-        "year": "2003",
-        "imagesource": "https://i.imgur.com/a4Ftute.png",
-        "primaryColor": "black",
-        "secondaryColor": "silver"
-      },
-      {
-        "id": "110",
-        "DX": true,
-        "name": "Faiz Accel",
-        "katakana": "ファイズアクセルフォーム",
-        "year": "2003",
-        "imagesource": "https://i.imgur.com/JSDu7TC.png",
-        "primaryColor": "silver",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "111",
-        "DX": true,
-        "name": "Faiz Blaster",
-        "katakana": "ファイズブラスターフォーム",
-        "year": "2003",
-        "imagesource": "https://i.imgur.com/ys3MQuo.png",
-        "primaryColor": "clear",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "112",
-        "DX": false,
-        "name": "Kaixa",
-        "katakana": "カイザ",
-        "year": "2003",
-        "imagesource": "https://i.imgur.com/kvXPfTu.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "112",
-        "DX": false,
-        "name": "Delta",
-        "katakana": "デルタ",
-        "year": "2003",
-        "imagesource": "https://i.imgur.com/XlXHZPU.png",
-        "primaryColor": "silver",
-        "secondaryColor": "black"
-      }
-    ],
-    "ryuki": [
-      {
-        "id": "113",
-        "DX": true,
-        "name": "Ryuki",
-        "katakana": "龍騎",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/Q1GxNQv.png",
-        "primaryColor": "silver",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "114",
-        "DX": true,
-        "name": "Ryuki Survive",
-        "katakana": "龍騎サバイブ",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/IZshp2Y.png",
-        "primaryColor": "red",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "115",
-        "DX": false,
-        "name": "Knight",
-        "katakana": "ナイト",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/Y9b7vkl.png",
-        "primaryColor": "blue",
-        "secondaryColor": "silver"
-      },
-      {
-        "id": "116",
-        "DX": false,
-        "name": "Knight Survive",
-        "katakana": "ナイトサバイブ",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/6Abakp8.png",
-        "primaryColor": "blue",
-        "secondaryColor": "black"
-      },
-      {
-        "id": "118",
-        "DX": true,
-        "name": "Scissors",
-        "katakana": "シザース",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/jXlQtwf.png",
-        "primaryColor": "silver",
-        "secondaryColor": "brown"
-      },
-      {
-        "id": "117",
-        "DX": false,
-        "name": "Zolda",
-        "katakana": "ゾルダ",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/bTajcey.png",
-        "primaryColor": "green",
-        "secondaryColor": "silver"
-      },
-      {
-        "id": "119",
-        "DX": true,
-        "name": "Ouja",
-        "katakana": "王蛇",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/t6Nlpzz.png",
-        "primaryColor": "silver",
-        "secondaryColor": "purple"
-      }
-    ],
-    "agito": [
-      {
-        "id": "120",
-        "DX": true,
-        "name": "Agito",
-        "katakana": "アギト",
-        "year": "2001",
-        "imagesource": "https://i.imgur.com/yLZfMd4.png",
-        "primaryColor": "gold",
-        "secondaryColor": "silver"
-      },
-      {
-        "id": "121",
-        "DX": true,
-        "name": "Shining Form",
-        "katakana": "アギトシャイニングフォーム",
-        "year": "2001",
-        "imagesource": "https://i.imgur.com/4H9PcBm.png",
-        "primaryColor": "red",
-        "secondaryColor": "white"
-      },
-      {
-        "id": "122",
-        "DX": false,
-        "name": "G3-X",
-        "katakana": "ジースリーエクス",
-        "year": "2001",
-        "imagesource": "https://i.imgur.com/XjJliIb.png",
-        "primaryColor": "blue",
-        "secondaryColor": "grey"
-      },
-      {
-        "id": "123",
-        "DX": false,
-        "name": "Gills",
-        "katakana": "ギルス",
-        "year": "2001",
-        "imagesource": "https://i.imgur.com/06mKmqL.png",
-        "primaryColor": "green",
-        "secondaryColor": "green"
-      }
-    ],
-    "kuuga": [
-      {
-        "id": "124",
-        "DX": true,
-        "name": "Kuuga",
-        "katakana": "クウガ",
-        "year": "2000",
-        "imagesource": "https://i.imgur.com/K51TAR6.png",
-        "primaryColor": "gold",
-        "secondaryColor": "red"
-      },
-      {
-        "id": "125",
-        "DX": false,
-        "name": "Amazing Mighty",
-        "katakana": "クウガアメイジングマイティ",
-        "year": "2000",
-        "imagesource": "https://i.imgur.com/ytby5F0.png",
-        "primaryColor": "black",
-        "secondaryColor": "yellow"
-      },
-      {
-        "id": "126",
-        "DX": true,
-        "name": "Ultimate Form",
-        "katakana": "クウガアルティメットフォーム",
-        "year": "2000",
-        "imagesource": "https://i.imgur.com/5eoz87Z.png",
-        "primaryColor": "grey",
-        "secondaryColor": "black"
-      }
-    ],
-    "another": [
-      {
-        "id": "127",
-        "DX": true,
-        "name": "Another Kuuga",
-        "katakana": "アナザークウガ",
-        "year": "2000",
-        "imagesource": "https://i.imgur.com/PKhnDip.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "128",
-        "DX": true,
-        "name": "Another Agito",
-        "katakana": "アナザーアギト",
-        "year": "2001",
-        "imagesource": "https://i.imgur.com/jwY5KuX.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "129",
-        "DX": true,
-        "name": "Another Ryuki",
-        "katakana": "アナザー龍騎",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/N8zuEa8.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "129",
-        "DX": true,
-        "name": "Another Ryuga",
-        "katakana": "アナザーリュウガ",
-        "year": "2002",
-        "imagesource": "https://i.imgur.com/mDYeOv8.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "130",
-        "DX": true,
-        "name": "Another Faiz",
-        "katakana": "アナザーファイズ",
-        "year": "2003",
-        "imagesource": "https://i.imgur.com/DpLzDu9.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "131",
-        "DX": true,
-        "name": "Another Blade",
-        "katakana": "アナザーブレイド",
-        "year": "2004",
-        "imagesource": "https://i.imgur.com/9ttNhWy.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "132",
-        "DX": true,
-        "name": "Another Hibiki",
-        "katakana": "アナザー響鬼",
-        "year": "2005",
-        "imagesource": "https://i.imgur.com/A7lE0qT.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "133",
-        "DX": true,
-        "name": "Another Kabuto",
-        "katakana": "アナザーカブト",
-        "year": "2006",
-        "imagesource": "https://i.imgur.com/aZLWaoI.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "134",
-        "DX": true,
-        "name": "Another Den-O",
-        "katakana": "アナザー電王",
-        "year": "2007",
-        "imagesource": "https://i.imgur.com/34PyWpl.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "135",
-        "DX": true,
-        "name": "Another Kiva",
-        "katakana": "アナザーキバ",
-        "year": "2008",
-        "imagesource": "https://i.imgur.com/MB7e7FR.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "136",
-        "DX": true,
-        "name": "Another Decade",
-        "katakana": "アナザーディケイド",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/K8ZX4Sl.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "137",
-        "DX": true,
-        "name": "Another W",
-        "katakana": "アナザーダブル",
-        "year": "2009",
-        "imagesource": "https://i.imgur.com/b4I8I29.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "138",
-        "DX": true,
-        "name": "Another OOO",
-        "katakana": "アナザーオーズ",
-        "year": "2010",
-        "imagesource": "https://i.imgur.com/uzwBNj3.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "139",
-        "DX": true,
-        "name": "Another Fourze",
-        "katakana": "アナザーフォーゼ",
-        "year": "2011",
-        "imagesource": "https://i.imgur.com/Gtbznnt.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "140",
-        "DX": true,
-        "name": "Another Wizard",
-        "katakana": "アナザーウィザード",
-        "year": "2012",
-        "imagesource": "https://i.imgur.com/nOjuITQ.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "141",
-        "DX": true,
-        "name": "Another Gaim",
-        "katakana": "アナザー鎧武",
-        "year": "2013",
-        "imagesource": "https://i.imgur.com/vorEjdm.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "142",
-        "DX": true,
-        "name": "Another Drive",
-        "katakana": "アナザードライブ",
-        "year": "2014",
-        "imagesource": "https://i.imgur.com/rYZmFeq.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "143",
-        "DX": true,
-        "name": "Another Ghost",
-        "katakana": "アナザーゴースト",
-        "year": "2015",
-        "imagesource": "https://i.imgur.com/8oyRn0k.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "144",
-        "DX": true,
-        "name": "Another Ex-Aid",
-        "katakana": "アナザーエグゼイド",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/FYIRTLx.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "145",
-        "DX": true,
-        "name": "Another Build",
-        "katakana": "アナザービルド",
-        "year": "2017",
-        "imagesource": "https://i.imgur.com/zf2nGBY.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "146",
-        "DX": true,
-        "name": "Another Zi-O",
-        "katakana": "アナザージオウ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/QS5NMMy.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "147",
-        "DX": true,
-        "name": "Another Zi-O II",
-        "katakana": "アンザージオウツ",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/vCqZZIn.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "148",
-        "DX": true,
-        "name": "Another Shinobi",
-        "katakana": "アナザーシノビ",
-        "year": "2022",
-        "imagesource": "https://i.imgur.com/SV77Txo.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "149",
-        "DX": true,
-        "name": "Another Quiz",
-        "katakana": "アンザークイズ",
-        "year": "2040",
-        "imagesource": "https://i.imgur.com/nKZsO7m.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      },{
-        "id": "150",
-        "DX": true,
-        "name": "Another Kikai",
-        "katakana": "アナザーキカイ",
-        "year": "2121",
-        "imagesource": "https://i.imgur.com/0uqVZGb.png",
-        "primaryColor": "black",
-        "secondaryColor": "purple"
-      }
-    ],
-    "misc": [
-      {
-        "id": "151",
-        "DX": true,
-        "name": "Amazon Omega",
-        "katakana": "アマゾンオメガ",
-        "year": "2016",
-        "imagesource": "https://i.imgur.com/YK5wmTk.png",
-        "primaryColor": "black",
-        "secondaryColor": "green"
-      },{
-        "id": "152",
-        "DX": false,
-        "name": "Ryusoulger",
-        "katakana": "リュウソウジャー",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/BE3eyIC.png",
-        "primaryColor": "grey",
-        "secondaryColor": "red"
-      },{
-        "id": "153",
-        "DX": false,
-        "name": "Zero-One",
-        "katakana": "セロワン",
-        "year": "2019",
-        "imagesource": "https://i.imgur.com/1UZ3JTB.png",
-        "primaryColor": "yellow",
-        "secondaryColor": "black"
-      }
-    ]
-  }
+  "watch": [
+    {
+      "id": "1",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Zi-O",
+      "katakana": "ジオウ",
+      "year": "2018",
+      "imagesource": "https://i.imgur.com/v2Yv3CR.png",
+      "primaryColor": "clear",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "1.1",
+      "DX": false,
+      "series": "zio",
+
+      "name": "Aurora Zi-O",
+      "katakana": "アロラ　ジオウ",
+      "year": "2018",
+      "imagesource": "https://i.imgur.com/n4to5ZY.png",
+      "primaryColor": "aurora",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "1.2",
+      "DX": false,
+      "series": "zio",
+
+      "name": "Christmas Zi-O",
+      "katakana": "クリスマス　ジオウ",
+      "year": "2018",
+      "imagesource": "https://i.imgur.com/ANoNFfc.png",
+      "primaryColor": "red",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "1.3",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Mirror Zi-O",
+      "katakana": "ミーラーワルド　ジオウ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/WLaUCbA.png",
+      "primaryColor": "clear",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "2",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Zi-O II",
+      "katakana": "ジオウ ツ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/t8NrqaK.png",
+      "primaryColor": "gold",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "3",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Zi-O Trinity",
+      "katakana": "ジオウ トリニティ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/6dwNLbG.png",
+      "primaryColor": "clear",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "4",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Grand Zi-O",
+      "katakana": "グランド ジオウ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/1gxHfQe.png",
+      "primaryColor": "gold",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "5",
+      "DX": true,
+      "series": "zio",
+      "name": "Ouma Zi-O",
+      "katakana": "オーマ ジオウ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/lnT8uqs.png",
+      "primaryColor": ["gold", "black"],
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "6",
+      "DX": true,
+      "series": "zio",
+      "name": "Geiz",
+      "katakana": "ゲイツ",
+      "year": "2068",
+      "imagesource": "https://i.imgur.com/f7ZzxtP.png",
+      "primaryColor": "red",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "7",
+      "DX": true,
+      "series": "zio",
+      "name": "Geiz Revive",
+      "katakana": "ゲイツ　リバイブ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/2iBsoNz.png",
+      "primaryColor": ["black", "blue"],
+      "secondaryColor": "black"
+    },
+    {
+      "id": "7.1",
+      "DX": true,
+      "series": "zio",
+      "name": "Geiz Bibiru",
+      "katakana": "ゲイツ　ビビル",
+      "year": "2019",
+      "imagesource": "",
+      "primaryColor": "blue",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "8",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Woz",
+      "katakana": "ウォズ",
+      "year": "N/A",
+      "imagesource": "https://i.imgur.com/SY6SyKu.png",
+      "primaryColor": ["silver", "green"],
+      "secondaryColor": "black"
+    },
+    {
+      "id": "9",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Shinobi",
+      "katakana": "シノビ",
+      "year": "2022",
+      "imagesource": "https://i.imgur.com/2fjSauZ.png",
+      "primaryColor": ["silver", "purple"],
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "10",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Quiz",
+      "katakana": "クイズ",
+      "year": "2040",
+      "imagesource": "https://i.imgur.com/NmbrYVm.png",
+      "primaryColor": ["silver", "orange"],
+      "secondaryColor": "orange"
+    },
+    {
+      "id": "11",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Kikai",
+      "katakana": "キカイ",
+      "year": "2121",
+      "imagesource": "https://i.imgur.com/HnyLcaY.png",
+      "primaryColor": ["silver", "yellow"],
+      "secondaryColor": "yellow"
+    },
+    {
+      "id": "12",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Ginga",
+      "katakana": "ギンガ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/6cVgACc.png",
+      "primaryColor": ["gold", "black"],
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "12.1",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Barlckxs",
+      "katakana": "バールクス",
+      "year": "0000",
+      "imagesource": "https://i.imgur.com/bsRPGgF.png",
+      "primaryColor": "black",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "12.2",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Zonjis",
+      "katakana": "ゾンジス",
+      "year": "0000",
+      "imagesource": "https://i.imgur.com/ulF2e7r.png",
+      "primaryColor": "green",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "12.3",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Zamonas",
+      "katakana": "マモナス",
+      "year": "0000",
+      "imagesource": "https://i.imgur.com/oKSrPSD.png",
+      "primaryColor": "blue",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "13",
+      "DX": true,
+
+      "series": "build",
+      "name": "Build",
+      "katakana": "ビルド",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/KaNNSWG.png",
+      "primaryColor": "red",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "14",
+      "DX": false,
+      "series": "build",
+
+      "name": "RabbitTank Sparkling",
+      "katakana": "ビルド　ラビットタンク　スパークリング",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/kBlUQ2l.png",
+      "primaryColor": "blue",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "15",
+      "DX": true,
+
+      "series": "build",
+      "name": "Build Hazard",
+      "katakana": "ビルド　ハザード",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/I9koGCv.png",
+      "primaryColor": "black",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "16",
+      "DX": false,
+      "series": "build",
+
+      "name": "RabbitRabbit Form",
+      "katakana": "ビルド　ラビットラビット　フォーム",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/eKpdBTb.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "17",
+      "DX": false,
+      "series": "build",
+
+      "name": "TankTank Form",
+      "katakana": "ビルド　タンクタンク　フォーム",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/offgtxa.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "18",
+      "DX": true,
+
+      "series": "build",
+      "name": "Build Genius",
+      "katakana": "ビルド　ジーニアス",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/U5AU8LZ.png",
+      "primaryColor": "white",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "19",
+      "DX": false,
+      "series": "build",
+
+      "name": "RabbitDragon Form",
+      "katakana": "ビルド　ラビットドラゴン　フォーム",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/tJiYeSG.png",
+      "primaryColor": "silver",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "20",
+      "DX": false,
+      "series": "build",
+
+      "name": "Cross-Z",
+      "katakana": "クローズ",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/jRCxgku.png",
+      "primaryColor": "orange",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "21",
+      "DX": true,
+
+      "series": "build",
+      "name": "Cross-Z Charge",
+      "katakana": "クローズ　チャジ",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/96aMzP6.png",
+      "primaryColor": "blue",
+      "secondaryColor": "grey"
+    },
+    {
+      "id": "22",
+      "DX": false,
+      "series": "build",
+
+      "name": "Cross-Z Magma",
+      "katakana": "クローズ　マグマ",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/TXhqEOa.png",
+      "primaryColor": "black",
+      "secondaryColor": "orange"
+    },
+    {
+      "id": "23",
+      "DX": true,
+
+      "series": "build",
+      "name": "Grease",
+      "katakana": "グリス",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/cAstu0I.png",
+      "primaryColor": "gold",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "24",
+      "DX": false,
+      "series": "build",
+
+      "name": "Grease Blizzard",
+      "katakana": "グリス　ブリザード",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/eICbAVJ.png",
+      "primaryColor": "blue",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "25",
+      "DX": false,
+      "series": "build",
+
+      "name": "Rogue",
+      "katakana": "ローグ",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/tYli2O7.png",
+      "primaryColor": "purple",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "26",
+      "DX": false,
+      "series": "build",
+
+      "name": "Evol",
+      "katakana": "エボル",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/8Tu2Oos.png",
+      "primaryColor": "mustard",
+      "secondaryColor": "maroon"
+    },
+    {
+      "id": "27",
+      "DX": false,
+      "series": "build",
+
+      "name": "Evol Black Hole",
+      "katakana": "エボル　ブラックホール　フォーム",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/q1TxbZF.png",
+      "primaryColor": "white",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "28",
+      "DX": false,
+      "series": "build",
+
+      "name": "MadRogue",
+      "katakana": "マッドローグ",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/EmSA7Yx.png",
+      "primaryColor": "white",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "29",
+      "DX": true,
+
+      "series": "exaid",
+      "name": "Ex-Aid",
+      "katakana": "エグゼイド",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/oUqnFtY.png",
+      "primaryColor": "pink",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "30",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Double Action Gamer XXL",
+      "katakana": "ダブルアクションゲーマー　XXL",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/drmmWpp.png",
+      "primaryColor": "orange",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "31",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Double Action Gamer XXR",
+      "katakana": "ダブルアクションゲーマー　XXR",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/TkVrPEa.png",
+      "primaryColor": "blue",
+      "secondaryColor": "orange"
+    },
+    {
+      "id": "32",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Maximum Gamer",
+      "katakana": "マクシマムゲーマー",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/zB45Rxk.png",
+      "primaryColor": "green",
+      "secondaryColor": "pink"
+    },
+    {
+      "id": "33",
+      "DX": true,
+
+      "series": "exaid",
+      "name": "Hyper Muteki",
+      "katakana": "ムテキゲーマー",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/zJtelix.png",
+      "primaryColor": "gold",
+      "secondaryColor": "orange"
+    },
+    {
+      "id": "34",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Brave",
+      "katakana": "ブレイブ",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/uLxhIEP.png",
+      "primaryColor": "silver",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "35",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Legacy Gamer",
+      "katakana": "レガシーゲーマー",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/0wDgsDl.png",
+      "primaryColor": "white",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "36",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Snipe",
+      "katakana": "スナイプ",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/xbY37kj.png",
+      "primaryColor": "dark blue",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "37",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Simulations Gamer",
+      "katakana": "シミュレションゲーマー",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/8wvxTYp.png",
+      "primaryColor": "dark blue",
+      "secondaryColor": "maroon"
+    },
+    {
+      "id": "38",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Lazer",
+      "katakana": "レザ",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/cYeneRT.png",
+      "primaryColor": "pink",
+      "secondaryColor": "yellow"
+    },
+    {
+      "id": "39",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Genm",
+      "katakana": "ゲンム",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/svsdeUm.png",
+      "primaryColor": "purple",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "40",
+      "DX": true,
+
+      "series": "exaid",
+      "name": "Zombie Gamer",
+      "katakana": "ゾンビゲーマー",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/j3lwlXC.png",
+      "primaryColor": "white",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "41",
+      "DX": false,
+      "series": "exaid",
+
+      "name": "Para-DX",
+      "katakana": "パラドクス",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/JZgNE27.png",
+      "primaryColor": "blue",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "42",
+      "DX": true,
+
+      "series": "exaid",
+      "name": "Poppy",
+      "katakana": "ポッピー",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/1x3MKKb.png",
+      "primaryColor": "white",
+      "secondaryColor": "pink"
+    },
+    {
+      "id": "43",
+      "DX": true,
+
+      "series": "exaid",
+      "name": "Cronus",
+      "katakana": "クロノス",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/HaG62QP.png",
+      "primaryColor": "green",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "44",
+      "DX": true,
+
+      "series": "ghost",
+      "name": "Ghost",
+      "katakana": "ゴースト",
+      "year": "2015",
+      "imagesource": "https://i.imgur.com/cHVSJA0.png",
+      "primaryColor": "orange",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "45",
+      "DX": false,
+      "series": "ghost",
+
+      "name": "Toucon Boost",
+      "katakana": "闘魂ブースト魂",
+      "year": "2015",
+      "imagesource": "https://i.imgur.com/jFxCxxU.png",
+      "primaryColor": "red",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "46",
+      "DX": false,
+      "series": "ghost",
+
+      "name": "Grateful Damashii",
+      "katakana": "グレイトフル魂",
+      "year": "2015",
+      "imagesource": "https://i.imgur.com/d3hmsTn.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "47",
+      "DX": true,
+
+      "series": "ghost",
+      "name": "Mugen Damashii",
+      "katakana": "ムゲン魂",
+      "year": "2015",
+      "imagesource": "https://i.imgur.com/oaLHC3R.png",
+      "primaryColor": "white",
+      "secondaryColor": "orange"
+    },
+    {
+      "id": "48",
+      "DX": false,
+      "series": "ghost",
+
+      "name": "Specter",
+      "katakana": "スペクタ",
+      "year": "2015",
+      "imagesource": "https://i.imgur.com/o4v9UjN.png",
+      "primaryColor": "blue",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "49",
+      "DX": false,
+      "series": "ghost",
+
+      "name": "Deep Specter",
+      "katakana": "ディープ　スペクタ",
+      "year": "2015",
+      "imagesource": "https://i.imgur.com/26zqiU8.png",
+      "primaryColor": "purple",
+      "secondaryColor": "maroon"
+    },
+    {
+      "id": "50",
+      "DX": false,
+      "series": "ghost",
+
+      "name": "Necrom",
+      "katakana": "ネクロム",
+      "year": "2015",
+      "imagesource": "https://i.imgur.com/9LB8PzM.png",
+      "primaryColor": "green",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "51",
+      "DX": true,
+
+      "series": "drive",
+      "name": "Drive",
+      "katakana": "ドライブ",
+      "year": "2014",
+      "imagesource": "https://i.imgur.com/LLWEa4h.png",
+      "primaryColor": "black",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "52",
+      "DX": false,
+      "series": "drive",
+
+      "name": "Type Dead Heat",
+      "katakana": "タイプデッドヒート",
+      "year": "2014",
+      "imagesource": "https://i.imgur.com/OfrLmKf.png",
+      "primaryColor": "white",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "53",
+      "DX": false,
+      "series": "drive",
+
+      "name": "Type Formula",
+      "katakana": "タイプフォーミュラ",
+      "year": "2014",
+      "imagesource": "https://i.imgur.com/NuCpr3e.png",
+      "primaryColor": "blue",
+      "secondaryColor": "yellow"
+    },
+    {
+      "id": "54",
+      "DX": true,
+
+      "series": "drive",
+      "name": "Type Tridoron",
+      "katakana": "タイプトライドロン",
+      "year": "2014",
+      "imagesource": "https://i.imgur.com/o8T8sK0.png",
+      "primaryColor": "red",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "55",
+      "DX": false,
+      "series": "drive",
+
+      "name": "Mach",
+      "katakana": "マッハ",
+      "year": "2014",
+      "imagesource": "https://i.imgur.com/wq5PuhE.png",
+      "primaryColor": "black",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "56",
+      "DX": false,
+      "series": "drive",
+
+      "name": "Chaser Mach",
+      "katakana": "チェイサーマッハ",
+      "year": "2014",
+      "imagesource": "https://i.imgur.com/IVy7GZU.png",
+      "primaryColor": "purple",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "57",
+      "DX": false,
+      "series": "drive",
+
+      "name": "Chaser",
+      "katakana": "チェイサー",
+      "year": "2014",
+      "imagesource": "https://i.imgur.com/kHOmbn1.png",
+      "primaryColor": "purple",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "58",
+      "DX": true,
+
+      "series": "gaim",
+      "name": "Gaim",
+      "katakana": "鎧武",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/9biCYH1.png",
+      "primaryColor": "blue",
+      "secondaryColor": "orange"
+    },
+    {
+      "id": "59",
+      "DX": false,
+      "series": "gaim",
+
+      "name": "Jimber Lemon Arms",
+      "katakana": "ジンバーレモンアームズ",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/zEW9jiY.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "60",
+      "DX": false,
+      "series": "gaim",
+
+      "name": "Kachidoki Arms",
+      "katakana": "カチドキアームズ",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/jyQU2MZ.png",
+      "primaryColor": "orange",
+      "secondaryColor": "orange"
+    },
+    {
+      "id": "61",
+      "DX": true,
+
+      "series": "gaim",
+      "name": "Kiwami Arms",
+      "katakana": "極アームズ",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/OZLUIUm.png",
+      "primaryColor": "white",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "62",
+      "DX": false,
+      "series": "gaim",
+
+      "name": "Baron",
+      "katakana": "バロン",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/e0I80pL.png",
+      "primaryColor": "red",
+      "secondaryColor": "yellow"
+    },
+    {
+      "id": "63",
+      "DX": false,
+      "series": "gaim",
+
+      "name": "Ryugen",
+      "katakana": "龍玄",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/9PmseB8.png",
+      "primaryColor": "purple",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "64",
+      "DX": false,
+      "series": "gaim",
+
+      "name": "Zangetsu",
+      "katakana": "斬月",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/sOdFoxJ.png",
+      "primaryColor": "white",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "65",
+      "DX": true,
+
+      "series": "gaim",
+      "name": "Zangetsu Kachidoki Arms",
+      "katakana": "斬月カチドキアムーズ",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/Nmj74y0.png",
+      "primaryColor": "gold",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "66",
+      "DX": true,
+
+      "series": "wizard",
+      "name": "Wizard",
+      "katakana": "ウィザード",
+      "year": "2012",
+      "imagesource": "https://i.imgur.com/QxLTzaV.png",
+      "primaryColor": "silver",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "67",
+      "DX": false,
+      "series": "wizard",
+
+      "name": "All Dragon",
+      "katakana": "オールドラゴン",
+      "year": "2012",
+      "imagesource": "https://i.imgur.com/gTBsdBL.png",
+      "primaryColor": "black",
+      "secondaryColor": "mustard"
+    },
+    {
+      "id": "68",
+      "DX": true,
+
+      "series": "wizard",
+      "name": "Infinity Style",
+      "katakana": "インフィニティスタイル",
+      "year": "2012",
+      "imagesource": "https://i.imgur.com/omjYmI3.png",
+      "primaryColor": "clear",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "69",
+      "DX": false,
+      "series": "wizard",
+
+      "name": "Beast",
+      "katakana": "ビースト",
+      "year": "2012",
+      "imagesource": "https://i.imgur.com/Db26Bve.png",
+      "primaryColor": "black",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "70",
+      "DX": false,
+      "series": "wizard",
+
+      "name": "Beast Hyper",
+      "katakana": "ビーストハイパー",
+      "year": "2012",
+      "imagesource": "https://i.imgur.com/NdWWNA8.png",
+      "primaryColor": "blue",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "71",
+      "DX": true,
+
+      "series": "fourze",
+      "name": "Fourze",
+      "katakana": "フォーゼ",
+      "year": "2011",
+      "imagesource": "https://i.imgur.com/Xch8q39.png",
+      "primaryColor": "orange",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "72",
+      "DX": true,
+
+      "series": "fourze",
+      "name": "Cosmic States",
+      "katakana": "コスミックステイツ",
+      "year": "2011",
+      "imagesource": "https://i.imgur.com/7BC72s0.png",
+      "primaryColor": "blue",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "73",
+      "DX": false,
+      "series": "fourze",
+
+      "name": "Meteor",
+      "katakana": "メテオ",
+      "year": "2011",
+      "imagesource": "https://i.imgur.com/5lSEhiz.png",
+      "primaryColor": "black",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "74",
+      "DX": false,
+      "series": "fourze",
+
+      "name": "Meteor Storm",
+      "katakana": "メテオストーム",
+      "year": "2011",
+      "imagesource": "https://i.imgur.com/WgjtHKY.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "75",
+      "DX": true,
+
+      "series": "ooo",
+      "name": "OOO",
+      "katakana": "オーズ",
+      "year": "2010",
+      "imagesource": "https://i.imgur.com/pF1uiAs.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "76",
+      "DX": true,
+
+      "series": "ooo",
+      "name": "Tajador Combo",
+      "katakana": "タジャドルコンボ",
+      "year": "2010",
+      "imagesource": "https://i.imgur.com/EYWUpqM.png",
+      "primaryColor": "red",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "77",
+      "DX": true,
+
+      "series": "ooo",
+      "name": "Putotyra Combo",
+      "katakana": "プトティラコンボ",
+      "year": "2010",
+      "imagesource": "https://i.imgur.com/hLKqmbR.png",
+      "primaryColor": "gold",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "78",
+      "DX": false,
+      "series": "ooo",
+
+      "name": "Birth",
+      "katakana": "バース",
+      "year": "2010",
+      "imagesource": "https://i.imgur.com/1KimHBP.png",
+      "primaryColor": "green",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "79",
+      "DX": true,
+
+      "series": "w",
+      "name": "W",
+      "katakana": "ダブル",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/rKkNYt6.png",
+      "primaryColor": "green",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "80",
+      "DX": true,
+
+      "series": "w",
+      "name": "FangJoker",
+      "katakana": "ファングジョーカー",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/gNJs5T7.png",
+      "primaryColor": "black",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "81",
+      "DX": true,
+
+      "series": "w",
+      "name": "CycloneJokerExtreme",
+      "katakana": "サイクロンジョーカーエクストリーム",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/OUge4JV.png",
+      "primaryColor": "green",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "82",
+      "DX": false,
+      "series": "w",
+
+      "name": "Accel",
+      "katakana": "アクセル",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/kbWNDH7.png",
+      "primaryColor": "red",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "83",
+      "DX": false,
+      "series": "w",
+
+      "name": "Accel Trial",
+      "katakana": "アクセルトライアル",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/PJvcoJ7.png",
+      "primaryColor": "blue",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "84",
+      "DX": false,
+      "series": "w",
+
+      "name": "Skull",
+      "katakana": "スカル",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/9Xo4zJ3.png",
+      "primaryColor": "black",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "85",
+      "DX": true,
+
+      "series": "w",
+      "name": "Eternal",
+      "katakana": "エターナル",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/kQWiCkx.png",
+      "primaryColor": "blue",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "86",
+      "DX": true,
+
+      "series": "decade",
+      "name": "Decade",
+      "katakana": "ヂケイド",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/f227jw0.png",
+      "primaryColor": ["black", "white"],
+      "secondaryColor": "magenta"
+    },
+    {
+      "id": "87",
+      "DX": false,
+      "series": "decade",
+
+      "name": "Decade (GP)",
+      "katakana": "ヂケイド（GP)",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/DX45cNC.png",
+      "primaryColor": "black",
+      "secondaryColor": "magenta"
+    },
+    {
+      "id": "88",
+      "DX": false,
+      "series": "decade",
+
+      "name": "Decade Violent Emotion",
+      "katakana": "ヂケイド激情態",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/y5AfNMc.png",
+      "primaryColor": "black",
+      "secondaryColor": "magenta"
+    },
+    {
+      "id": "89",
+      "DX": true,
+
+      "series": "decade",
+      "name": "Decade Complete",
+      "katakana": "デケイドコンプリートフォーム",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/rpUvZ5V.png",
+      "primaryColor": "silver",
+      "secondaryColor": "magenta"
+    },
+    {
+      "id": "90",
+      "DX": true,
+
+      "series": "decade",
+      "name": "Diend",
+      "katakana": "ディエンド",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/Mhi6Gw8.png",
+      "primaryColor": "black",
+      "secondaryColor": "cyan"
+    },
+    {
+      "id": "91",
+      "DX": true,
+
+      "series": "kiva",
+      "name": "Kiva",
+      "katakana": "キバ",
+      "year": "2008",
+      "imagesource": "https://i.imgur.com/K467lQr.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "92",
+      "DX": true,
+
+      "series": "kiva",
+      "name": "Kiva Emperor",
+      "katakana": "キバエンペラーフォーム",
+      "year": "2008",
+      "imagesource": "https://i.imgur.com/BkJdcLk.png",
+      "primaryColor": "gold",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "93",
+      "DX": false,
+      "series": "kiva",
+
+      "name": "Ixa",
+      "katakana": "イクサ",
+      "year": "2008",
+      "imagesource": "https://i.imgur.com/qp7MZTZ.png",
+      "primaryColor": "white",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "94",
+      "DX": true,
+
+      "series": "kiva",
+      "name": "Dark Kiva",
+      "katakana": "ダークキバ",
+      "year": "2008",
+      "imagesource": "https://i.imgur.com/hLpZws7.png",
+      "primaryColor": "black",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "95",
+      "DX": true,
+
+      "series": "deno",
+      "name": "Den-O",
+      "katakana": "電王",
+      "year": "2007",
+      "imagesource": "https://i.imgur.com/4KPfOzI.png",
+      "primaryColor": "white",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "96",
+      "DX": true,
+
+      "series": "deno",
+      "name": "Climax Form",
+      "katakana": "クライマクスフォーム",
+      "year": "2007",
+      "imagesource": "https://i.imgur.com/lgaq0kz.png",
+      "primaryColor": "red",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "97",
+      "DX": true,
+
+      "series": "deno",
+      "name": "Liner Form",
+      "katakana": "ァイナーフォーム",
+      "year": "2007",
+      "imagesource": "https://i.imgur.com/WunDSgO.png",
+      "primaryColor": "red",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "98",
+      "DX": false,
+      "series": "deno",
+
+      "name": "Zeronos",
+      "katakana": "ゼロノス",
+      "year": "2007",
+      "imagesource": "https://i.imgur.com/deoHX8l.png",
+      "primaryColor": "green",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "99",
+      "DX": true,
+
+      "series": "kabuto",
+      "name": "Kabuto",
+      "katakana": "カブト",
+      "year": "2006",
+      "imagesource": "https://i.imgur.com/jI0Wiz4.png",
+      "primaryColor": "red",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "100",
+      "DX": true,
+
+      "series": "kabuto",
+      "name": "Hyper Kabuto",
+      "katakana": "ハイパーフォーム",
+      "year": "2006",
+      "imagesource": "https://i.imgur.com/eXdHwHn.png",
+      "primaryColor": "red",
+      "secondaryColor": "gold"
+    },
+    {
+      "id": "101",
+      "DX": false,
+      "series": "kabuto",
+
+      "name": "Gatack",
+      "katakana": "ガタック",
+      "year": "2006",
+      "imagesource": "https://i.imgur.com/8RTX0fK.png",
+      "primaryColor": "blue",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "102",
+      "DX": true,
+
+      "series": "hibiki",
+      "name": "Hibiki",
+      "katakana": "響鬼",
+      "year": "2005",
+      "imagesource": "https://i.imgur.com/x71DE1x.png",
+      "primaryColor": "pink",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "103",
+      "DX": true,
+
+      "series": "hibiki",
+      "name": "Armed Hibiki",
+      "katakana": "アームド響鬼",
+      "year": "2005",
+      "imagesource": "https://i.imgur.com/ZD1FGnt.png",
+      "primaryColor": "red",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "104",
+      "DX": false,
+      "series": "hibiki",
+
+      "name": "Ibuki",
+      "katakana": "威吹鬼",
+      "year": "2005",
+      "imagesource": "https://i.imgur.com/mLdMmhM.png",
+      "primaryColor": "blue",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "105",
+      "DX": true,
+
+      "series": "blade",
+      "name": "Blade",
+      "katakana": "ブレイド",
+      "year": "2004",
+      "imagesource": "https://i.imgur.com/BBGuXIe.png",
+      "primaryColor": "silver",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "106",
+      "DX": true,
+
+      "series": "blade",
+      "name": "Blade King Form",
+      "katakana": "ブレイドキングフォーム",
+      "year": "2004",
+      "imagesource": "https://i.imgur.com/dWrfHup.png",
+      "primaryColor": "gold",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "107",
+      "DX": false,
+      "series": "blade",
+
+      "name": "Garren",
+      "katakana": "ギャレン",
+      "year": "2004",
+      "imagesource": "https://i.imgur.com/jEjb6PE.png",
+      "primaryColor": "grey",
+      "secondaryColor": "maroon"
+    },
+    {
+      "id": "108",
+      "DX": true,
+
+      "series": "blade",
+      "name": "Chalice",
+      "katakana": "カリス",
+      "year": "2004",
+      "imagesource": "https://i.imgur.com/DFEpsBR.png",
+      "primaryColor": "gold",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "109",
+      "DX": true,
+
+      "series": "faiz",
+      "name": "Faiz",
+      "katakana": "ファイズ",
+      "year": "2003",
+      "imagesource": "https://i.imgur.com/a4Ftute.png",
+      "primaryColor": "black",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "110",
+      "DX": true,
+
+      "series": "faiz",
+      "name": "Faiz Accel",
+      "katakana": "ファイズアクセルフォーム",
+      "year": "2003",
+      "imagesource": "https://i.imgur.com/JSDu7TC.png",
+      "primaryColor": "silver",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "111",
+      "DX": true,
+
+      "series": "faiz",
+      "name": "Faiz Blaster",
+      "katakana": "ファイズブラスターフォーム",
+      "year": "2003",
+      "imagesource": "https://i.imgur.com/ys3MQuo.png",
+      "primaryColor": "clear",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "112",
+      "DX": false,
+      "series": "faiz",
+
+      "name": "Kaixa",
+      "katakana": "カイザ",
+      "year": "2003",
+      "imagesource": "https://i.imgur.com/kvXPfTu.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "112",
+      "DX": false,
+      "series": "faiz",
+
+      "name": "Delta",
+      "katakana": "デルタ",
+      "year": "2003",
+      "imagesource": "https://i.imgur.com/XlXHZPU.png",
+      "primaryColor": "silver",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "113",
+      "DX": true,
+
+      "series": "ryuki",
+      "name": "Ryuki",
+      "katakana": "龍騎",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/Q1GxNQv.png",
+      "primaryColor": "silver",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "114",
+      "DX": true,
+
+      "series": "ryuki",
+      "name": "Ryuki Survive",
+      "katakana": "龍騎サバイブ",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/IZshp2Y.png",
+      "primaryColor": "red",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "115",
+      "DX": false,
+      "series": "ryuki",
+
+      "name": "Knight",
+      "katakana": "ナイト",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/Y9b7vkl.png",
+      "primaryColor": "blue",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "116",
+      "DX": false,
+      "series": "ryuki",
+
+      "name": "Knight Survive",
+      "katakana": "ナイトサバイブ",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/6Abakp8.png",
+      "primaryColor": "blue",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "118",
+      "DX": true,
+
+      "series": "ryuki",
+      "name": "Scissors",
+      "katakana": "シザース",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/jXlQtwf.png",
+      "primaryColor": "silver",
+      "secondaryColor": "brown"
+    },
+    {
+      "id": "117",
+      "DX": false,
+      "series": "ryuki",
+
+      "name": "Zolda",
+      "katakana": "ゾルダ",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/bTajcey.png",
+      "primaryColor": "green",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "119",
+      "DX": true,
+
+      "series": "ryuki",
+      "name": "Ouja",
+      "katakana": "王蛇",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/t6Nlpzz.png",
+      "primaryColor": "silver",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "120",
+      "DX": true,
+
+      "series": "agito",
+      "name": "Agito",
+      "katakana": "アギト",
+      "year": "2001",
+      "imagesource": "https://i.imgur.com/yLZfMd4.png",
+      "primaryColor": "gold",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "121",
+      "DX": true,
+
+      "series": "agito",
+      "name": "Shining Form",
+      "katakana": "アギトシャイニングフォーム",
+      "year": "2001",
+      "imagesource": "https://i.imgur.com/4H9PcBm.png",
+      "primaryColor": "red",
+      "secondaryColor": "white"
+    },
+    {
+      "id": "122",
+      "DX": false,
+      "series": "agito",
+
+      "name": "G3-X",
+      "katakana": "ジースリーエクス",
+      "year": "2001",
+      "imagesource": "https://i.imgur.com/XjJliIb.png",
+      "primaryColor": "blue",
+      "secondaryColor": "grey"
+    },
+    {
+      "id": "123",
+      "DX": false,
+      "series": "agito",
+
+      "name": "Gills",
+      "katakana": "ギルス",
+      "year": "2001",
+      "imagesource": "https://i.imgur.com/06mKmqL.png",
+      "primaryColor": "green",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "124",
+      "DX": true,
+
+      "series": "kuuga",
+      "name": "Kuuga",
+      "katakana": "クウガ",
+      "year": "2000",
+      "imagesource": "https://i.imgur.com/K51TAR6.png",
+      "primaryColor": "gold",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "125",
+      "DX": false,
+      "series": "kuuga",
+
+      "name": "Amazing Mighty",
+      "katakana": "クウガアメイジングマイティ",
+      "year": "2000",
+      "imagesource": "https://i.imgur.com/ytby5F0.png",
+      "primaryColor": "black",
+      "secondaryColor": "yellow"
+    },
+    {
+      "id": "126",
+      "DX": true,
+
+      "series": "kuuga",
+      "name": "Ultimate Form",
+      "katakana": "クウガアルティメットフォーム",
+      "year": "2000",
+      "imagesource": "https://i.imgur.com/5eoz87Z.png",
+      "primaryColor": "grey",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "127",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Kuuga",
+      "katakana": "アナザークウガ",
+      "year": "2000",
+      "imagesource": "https://i.imgur.com/PKhnDip.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "128",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Agito",
+      "katakana": "アナザーアギト",
+      "year": "2001",
+      "imagesource": "https://i.imgur.com/jwY5KuX.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "129",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Ryuki",
+      "katakana": "アナザー龍騎",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/N8zuEa8.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "129",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Ryuga",
+      "katakana": "アナザーリュウガ",
+      "year": "2002",
+      "imagesource": "https://i.imgur.com/mDYeOv8.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "130",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Faiz",
+      "katakana": "アナザーファイズ",
+      "year": "2003",
+      "imagesource": "https://i.imgur.com/DpLzDu9.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "131",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Blade",
+      "katakana": "アナザーブレイド",
+      "year": "2004",
+      "imagesource": "https://i.imgur.com/9ttNhWy.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "132",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Hibiki",
+      "katakana": "アナザー響鬼",
+      "year": "2005",
+      "imagesource": "https://i.imgur.com/A7lE0qT.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "133",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Kabuto",
+      "katakana": "アナザーカブト",
+      "year": "2006",
+      "imagesource": "https://i.imgur.com/aZLWaoI.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "134",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Den-O",
+      "katakana": "アナザー電王",
+      "year": "2007",
+      "imagesource": "https://i.imgur.com/34PyWpl.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "135",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Kiva",
+      "katakana": "アナザーキバ",
+      "year": "2008",
+      "imagesource": "https://i.imgur.com/MB7e7FR.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "136",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Decade",
+      "katakana": "アナザーディケイド",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/K8ZX4Sl.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "137",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another W",
+      "katakana": "アナザーダブル",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/b4I8I29.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "138",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another OOO",
+      "katakana": "アナザーオーズ",
+      "year": "2010",
+      "imagesource": "https://i.imgur.com/uzwBNj3.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "139",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Fourze",
+      "katakana": "アナザーフォーゼ",
+      "year": "2011",
+      "imagesource": "https://i.imgur.com/Gtbznnt.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "140",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Wizard",
+      "katakana": "アナザーウィザード",
+      "year": "2012",
+      "imagesource": "https://i.imgur.com/nOjuITQ.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "141",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Gaim",
+      "katakana": "アナザー鎧武",
+      "year": "2013",
+      "imagesource": "https://i.imgur.com/vorEjdm.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "142",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Drive",
+      "katakana": "アナザードライブ",
+      "year": "2014",
+      "imagesource": "https://i.imgur.com/rYZmFeq.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "143",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Ghost",
+      "katakana": "アナザーゴースト",
+      "year": "2015",
+      "imagesource": "https://i.imgur.com/8oyRn0k.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "144",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Ex-Aid",
+      "katakana": "アナザーエグゼイド",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/FYIRTLx.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "145",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Build",
+      "katakana": "アナザービルド",
+      "year": "2017",
+      "imagesource": "https://i.imgur.com/zf2nGBY.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "146",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Zi-O",
+      "katakana": "アナザージオウ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/QS5NMMy.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "147",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Zi-O II",
+      "katakana": "アンザージオウツ",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/vCqZZIn.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "148",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Shinobi",
+      "katakana": "アナザーシノビ",
+      "year": "2022",
+      "imagesource": "https://i.imgur.com/SV77Txo.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "149",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Quiz",
+      "katakana": "アンザークイズ",
+      "year": "2040",
+      "imagesource": "https://i.imgur.com/nKZsO7m.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "150",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Kikai",
+      "katakana": "アナザーキカイ",
+      "year": "2121",
+      "imagesource": "https://i.imgur.com/0uqVZGb.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "151",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Amazon Omega",
+      "katakana": "アマゾンオメガ",
+      "year": "2016",
+      "imagesource": "https://i.imgur.com/YK5wmTk.png",
+      "primaryColor": "black",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "152",
+      "DX": false,
+      "series": "misc",
+
+      "name": "Ryusoulger",
+      "katakana": "リュウソウジャー",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/BE3eyIC.png",
+      "primaryColor": "grey",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "153",
+      "DX": false,
+      "series": "misc",
+
+      "name": "Zero-One",
+      "katakana": "セロワン",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/1UZ3JTB.png",
+      "primaryColor": "yellow",
+      "secondaryColor": "black"
+    }
+  ]
 }
