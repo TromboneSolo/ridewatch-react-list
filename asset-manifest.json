@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ridewatch-react-list/static/css/main.c8a876c3.chunk.css",
-    "main.js": "/ridewatch-react-list/static/js/main.f356f24d.chunk.js",
-    "main.js.map": "/ridewatch-react-list/static/js/main.f356f24d.chunk.js.map",
+    "main.css": "/ridewatch-react-list/static/css/main.fdd63dff.chunk.css",
+    "main.js": "/ridewatch-react-list/static/js/main.6ea5430a.chunk.js",
+    "main.js.map": "/ridewatch-react-list/static/js/main.6ea5430a.chunk.js.map",
     "runtime~main.js": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js",
     "runtime~main.js.map": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js.map",
-    "static/js/2.a33afb6d.chunk.js": "/ridewatch-react-list/static/js/2.a33afb6d.chunk.js",
-    "static/js/2.a33afb6d.chunk.js.map": "/ridewatch-react-list/static/js/2.a33afb6d.chunk.js.map",
+    "static/js/2.173f24a6.chunk.js": "/ridewatch-react-list/static/js/2.173f24a6.chunk.js",
+    "static/js/2.173f24a6.chunk.js.map": "/ridewatch-react-list/static/js/2.173f24a6.chunk.js.map",
     "index.html": "/ridewatch-react-list/index.html",
-    "precache-manifest.368fe438fe561adcb534e1c8f009aafc.js": "/ridewatch-react-list/precache-manifest.368fe438fe561adcb534e1c8f009aafc.js",
+    "precache-manifest.1b3251677d0e49f54a489cda4e7e0d96.js": "/ridewatch-react-list/precache-manifest.1b3251677d0e49f54a489cda4e7e0d96.js",
     "service-worker.js": "/ridewatch-react-list/service-worker.js",
-    "static/css/main.c8a876c3.chunk.css.map": "/ridewatch-react-list/static/css/main.c8a876c3.chunk.css.map",
+    "static/css/main.fdd63dff.chunk.css.map": "/ridewatch-react-list/static/css/main.fdd63dff.chunk.css.map",
     "static/media/Japanese-logo.png": "/ridewatch-react-list/static/media/Japanese-logo.ccef89ea.png",
-    "static/media/english-logo.png": "/ridewatch-react-list/static/media/english-logo.438bd350.png",
+    "static/media/ZioEnglishLogo.png": "/ridewatch-react-list/static/media/ZioEnglishLogo.c248d4dc.png",
     "static/media/test.png": "/ridewatch-react-list/static/media/test.862cf77f.png"
   }
 }

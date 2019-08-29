@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be98f24e3d692ba8eb94ee3bd3a1ccea",
+    "revision": "6b6b66085c373c2ae5872318285288da",
     "url": "/ridewatch-react-list/index.html"
   },
   {
-    "revision": "c4e6fb2781031fa36681",
-    "url": "/ridewatch-react-list/static/css/main.c8a876c3.chunk.css"
+    "revision": "d31de32f0cbe21a5c120",
+    "url": "/ridewatch-react-list/static/css/main.fdd63dff.chunk.css"
   },
   {
-    "revision": "854dafe7fbd042fec6e4",
-    "url": "/ridewatch-react-list/static/js/2.a33afb6d.chunk.js"
+    "revision": "41beb00a60f431e97a3f",
+    "url": "/ridewatch-react-list/static/js/2.173f24a6.chunk.js"
   },
   {
-    "revision": "c4e6fb2781031fa36681",
-    "url": "/ridewatch-react-list/static/js/main.f356f24d.chunk.js"
+    "revision": "d31de32f0cbe21a5c120",
+    "url": "/ridewatch-react-list/static/js/main.6ea5430a.chunk.js"
   },
   {
     "revision": "8cf030961bcbb933377c",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ridewatch-react-list/static/media/Japanese-logo.ccef89ea.png"
   },
   {
-    "revision": "438bd35031291f9a96cb0bd07da34230",
-    "url": "/ridewatch-react-list/static/media/english-logo.438bd350.png"
+    "revision": "c248d4dcc55c1453e8fdeb8168f74eb3",
+    "url": "/ridewatch-react-list/static/media/ZioEnglishLogo.c248d4dc.png"
   },
   {
     "revision": "862cf77f896d4707b06de26980395e26",
