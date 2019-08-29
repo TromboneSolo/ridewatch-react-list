@@ -6,7 +6,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
 import JapaneseLogo from "./ridewatch/Japanese-logo.png";
-import EnglishLogo from "./ridewatch/English-logo.png";
+import EnglishLogo from "./ridewatch/ZioEnglishLogo.png";
 
 export class App extends Component {
   constructor(props) {
