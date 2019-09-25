@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ridewatch-react-list/static/css/main.c8a876c3.chunk.css",
-    "main.js": "/ridewatch-react-list/static/js/main.90c60147.chunk.js",
-    "main.js.map": "/ridewatch-react-list/static/js/main.90c60147.chunk.js.map",
+    "main.css": "/ridewatch-react-list/static/css/main.8a130a8b.chunk.css",
+    "main.js": "/ridewatch-react-list/static/js/main.8b70936d.chunk.js",
+    "main.js.map": "/ridewatch-react-list/static/js/main.8b70936d.chunk.js.map",
     "runtime~main.js": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js",
     "runtime~main.js.map": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js.map",
     "static/js/2.173f24a6.chunk.js": "/ridewatch-react-list/static/js/2.173f24a6.chunk.js",
     "static/js/2.173f24a6.chunk.js.map": "/ridewatch-react-list/static/js/2.173f24a6.chunk.js.map",
     "index.html": "/ridewatch-react-list/index.html",
-    "precache-manifest.03dc170fe95b8268d0997e31bafd379c.js": "/ridewatch-react-list/precache-manifest.03dc170fe95b8268d0997e31bafd379c.js",
+    "precache-manifest.73c1e5347d66f5412a09b9ed260d3217.js": "/ridewatch-react-list/precache-manifest.73c1e5347d66f5412a09b9ed260d3217.js",
     "service-worker.js": "/ridewatch-react-list/service-worker.js",
-    "static/css/main.c8a876c3.chunk.css.map": "/ridewatch-react-list/static/css/main.c8a876c3.chunk.css.map",
+    "static/css/main.8a130a8b.chunk.css.map": "/ridewatch-react-list/static/css/main.8a130a8b.chunk.css.map",
     "static/media/Japanese-logo.png": "/ridewatch-react-list/static/media/Japanese-logo.ccef89ea.png",
     "static/media/ZioEnglishLogo.png": "/ridewatch-react-list/static/media/ZioEnglishLogo.c248d4dc.png",
+    "static/media/App.css": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.44871b57.woff2",
     "static/media/test.png": "/ridewatch-react-list/static/media/test.862cf77f.png"
   }
 }
