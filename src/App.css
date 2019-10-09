@@ -317,9 +317,10 @@ li {
 }
 
 .fourze {
-  background-image: linear-gradient(rgb(255, 123, 0, 0.212) 50%,
-  rgb(255, 255, 255)
-);
+  background-image: linear-gradient(
+    rgb(255, 123, 0, 0.212) 50%,
+    rgb(255, 255, 255)
+  );
 }
 
 .fourze-open {
@@ -327,9 +328,10 @@ li {
 }
 
 .fourze-closed {
-  background-image: linear-gradient(rgb(255, 123, 0, 0.212) 50%,
-  rgb(255, 255, 255)
-);
+  background-image: linear-gradient(
+    rgb(255, 123, 0, 0.212) 50%,
+    rgb(255, 255, 255)
+  );
 }
 
 .ooo {
@@ -353,7 +355,11 @@ li {
 }
 
 .w {
-  background-image: linear-gradient(rgb(0, 170, 0, 0.212), rgba(59, 4, 52, 0.356));
+  background-image: linear-gradient(
+    rgb(0, 170, 0, 0.212),
+    rgba(116, 6, 101, 0.356),
+    rgb(255, 255, 255)
+  );
 }
 
 .w-open {
@@ -361,17 +367,27 @@ li {
 }
 
 .w-closed {
-  background-image: linear-gradient(rgb(0, 170, 0, 0.212), rgba(59, 4, 52, 0.356));
+  background-image: linear-gradient(
+    rgb(0, 170, 0, 0.212),
+    rgba(116, 6, 101, 0.356),
+    rgb(255, 255, 255)
+  );
 }
 
 .decade {
-  background-image: linear-gradient(rgb(0, 170, 0), rgb(92, 0, 80));
+  background-image: linear-gradient(
+    rgba(255, 32, 225, 0.356) 20%,
+    rgb(255, 255, 255)
+  );
 }
 
 .decade-open {
-  background: rgb(0, 170, 0);
+  background: rgba(255, 32, 225, 0.356);
 }
 
 .decade-closed {
-  background-image: linear-gradient(rgb(0, 170, 0), rgb(92, 0, 80));
+  background-image: linear-gradient(
+    rgba(255, 32, 225, 0.356) 20%,
+    rgb(255, 255, 255)
+  );
 }

@@ -233,6 +233,17 @@
       "secondaryColor": "black"
     },
     {
+      "id": "8.2",
+      "DX": true,
+      "series": "zio",
+      "name": "Woz (Ridewatch Version)",
+      "katakana": "ウォズ (ライドウォッチ　バージョン)",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/vAO5UnV.png",
+      "primaryColor": "green",
+      "secondaryColor": "silver"
+    },
+    {
       "id": "9",
       "DX": true,
 
