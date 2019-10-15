@@ -56,7 +56,7 @@ class Sidebar extends Component {
               })}
             </ul>
             <div>
-              <p id="totalText">Total Owned: {this.props.totalOwned}/171</p>
+              <p id="totalText">Total Owned: {this.props.totalOwned}/172</p>
             </div>
           </div>
         </div>
