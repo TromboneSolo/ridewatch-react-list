@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ridewatch-react-list/precache-manifest.3a2fd29a9be0092702e8601a83efda65.js"
+  "/ridewatch-react-list/precache-manifest.fb947518d6aaea504ddbfbd70a5e0bb9.js"
 );
 
 self.addEventListener('message', (event) => {
