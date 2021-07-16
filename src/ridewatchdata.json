@@ -1224,7 +1224,7 @@
       "katakana": "ヂケイド",
       "year": "2009",
       "imagesource": "https://i.imgur.com/f227jw0.png",
-      "primaryColor": ["black", "white"],
+      "primaryColor": "black",
       "secondaryColor": "magenta"
     },
     {
@@ -1262,6 +1262,18 @@
       "imagesource": "https://i.imgur.com/rpUvZ5V.png",
       "primaryColor": "silver",
       "secondaryColor": "magenta"
+    },
+    {
+      "id": "89.1",
+      "DX": true,
+
+      "series": "decade",
+      "name": "Decade Complete 21",
+      "katakana": "デケイドコンプリートフォーム 21",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/TMiDZQE.png",
+      "primaryColor": "magenta",
+      "secondaryColor": "silver"
     },
     {
       "id": "90",
@@ -1720,6 +1732,18 @@
       "secondaryColor": "black"
     },
     {
+      "id": "126.1",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Ichigou",
+      "katakana": "アナザー1号",
+      "year": "1971",
+      "imagesource": "https://i.imgur.com/DCPuLfy.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
       "id": "127",
       "DX": true,
 
@@ -1852,6 +1876,18 @@
       "secondaryColor": "purple"
     },
     {
+      "id": "136.1",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Diend",
+      "katakana": "アナザーディエンド",
+      "year": "2009",
+      "imagesource": "https://i.imgur.com/XXHWov4.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
       "id": "137",
       "DX": true,
 
@@ -1919,7 +1955,7 @@
       "name": "Another Drive",
       "katakana": "アナザードライブ",
       "year": "2014",
-      "imagesource": "https://i.imgur.com/rYZmFeq.png",
+      "imagesource": "https://i.imgur.com/N1GzLTU.png",
       "primaryColor": "black",
       "secondaryColor": "purple"
     },
@@ -1980,6 +2016,18 @@
       "katakana": "アンザージオウツ",
       "year": "2019",
       "imagesource": "https://i.imgur.com/vCqZZIn.png",
+      "primaryColor": "black",
+      "secondaryColor": "purple"
+    },
+    {
+      "id": "147.1",
+      "DX": true,
+
+      "series": "another",
+      "name": "Another Zero-One",
+      "katakana": "アンザーゼロワン",
+      "year": "2019",
+      "imagesource": "https://i.imgur.com/sbeCV9P.png",
       "primaryColor": "black",
       "secondaryColor": "purple"
     },
@@ -2049,11 +2097,23 @@
       "series": "misc",
 
       "name": "Zero-One",
-      "katakana": "セロワン",
+      "katakana": "ゼロワン",
       "year": "2019",
       "imagesource": "https://i.imgur.com/1UZ3JTB.png",
       "primaryColor": "yellow",
       "secondaryColor": "black"
+    },
+    {
+      "id": "154",
+      "DX": true,
+      "series": "misc",
+
+      "name": "Saber",
+      "katakana": "セイバー",
+      "year": "2020",
+      "imagesource": "https://i.imgur.com/1UZ3JTB.png",
+      "primaryColor": "black",
+      "secondaryColor": "red"
     }
   ]
 }
