@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/ridewatch-react-list/static/css/main.72222583.chunk.css",
-    "main.js": "/ridewatch-react-list/static/js/main.6dacb4dc.chunk.js",
-    "main.js.map": "/ridewatch-react-list/static/js/main.6dacb4dc.chunk.js.map",
-    "runtime~main.js": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js",
-    "runtime~main.js.map": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js.map",
-    "static/js/2.e9a87d56.chunk.js": "/ridewatch-react-list/static/js/2.e9a87d56.chunk.js",
-    "static/js/2.e9a87d56.chunk.js.map": "/ridewatch-react-list/static/js/2.e9a87d56.chunk.js.map",
+    "main.css": "/ridewatch-react-list/static/css/main.2d2f62d9.chunk.css",
+    "main.js": "/ridewatch-react-list/static/js/main.4c5433a0.chunk.js",
+    "main.js.map": "/ridewatch-react-list/static/js/main.4c5433a0.chunk.js.map",
+    "runtime-main.js": "/ridewatch-react-list/static/js/runtime-main.03504e69.js",
+    "runtime-main.js.map": "/ridewatch-react-list/static/js/runtime-main.03504e69.js.map",
+    "static/js/2.5e0aed35.chunk.js": "/ridewatch-react-list/static/js/2.5e0aed35.chunk.js",
+    "static/js/2.5e0aed35.chunk.js.map": "/ridewatch-react-list/static/js/2.5e0aed35.chunk.js.map",
     "index.html": "/ridewatch-react-list/index.html",
-    "precache-manifest.fb947518d6aaea504ddbfbd70a5e0bb9.js": "/ridewatch-react-list/precache-manifest.fb947518d6aaea504ddbfbd70a5e0bb9.js",
-    "service-worker.js": "/ridewatch-react-list/service-worker.js",
-    "static/css/main.72222583.chunk.css.map": "/ridewatch-react-list/static/css/main.72222583.chunk.css.map",
-    "static/media/Japanese-logo.png": "/ridewatch-react-list/static/media/Japanese-logo.ccef89ea.png",
-    "static/media/ZioEnglishLogo.png": "/ridewatch-react-list/static/media/ZioEnglishLogo.c248d4dc.png",
-    "static/media/App.css": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.44871b57.woff2",
-    "static/media/test.png": "/ridewatch-react-list/static/media/test.862cf77f.png"
-  }
+    "static/css/main.2d2f62d9.chunk.css.map": "/ridewatch-react-list/static/css/main.2d2f62d9.chunk.css.map",
+    "static/js/2.5e0aed35.chunk.js.LICENSE.txt": "/ridewatch-react-list/static/js/2.5e0aed35.chunk.js.LICENSE.txt",
+    "static/media/Japanese-logo.9f7fbd11.png": "/ridewatch-react-list/static/media/Japanese-logo.9f7fbd11.png",
+    "static/media/ZioEnglishLogo.4d929478.png": "/ridewatch-react-list/static/media/ZioEnglishLogo.4d929478.png",
+    "static/media/App.css": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.71def6a8.woff2",
+    "static/media/test.7497f3af.png": "/ridewatch-react-list/static/media/test.7497f3af.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03504e69.js",
+    "static/js/2.5e0aed35.chunk.js",
+    "static/css/main.2d2f62d9.chunk.css",
+    "static/js/main.4c5433a0.chunk.js"
+  ]
 }
