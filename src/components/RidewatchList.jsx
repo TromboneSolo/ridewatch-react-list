@@ -29,7 +29,7 @@ export class RidewatchList extends Component {
   }
 
   ridewatchMaker() {
-    let ridewatches = this.props.watchJson.watch.map(watch => {
+    let ridewatches = this.props.watches.map(watch => {
       if (watch.series === this.props.series) {
         return (
           <li>

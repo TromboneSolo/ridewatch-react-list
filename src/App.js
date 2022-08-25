@@ -21,7 +21,7 @@ export class App extends Component {
   }
 
   languageClick() {
-    if (this.state.katakana === false) {
+    if (!this.state.katakana) {
       this.setState({
         katakana: true,
         language: "Japanese",
@@ -37,6 +37,7 @@ export class App extends Component {
   }
 
   componentWillMount() {
+    
     this.setState({ totalOwned: localStorage.length.toString() });
   }
 

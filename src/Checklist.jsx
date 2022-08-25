@@ -1,147 +1,35 @@
 import React, { Component } from "react";
 import RidewatchList from "./components/RidewatchList.jsx";
-import ridewatchJson from "./ridewatchdata.json";
+
+import DataService from "./services/DataService";
 
 class Checklist extends Component {
   constructor(props) {
     super(props);
+    this.dataService = new DataService();
     this.state = {};
   }
+
+
+
   render() {
+
+    var allWatches = this.dataService.fetchAll();
+    var uniqueSeriesList = this.dataService.fetchUniqueSeries(allWatches);
+    var ridewatchLists = uniqueSeriesList.map(series =>
+      <RidewatchList
+      series={series}
+      katakana={this.props.katakana}
+      watches={allWatches.filter(w => w.series === series)}
+      ridewatchClick={this.props.ridewatchClick} 
+    /> 
+    );
+
     return (
       <div>
-        <RidewatchList
-          series={"zio"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"build"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"exaid"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"ghost"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"drive"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"gaim"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"wizard"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"fourze"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"ooo"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"w"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"decade"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"kiva"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"deno"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"kabuto"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"hibiki"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"blade"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"faiz"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"ryuki"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"agito"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"kuuga"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"another"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
-        <RidewatchList
-          series={"misc"}
-          watchJson={ridewatchJson}
-          katakana={this.props.katakana}
-          ridewatchClick={this.props.ridewatchClick}
-        />
+
+        {ridewatchLists}
+
       </div>
     );
   }

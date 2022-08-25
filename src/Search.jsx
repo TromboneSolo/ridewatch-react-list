@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ridewatchJson from "./ridewatchdata.json";
 import Ridewatch from "./components/Ridewatch";
 
+
+
 class Search extends Component {
   constructor(props) {
     super(props);
