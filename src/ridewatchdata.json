@@ -1,7 +1,7 @@
 {
   "watch": [
     {
-      "id": "1",
+      "id": "zio",
       "DX": true,
 
       "series": "zio",
@@ -13,7 +13,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "2",
+      "id": "ziogame",
       "DX": true,
       "series": "zio",
 
@@ -25,7 +25,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "3",
+      "id": "ziotheme",
       "DX": true,
       "series": "zio",
 
@@ -37,7 +37,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "4",
+      "id": "zioaurora",
       "DX": false,
       "series": "zio",
 
@@ -49,7 +49,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "5",
+      "id": "zioxmas",
       "DX": false,
       "series": "zio",
 
@@ -61,7 +61,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "6",
+      "id": "mirrorzio",
       "DX": true,
 
       "series": "zio",
@@ -73,7 +73,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "7",
+      "id": "ziomemo",
       "DX": true,
 
       "series": "zio",
@@ -85,7 +85,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "8",
+      "id": "zioii",
       "DX": true,
 
       "series": "zio",
@@ -97,7 +97,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "9",
+      "id": "ziotrinity",
       "DX": true,
 
       "series": "zio",
@@ -109,7 +109,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "10",
+      "id": "grandzio",
       "DX": true,
 
       "series": "zio",
@@ -121,7 +121,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "11",
+      "id": "oumazio",
       "DX": true,
       "series": "zio",
       "name": "Ouma Zi-O",
@@ -132,7 +132,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "12",
+      "id": "geiz",
       "DX": true,
       "series": "zio",
       "name": "Geiz",
@@ -143,7 +143,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "13",
+      "id": "geizccg",
       "DX": true,
       "series": "zio",
       "name": "Geiz (CCG Exclusive)",
@@ -154,7 +154,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "14",
+      "id": "geizmemo",
       "DX": true,
       "series": "zio",
       "name": "Geiz (Memorial Version)",
@@ -165,7 +165,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "15",
+      "id": "geizrevive",
       "DX": true,
       "series": "zio",
       "name": "Geiz Revive",
@@ -176,7 +176,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "16",
+      "id": "geizbibiru",
       "DX": true,
       "series": "zio",
       "name": "Geiz Bibiru",
@@ -187,7 +187,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "17",
+      "id": "geizmajesty",
       "DX": true,
       "series": "zio",
       "name": "Geiz Majesty",
@@ -198,7 +198,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "18",
+      "id": "tsukuyomi",
       "DX": true,
 
       "series": "zio",
@@ -210,7 +210,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "19",
+      "id": "woz",
       "DX": true,
 
       "series": "zio",
@@ -222,7 +222,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "20",
+      "id": "wozmemo",
       "DX": true,
       "series": "zio",
       "name": "Woz (Memorial Version)",
@@ -233,7 +233,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "21",
+      "id": "wozwatch",
       "DX": true,
       "series": "zio",
       "name": "Woz (Ridewatch Version)",
@@ -244,7 +244,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "22",
+      "id": "shinobi",
       "DX": true,
 
       "series": "zio",
@@ -256,7 +256,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "23",
+      "id": "quiz",
       "DX": true,
 
       "series": "zio",
@@ -268,7 +268,7 @@
       "secondaryColor": "orange"
     },
     {
-      "id": "24",
+      "id": "kikai",
       "DX": true,
 
       "series": "zio",
@@ -280,7 +280,7 @@
       "secondaryColor": "yellow"
     },
     {
-      "id": "25",
+      "id": "wozginga",
       "DX": true,
 
       "series": "zio",
@@ -292,7 +292,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "26",
+      "id": "barlckxs",
       "DX": true,
 
       "series": "zio",
@@ -304,7 +304,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "27",
+      "id": "zonjis",
       "DX": true,
 
       "series": "zio",
@@ -316,7 +316,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "28",
+      "id": "zamonas",
       "DX": true,
 
       "series": "zio",
@@ -328,7 +328,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "29",
+      "id": "build",
       "DX": true,
 
       "series": "build",
@@ -340,7 +340,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "30",
+      "id": "buildsparkling",
       "DX": false,
       "series": "build",
 
@@ -352,7 +352,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "31",
+      "id": "buildhazard",
       "DX": true,
 
       "series": "build",
@@ -364,7 +364,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "32",
+      "id": "buildrabbitrabbit",
       "DX": false,
       "series": "build",
 
@@ -376,7 +376,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "33",
+      "id": "buildtanktank",
       "DX": false,
       "series": "build",
 
@@ -388,7 +388,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "34",
+      "id": "buildgenius",
       "DX": true,
 
       "series": "build",
@@ -400,7 +400,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "35",
+      "id": "buildrabbitdragon",
       "DX": false,
       "series": "build",
 
@@ -412,7 +412,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "36",
+      "id": "crossz",
       "DX": false,
       "series": "build",
 
@@ -424,7 +424,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "37",
+      "id": "crosszcharge",
       "DX": true,
 
       "series": "build",
@@ -436,7 +436,7 @@
       "secondaryColor": "grey"
     },
     {
-      "id": "38",
+      "id": "crosszmagma",
       "DX": false,
       "series": "build",
 
@@ -448,7 +448,7 @@
       "secondaryColor": "orange"
     },
     {
-      "id": "39",
+      "id": "grease",
       "DX": true,
 
       "series": "build",
@@ -460,7 +460,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "40",
+      "id": "greaseblizzard",
       "DX": false,
       "series": "build",
 
@@ -472,7 +472,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "41",
+      "id": "rogue",
       "DX": false,
       "series": "build",
 
@@ -484,7 +484,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "42",
+      "id": "evol",
       "DX": false,
       "series": "build",
 
@@ -496,7 +496,7 @@
       "secondaryColor": "maroon"
     },
     {
-      "id": "43",
+      "id": "evolblackhole",
       "DX": false,
       "series": "build",
 
@@ -508,7 +508,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "44",
+      "id": "madrogue",
       "DX": false,
       "series": "build",
 
@@ -520,7 +520,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "45",
+      "id": "exaid",
       "DX": true,
 
       "series": "exaid",
@@ -532,7 +532,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "46",
+      "id": "exaidxxl",
       "DX": false,
       "series": "exaid",
 
@@ -544,7 +544,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "47",
+      "id": "exaidxxr",
       "DX": false,
       "series": "exaid",
 
@@ -556,7 +556,7 @@
       "secondaryColor": "orange"
     },
     {
-      "id": "48",
+      "id": "exaidmaximum",
       "DX": false,
       "series": "exaid",
 
@@ -568,7 +568,7 @@
       "secondaryColor": "pink"
     },
     {
-      "id": "49",
+      "id": "exaidmuteki",
       "DX": true,
 
       "series": "exaid",
@@ -580,7 +580,7 @@
       "secondaryColor": "orange"
     },
     {
-      "id": "50",
+      "id": "brave",
       "DX": false,
       "series": "exaid",
 
@@ -592,7 +592,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "51",
+      "id": "bravelegacy",
       "DX": false,
       "series": "exaid",
 
@@ -604,7 +604,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "52",
+      "id": "snipe",
       "DX": false,
       "series": "exaid",
 
@@ -616,7 +616,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "53",
+      "id": "snipesimulation",
       "DX": false,
       "series": "exaid",
 
@@ -628,7 +628,7 @@
       "secondaryColor": "maroon"
     },
     {
-      "id": "54",
+      "id": "lazer",
       "DX": false,
       "series": "exaid",
 
@@ -640,7 +640,7 @@
       "secondaryColor": "yellow"
     },
     {
-      "id": "55",
+      "id": "genm",
       "DX": false,
       "series": "exaid",
 
@@ -652,7 +652,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "56",
+      "id": "genmzombie",
       "DX": true,
 
       "series": "exaid",
@@ -664,7 +664,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "57",
+      "id": "paradx",
       "DX": false,
       "series": "exaid",
 
@@ -676,7 +676,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "58",
+      "id": "poppy",
       "DX": true,
 
       "series": "exaid",
@@ -688,7 +688,7 @@
       "secondaryColor": "pink"
     },
     {
-      "id": "59",
+      "id": "cronus",
       "DX": true,
 
       "series": "exaid",
@@ -700,7 +700,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "60",
+      "id": "ghost",
       "DX": true,
 
       "series": "ghost",
@@ -712,7 +712,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "61",
+      "id": "ghosttouconboost",
       "DX": false,
       "series": "ghost",
 
@@ -724,7 +724,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "62",
+      "id": "ghostgrateful",
       "DX": false,
       "series": "ghost",
 
@@ -736,7 +736,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "63",
+      "id": "ghostmugen",
       "DX": true,
 
       "series": "ghost",
@@ -748,7 +748,7 @@
       "secondaryColor": "orange"
     },
     {
-      "id": "64",
+      "id": "specter",
       "DX": false,
       "series": "ghost",
 
@@ -760,7 +760,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "65",
+      "id": "deepspecter",
       "DX": false,
       "series": "ghost",
 
@@ -772,7 +772,7 @@
       "secondaryColor": "maroon"
     },
     {
-      "id": "66",
+      "id": "necrom",
       "DX": false,
       "series": "ghost",
 
@@ -784,7 +784,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "67",
+      "id": "drive",
       "DX": true,
 
       "series": "drive",
@@ -796,7 +796,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "68",
+      "id": "drivedeadheat",
       "DX": false,
       "series": "drive",
 
@@ -808,7 +808,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "69",
+      "id": "driveformula",
       "DX": false,
       "series": "drive",
 
@@ -820,7 +820,7 @@
       "secondaryColor": "yellow"
     },
     {
-      "id": "70",
+      "id": "drivetridoron",
       "DX": true,
 
       "series": "drive",
@@ -832,7 +832,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "71",
+      "id": "mach",
       "DX": false,
       "series": "drive",
 
@@ -844,7 +844,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "72",
+      "id": "chasermach",
       "DX": false,
       "series": "drive",
 
@@ -856,7 +856,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "73",
+      "id": "chaser",
       "DX": false,
       "series": "drive",
 
@@ -868,7 +868,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "74",
+      "id": "gaim",
       "DX": true,
 
       "series": "gaim",
@@ -880,7 +880,7 @@
       "secondaryColor": "orange"
     },
     {
-      "id": "75",
+      "id": "gaimjimberlemon",
       "DX": false,
       "series": "gaim",
 
@@ -892,7 +892,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "76",
+      "id": "gaimkachidoki",
       "DX": false,
       "series": "gaim",
 
@@ -904,7 +904,7 @@
       "secondaryColor": "orange"
     },
     {
-      "id": "77",
+      "id": "gaimkiwami",
       "DX": true,
 
       "series": "gaim",
@@ -916,7 +916,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "78",
+      "id": "baron",
       "DX": false,
       "series": "gaim",
 
@@ -928,7 +928,7 @@
       "secondaryColor": "yellow"
     },
     {
-      "id": "79",
+      "id": "ryugen",
       "DX": false,
       "series": "gaim",
 
@@ -940,7 +940,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "80",
+      "id": "zangetsu",
       "DX": false,
       "series": "gaim",
 
@@ -952,7 +952,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "81",
+      "id": "zangetsukachidoki",
       "DX": true,
 
       "series": "gaim",
@@ -964,7 +964,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "82",
+      "id": "wizard",
       "DX": true,
 
       "series": "wizard",
@@ -976,7 +976,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "83",
+      "id": "wizardalldragon",
       "DX": false,
       "series": "wizard",
 
@@ -988,7 +988,7 @@
       "secondaryColor": "mustard"
     },
     {
-      "id": "84",
+      "id": "wizardinfinity",
       "DX": true,
 
       "series": "wizard",
@@ -1000,7 +1000,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "85",
+      "id": "beast",
       "DX": false,
       "series": "wizard",
 
@@ -1012,7 +1012,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "86",
+      "id": "beasthyper",
       "DX": false,
       "series": "wizard",
 
@@ -1024,7 +1024,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "87",
+      "id": "fourze",
       "DX": true,
 
       "series": "fourze",
@@ -1036,7 +1036,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "88",
+      "id": "fourzecosmic",
       "DX": true,
 
       "series": "fourze",
@@ -1048,7 +1048,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "89",
+      "id": "meteor",
       "DX": false,
       "series": "fourze",
 
@@ -1060,7 +1060,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "90",
+      "id": "meteorstorm",
       "DX": false,
       "series": "fourze",
 
@@ -1072,7 +1072,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "91",
+      "id": "ooo",
       "DX": true,
 
       "series": "ooo",
@@ -1084,7 +1084,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "92",
+      "id": "oootajador",
       "DX": true,
 
       "series": "ooo",
@@ -1096,7 +1096,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "93",
+      "id": "oooputotyra",
       "DX": true,
 
       "series": "ooo",
@@ -1108,7 +1108,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "94",
+      "id": "birth",
       "DX": false,
       "series": "ooo",
 
@@ -1120,7 +1120,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "95",
+      "id": "w",
       "DX": true,
 
       "series": "w",
@@ -1132,7 +1132,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "96",
+      "id": "wfangjoker",
       "DX": true,
 
       "series": "w",
@@ -1144,7 +1144,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "97",
+      "id": "wcjx",
       "DX": true,
 
       "series": "w",
@@ -1156,7 +1156,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "98",
+      "id": "joker",
       "DX": false,
 
       "series": "w",
@@ -1168,7 +1168,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "99",
+      "id": "accel",
       "DX": false,
       "series": "w",
 
@@ -1180,7 +1180,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "100",
+      "id": "acceltrial",
       "DX": false,
       "series": "w",
 
@@ -1192,7 +1192,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "101",
+      "id": "skull",
       "DX": false,
       "series": "w",
 
@@ -1204,7 +1204,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "102",
+      "id": "eternal",
       "DX": true,
 
       "series": "w",
@@ -1216,7 +1216,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "103",
+      "id": "decade",
       "DX": true,
 
       "series": "decade",
@@ -1228,7 +1228,7 @@
       "secondaryColor": "magenta"
     },
     {
-      "id": "104",
+      "id": "decadegp",
       "DX": false,
       "series": "decade",
 
@@ -1240,7 +1240,7 @@
       "secondaryColor": "magenta"
     },
     {
-      "id": "105",
+      "id": "decadeviolentemotion",
       "DX": false,
       "series": "decade",
 
@@ -1252,7 +1252,7 @@
       "secondaryColor": "magenta"
     },
     {
-      "id": "106",
+      "id": "decadecomplete",
       "DX": true,
 
       "series": "decade",
@@ -1264,7 +1264,7 @@
       "secondaryColor": "magenta"
     },
     {
-      "id": "107",
+      "id": "decadecomplete21",
       "DX": true,
 
       "series": "decade",
@@ -1276,7 +1276,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "108",
+      "id": "diend",
       "DX": true,
 
       "series": "decade",
@@ -1288,7 +1288,7 @@
       "secondaryColor": "cyan"
     },
     {
-      "id": "109",
+      "id": "kiva",
       "DX": true,
 
       "series": "kiva",
@@ -1300,7 +1300,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "110",
+      "id": "kivaemperor",
       "DX": true,
 
       "series": "kiva",
@@ -1312,7 +1312,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "111",
+      "id": "ixa",
       "DX": false,
       "series": "kiva",
 
@@ -1324,7 +1324,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "112",
+      "id": "darkkiva",
       "DX": true,
 
       "series": "kiva",
@@ -1336,7 +1336,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "113",
+      "id": "deno",
       "DX": true,
 
       "series": "deno",
@@ -1348,7 +1348,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "114",
+      "id": "denoclimax",
       "DX": true,
 
       "series": "deno",
@@ -1360,7 +1360,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "115",
+      "id": "denoliner",
       "DX": true,
 
       "series": "deno",
@@ -1372,7 +1372,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "116",
+      "id": "zeronos",
       "DX": false,
       "series": "deno",
 
@@ -1384,7 +1384,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "117",
+      "id": "kabuto",
       "DX": true,
 
       "series": "kabuto",
@@ -1396,7 +1396,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "118",
+      "id": "hyperkabuto",
       "DX": true,
 
       "series": "kabuto",
@@ -1408,7 +1408,7 @@
       "secondaryColor": "gold"
     },
     {
-      "id": "119",
+      "id": "gatack",
       "DX": false,
       "series": "kabuto",
 
@@ -1420,7 +1420,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "120",
+      "id": "hibiki",
       "DX": true,
 
       "series": "hibiki",
@@ -1432,7 +1432,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "121",
+      "id": "armedhibiki",
       "DX": true,
 
       "series": "hibiki",
@@ -1444,7 +1444,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "122",
+      "id": "ibuki",
       "DX": false,
       "series": "hibiki",
 
@@ -1456,7 +1456,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "123",
+      "id": "blade",
       "DX": true,
 
       "series": "blade",
@@ -1468,7 +1468,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "124",
+      "id": "bladeking",
       "DX": true,
 
       "series": "blade",
@@ -1480,7 +1480,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "125",
+      "id": "garren",
       "DX": false,
       "series": "blade",
 
@@ -1492,7 +1492,7 @@
       "secondaryColor": "maroon"
     },
     {
-      "id": "126",
+      "id": "chalice",
       "DX": true,
 
       "series": "blade",
@@ -1504,7 +1504,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "127",
+      "id": "faiz",
       "DX": true,
 
       "series": "faiz",
@@ -1516,11 +1516,11 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "128",
+      "id": "faizaxel",
       "DX": true,
 
       "series": "faiz",
-      "name": "Faiz Accel",
+      "name": "Faiz Axel",
       "katakana": "ファイズアクセルフォーム",
       "year": "2003",
       "imagesource": "https://i.imgur.com/JSDu7TC.png",
@@ -1528,7 +1528,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "129",
+      "id": "faizblaster",
       "DX": true,
 
       "series": "faiz",
@@ -1540,7 +1540,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "130",
+      "id": "kaixa",
       "DX": false,
       "series": "faiz",
 
@@ -1552,7 +1552,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "131",
+      "id": "delta",
       "DX": false,
       "series": "faiz",
 
@@ -1564,7 +1564,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "132",
+      "id": "ryuki",
       "DX": true,
 
       "series": "ryuki",
@@ -1576,7 +1576,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "133",
+      "id": "ryukisurvive",
       "DX": true,
 
       "series": "ryuki",
@@ -1588,7 +1588,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "134",
+      "id": "knight",
       "DX": false,
       "series": "ryuki",
 
@@ -1600,7 +1600,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "135",
+      "id": "knightsurvive",
       "DX": false,
       "series": "ryuki",
 
@@ -1612,7 +1612,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "136",
+      "id": "scissors",
       "DX": true,
 
       "series": "ryuki",
@@ -1624,7 +1624,7 @@
       "secondaryColor": "brown"
     },
     {
-      "id": "137",
+      "id": "zolda",
       "DX": false,
       "series": "ryuki",
 
@@ -1636,7 +1636,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "138",
+      "id": "ouja",
       "DX": true,
 
       "series": "ryuki",
@@ -1648,7 +1648,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "139",
+      "id": "agito",
       "DX": true,
 
       "series": "agito",
@@ -1660,7 +1660,7 @@
       "secondaryColor": "silver"
     },
     {
-      "id": "140",
+      "id": "agitoshining",
       "DX": true,
 
       "series": "agito",
@@ -1672,7 +1672,7 @@
       "secondaryColor": "white"
     },
     {
-      "id": "141",
+      "id": "g3x",
       "DX": false,
       "series": "agito",
 
@@ -1684,7 +1684,7 @@
       "secondaryColor": "grey"
     },
     {
-      "id": "142",
+      "id": "gills",
       "DX": false,
       "series": "agito",
 
@@ -1696,7 +1696,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "143",
+      "id": "kuuga",
       "DX": true,
 
       "series": "kuuga",
@@ -1708,7 +1708,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "144",
+      "id": "kuugaamazingmighty",
       "DX": false,
       "series": "kuuga",
 
@@ -1720,7 +1720,7 @@
       "secondaryColor": "yellow"
     },
     {
-      "id": "145",
+      "id": "kuugaultimate",
       "DX": true,
 
       "series": "kuuga",
@@ -1732,7 +1732,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "146",
+      "id": "anotherichigo",
       "DX": true,
 
       "series": "another",
@@ -1744,7 +1744,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "147",
+      "id": "anotherkuuga",
       "DX": true,
 
       "series": "another",
@@ -1756,7 +1756,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "148",
+      "id": "anotheragito",
       "DX": true,
 
       "series": "another",
@@ -1768,7 +1768,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "149",
+      "id": "anotherryuki",
       "DX": true,
 
       "series": "another",
@@ -1780,7 +1780,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "150",
+      "id": "anotherryuga",
       "DX": true,
 
       "series": "another",
@@ -1792,7 +1792,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "151",
+      "id": "anotherfaiz",
       "DX": true,
 
       "series": "another",
@@ -1804,7 +1804,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "152",
+      "id": "anotherblade",
       "DX": true,
 
       "series": "another",
@@ -1816,7 +1816,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "153",
+      "id": "anotherhibiki",
       "DX": true,
 
       "series": "another",
@@ -1828,7 +1828,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "154",
+      "id": "anotherkabuto",
       "DX": true,
 
       "series": "another",
@@ -1840,7 +1840,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "155",
+      "id": "anotherdeno",
       "DX": true,
 
       "series": "another",
@@ -1852,7 +1852,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "156",
+      "id": "anotherkiva",
       "DX": true,
 
       "series": "another",
@@ -1864,7 +1864,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "157",
+      "id": "1anotherdecade",
       "DX": true,
 
       "series": "another",
@@ -1876,7 +1876,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "158",
+      "id": "anotherdiend",
       "DX": true,
 
       "series": "another",
@@ -1888,7 +1888,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "159",
+      "id": "anotherw",
       "DX": true,
 
       "series": "another",
@@ -1900,7 +1900,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "160",
+      "id": "anotherooo",
       "DX": true,
 
       "series": "another",
@@ -1912,7 +1912,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "161",
+      "id": "anotherfourze",
       "DX": true,
 
       "series": "another",
@@ -1924,7 +1924,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "162",
+      "id": "anotherwizard",
       "DX": true,
 
       "series": "another",
@@ -1936,7 +1936,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "163",
+      "id": "anothergaim",
       "DX": true,
 
       "series": "another",
@@ -1948,7 +1948,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "164",
+      "id": "anotherdrive",
       "DX": true,
 
       "series": "another",
@@ -1960,7 +1960,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "165",
+      "id": "anotherghost",
       "DX": true,
 
       "series": "another",
@@ -1972,7 +1972,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "166",
+      "id": "anotherexaid",
       "DX": true,
 
       "series": "another",
@@ -1984,7 +1984,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "167",
+      "id": "anotherbuild",
       "DX": true,
 
       "series": "another",
@@ -1996,7 +1996,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "168",
+      "id": "anotherzio",
       "DX": true,
 
       "series": "another",
@@ -2008,7 +2008,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "169",
+      "id": "anotherzioii",
       "DX": true,
 
       "series": "another",
@@ -2020,7 +2020,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "170",
+      "id": "anotherzeroone",
       "DX": true,
 
       "series": "another",
@@ -2032,7 +2032,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "171",
+      "id": "anothershinobi",
       "DX": true,
 
       "series": "another",
@@ -2044,7 +2044,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "172",
+      "id": "anotherquiz",
       "DX": true,
 
       "series": "another",
@@ -2056,7 +2056,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "173",
+      "id": "anotherkikai",
       "DX": true,
 
       "series": "another",
@@ -2068,7 +2068,7 @@
       "secondaryColor": "purple"
     },
     {
-      "id": "174",
+      "id": "blackrx",
       "DX": true,
 
       "series": "misc",
@@ -2080,7 +2080,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "175",
+      "id": "roborider",
       "DX": true,
 
       "series": "misc",
@@ -2092,7 +2092,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "176",
+      "id": "biorider",
       "DX": true,
 
       "series": "misc",
@@ -2104,7 +2104,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "177",
+      "id": "shin",
       "DX": true,
 
       "series": "misc",
@@ -2116,7 +2116,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "178",
+      "id": "zo",
       "DX": true,
 
       "series": "misc",
@@ -2128,7 +2128,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "179",
+      "id": "j",
       "DX": true,
 
       "series": "misc",
@@ -2140,7 +2140,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "180",
+      "id": "amazonsalpha",
       "DX": true,
 
       "series": "misc",
@@ -2152,7 +2152,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "181",
+      "id": "amazonsomega",
       "DX": true,
 
       "series": "misc",
@@ -2164,7 +2164,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "182",
+      "id": "amazonsneo",
       "DX": true,
 
       "series": "misc",
@@ -2176,7 +2176,7 @@
       "secondaryColor": "blue"
     },
     {
-      "id": "183",
+      "id": "ryusoulger",
       "DX": false,
       "series": "misc",
 
@@ -2188,7 +2188,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "184",
+      "id": "zeroone",
       "DX": false,
       "series": "misc",
 
@@ -2200,7 +2200,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "185",
+      "id": "saber",
       "DX": true,
       "series": "misc",
 
@@ -2212,7 +2212,7 @@
       "secondaryColor": "red"
     },
     {
-      "id": "186",
+      "id": "blank",
       "DX": true,
 
       "series": "misc",
