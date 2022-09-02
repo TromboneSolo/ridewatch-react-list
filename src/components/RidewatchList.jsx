@@ -63,19 +63,7 @@ export class RidewatchList extends Component {
       Collapsed: false,
       Checked: "false"
     };
-    this.localImageUrl = this.localImageUrl.bind(this);
     this.onClick = this.onClick.bind(this);
-  }
-
-
-
-  localImageUrl(watch)
-  {
-    let pth = "../images/watches/";
-    let pre = (watch.series==="another") ? "anotherwatch": "ridewatch";
-    let watchUrl = pth + pre + "-" + watch.year + "-" + watch.series + "-" + watch.name.toLowerCase().replaceAll(" ", "").replaceAll("-","") + ".png";
-    let altWatchUrl = pth + pre + "-" + watch.year + "-" + watch.name.toLowerCase().replaceAll(" ","").replaceAll("-","") + ".png";
-    return tryRequire(watchUrl) ? tryRequire(watchUrl).default : altWatchUrl;
   }
 
 
@@ -101,7 +89,8 @@ export class RidewatchList extends Component {
         return (
           <li>
             <Ridewatch
-              imgsrc={this.localImageUrl(watch)}
+              //imgsrc={this.localImageUrl(watch)}
+              imgsrc = {"../images/watches/" + watch.id + ".png"}
               alt={watch.name}
               soundex={soundex(watch.name)}
               identity={this.props.katakana ? watch.katakana : watch.name}
