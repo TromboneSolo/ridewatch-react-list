@@ -1,8 +1,15 @@
 import React, { Component } from "react";
 import ridewatchJson from "./ridewatchdata.json";
 import Ridewatch from "./components/Ridewatch";
+import DataService from "./services/DataService";
 
-
+const tryRequire = (path) => {
+  try {
+   return require(`${path}`);
+  } catch (err) {
+   return null;
+  }
+}
 
 class Search extends Component {
   constructor(props) {
@@ -18,9 +25,20 @@ class Search extends Component {
       ownedSearch: "all"
     };
 
+    this.dataService = new DataService();
     this.ridewatchSearcher = this.ridewatchSearcher.bind(this);
 
     this.searchClick = this.searchClick.bind(this);
+    this.localImageUrl = this.localImageUrl.bind(this);
+  }
+
+  localImageUrl(watch)
+  {
+    let pth = "../images/watches/";
+    let pre = (watch.series==="another") ? "anotherwatch": "ridewatch";
+    let watchUrl = pth + pre + "-" + watch.year + "-" + watch.series + "-" + watch.name.toLowerCase().replace(" ", "").replace("-","") + ".png";
+    let altWatchUrl = pth + pre + "-" + watch.year + "-" + watch.name.toLowerCase().replace(" ","").replace("-","") + ".png";
+    return tryRequire(watchUrl) ? tryRequire(watchUrl).default : altWatchUrl;
   }
 
   handlePrimaryChange(event) {
@@ -68,65 +86,25 @@ class Search extends Component {
     });
   }
 
+
+
   searchClick() {
-    var filteredList = ridewatchJson.watch;
-    let a;
-    if (this.state.ownedSearch !== "all") {
-      if (this.state.ownedSearch === "owned") {
-        filteredList = filteredList.filter(watch => {
-          a = localStorage.getItem(watch.id)
-          return watch.id === a;
-        });
-      } else {
-        filteredList = filteredList.filter(watch => {
-          return watch.id !== localStorage.getItem(watch.id);
-        });
-      }
+    //var filteredList = ridewatchJson.watch;
+    //var filteredList = this.dataService.fetchAll();
+    var search = {
+      displayWatches: this.state.displayWatches, 
+      primaryColorSearch: this.state.primaryColorSearch,
+      secondaryColorSearch: this.state.secondaryColorSearch,
+      DX: this.state.DX,
+      nameSearch: this.state.nameSearch,
+      ownedSearch: this.state.ownedSearch
     }
-    if (this.state.nameSearch !== "") {
-      filteredList = filteredList.filter(watch => {
-        return watch.name === this.state.nameSearch;
-      });
-    }
-    if (this.state.primaryColorSearch !== "all") {
-      filteredList = filteredList.filter(watch => {
-        return watch.primaryColor === this.state.primaryColorSearch;
-      });
-    }
-    if (this.state.secondaryColorSearch !== "all") {
-      filteredList = filteredList.filter(watch => {
-        return watch.secondaryColor === this.state.secondaryColorSearch;
-      });
-    }
-    if (this.state.DX !== null) {
-      filteredList = filteredList.filter(watch => {
-        return watch.DX === this.state.DX;
-      });
-    }
-
-    /*let tempWatchArray = [];
-
-    if (this.state.nameSearch !== "") {
-      ridewatchJson.watch.map(watch => {
-        if (watch.name === this.state.nameSearch) {
-          tempWatchArray.push(watch);
-        }
-      });
-    }
-    if (tempWatchArray[1]) {
-      if (this.state.primaryColorSearch !== "all") {
-        tempWatchArray.map(watch => {
-          if (watch.primaryColor !== this.state.primaryColorSearch) {
-            tempWatchArray.pop(watch);
-          }
-        });
-      }
-    }*/
+    var filteredList = this.dataService.fetch(search);
     let finalWatchArray = filteredList.map(watch => {
       return (
         <li>
           <Ridewatch
-            imgsrc={watch.imagesource}
+            imgsrc={this.localImageUrl(watch)}
             alt={watch.name}
             identity={this.props.katakana ? watch.katakana : watch.name}
             year={watch.year}

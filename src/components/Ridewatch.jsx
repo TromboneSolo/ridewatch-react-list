@@ -48,7 +48,7 @@ export class Ridewatch extends Component {
           <img src={this.props.imgsrc} alt={this.props.alt} />
         </button>
         <p>
-          {this.props.identity}
+          {this.props.identity}&nbsp;{this.props.soundex}
           <br /> {this.props.year}
         </p>
       </div>
