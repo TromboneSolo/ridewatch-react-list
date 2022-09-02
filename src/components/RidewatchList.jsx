@@ -26,9 +26,9 @@ function soundex(name)
 
         if(c >= 0 && c <= 25)
         {
-            if(mappings[c] != '0')
+            if(mappings[c] !== '0')
             {
-                if(mappings[c] != s[si-1])
+                if(mappings[c] !== s[si-1])
                 {
                     s[si] = mappings[c];
                     si++;

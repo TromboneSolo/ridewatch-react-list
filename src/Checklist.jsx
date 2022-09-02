@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import RidewatchList from "./components/RidewatchList.jsx";
-
 import DataService from "./services/DataService";
 
 class Checklist extends Component {

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ridewatchJson from "./ridewatchdata.json";
 import Ridewatch from "./components/Ridewatch";
 import DataService from "./services/DataService";
 

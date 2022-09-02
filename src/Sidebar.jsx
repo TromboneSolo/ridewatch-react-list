@@ -3,16 +3,21 @@ import imagine from "./ridewatch/test.png";
 import mainRoutes from "./MainRoutes";
 import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
+import DataService from "./services/DataService";
 
 class Sidebar extends Component {
   constructor(props) {
     super(props);
+    this.dataService = new DataService();
     this.state = {
-      width: window.innerWidth,
+      width: window.innerWidth
     };
   }
 
+ 
+
   render() {
+    var allWatches = this.dataService.fetchAll();
     const sidebarBackground = {
       backgroundImage: "url(" + imagine + ")"
     };
@@ -56,7 +61,7 @@ class Sidebar extends Component {
               })}
             </ul>
             <div>
-              <p id="totalText">Total Owned: {this.props.totalOwned}/172</p>
+              <p id="totalText">Total Owned: {this.props.totalOwned}/{allWatches.length}</p>
             </div>
           </div>
         </div>
