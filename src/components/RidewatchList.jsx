@@ -90,7 +90,7 @@ export class RidewatchList extends Component {
           <li>
             <Ridewatch
               //imgsrc={this.localImageUrl(watch)}
-              imgsrc = {"../images/watches/" + watch.id + ".png"}
+              imgsrc = {process.env.PUBLIC_URL + "/images/watches/" + watch.id + ".png"}
               alt={watch.name}
               soundex={soundex(watch.name)}
               identity={this.props.katakana ? watch.katakana : watch.name}

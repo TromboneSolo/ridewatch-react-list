@@ -28,17 +28,9 @@ class Search extends Component {
     this.ridewatchSearcher = this.ridewatchSearcher.bind(this);
 
     this.searchClick = this.searchClick.bind(this);
-    this.localImageUrl = this.localImageUrl.bind(this);
   }
 
-  localImageUrl(watch)
-  {
-    let pth = "../images/watches/";
-    let pre = (watch.series==="another") ? "anotherwatch": "ridewatch";
-    let watchUrl = pth + pre + "-" + watch.year + "-" + watch.series + "-" + watch.name.toLowerCase().replace(" ", "").replace("-","") + ".png";
-    let altWatchUrl = pth + pre + "-" + watch.year + "-" + watch.name.toLowerCase().replace(" ","").replace("-","") + ".png";
-    return tryRequire(watchUrl) ? tryRequire(watchUrl).default : altWatchUrl;
-  }
+
 
   handlePrimaryChange(event) {
     let value = event.target.value;
@@ -103,7 +95,7 @@ class Search extends Component {
       return (
         <li>
           <Ridewatch
-            imgsrc={this.localImageUrl(watch)}
+            imgsrc= {process.env.PUBLIC_URL + "/images/watches/" + watch.id + ".png"}
             alt={watch.name}
             identity={this.props.katakana ? watch.katakana : watch.name}
             year={watch.year}
