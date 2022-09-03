@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0d07d6f00eb9aeb0c23dfc89302fc3f",
+    "revision": "a8f1c21a9eb57d166c7d634468570e6a",
     "url": "/ridewatch-react-list/index.html"
   },
   {
-    "revision": "5f6dad4dd1a8c559385f",
+    "revision": "6c5d3320d89851c84cff",
     "url": "/ridewatch-react-list/static/css/main.d85af878.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ridewatch-react-list/static/js/2.f7196347.chunk.js"
   },
   {
-    "revision": "5f6dad4dd1a8c559385f",
-    "url": "/ridewatch-react-list/static/js/main.f0d942b0.chunk.js"
+    "revision": "6c5d3320d89851c84cff",
+    "url": "/ridewatch-react-list/static/js/main.dfae92f2.chunk.js"
   },
   {
     "revision": "8cf030961bcbb933377c",
