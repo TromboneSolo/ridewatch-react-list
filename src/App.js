@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
-import JapaneseLogo from "./ridewatch/Japanese-logo.png";
+import JapaneseLogo from "./ridewatch/header-zio.png";
 import EnglishLogo from "./ridewatch/ZioEnglishLogo.png";
 
 export class App extends Component {
