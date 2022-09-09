@@ -1,27 +1,27 @@
 import React, { Component } from "react";
 import Ridewatch from "./Ridewatch";
 import zioheader from "../ridewatch/header-zio.png";
-//import buildheader from "./ridewatch/header-build.png";
-//import exaidheader from "./ridewatch/header-exaid.png";
-//import ghostheader from "./ridewatch/header-ghost.png";
-//import driveheader from "./ridewatch/header-drive.png";
-//import gaimheader from "./ridewatch/header-gaim.png";
-//import wizardheader from "./ridewatch/header-wizard.png";
-//import fourzeheader from "./ridewatch/header-fourze.png";
-//import oooheader from "./ridewatch/header-ooo.png";
-//import wheader from "./ridewatch/header-w.png";
-//import decadeheader from "./ridewatch/header-decade.png";
-//import kivaheader from "./ridewatch/header-kiva.png";
-//import denoheader from "./ridewatch/header-deno.png";
-//import kabutoheader from "./ridewatch/header-kabuto.png";
-//import hibikiheader from "./ridewatch/header-hibiki.png";
-//import bladeheader from "./ridewatch/header-blade.png";
-//import faizheader from "./ridewatch/header-faiz.png";
-//import ryukiheader from "./ridewatch/header-ryuki.png";
-//import agitoheader from "./ridewatch/header-agito.png";
-//import kuugaheader from "./ridewatch/header-kuuga.png";
-//import anotherheader from "./ridewatch/header-another.png";
-//import mischeader from "./ridewatch/header-misc.png";
+//import buildheader from "../ridewatch/header-build.png";
+//import exaidheader from "../ridewatch/header-exaid.png";
+//import ghostheader from "../ridewatch/header-ghost.png";
+//import driveheader from "../ridewatch/header-drive.png";
+//import gaimheader from "../ridewatch/header-gaim.png";
+//import wizardheader from "../ridewatch/header-wizard.png";
+//import fourzeheader from "../ridewatch/header-fourze.png";
+//import oooheader from "../ridewatch/header-ooo.png";
+//import wheader from "../ridewatch/header-w.png";
+//import decadeheader from "../ridewatch/header-decade.png";
+//import kivaheader from "../ridewatch/header-kiva.png";
+//import denoheader from "../ridewatch/header-deno.png";
+//import kabutoheader from "../ridewatch/header-kabuto.png";
+//import hibikiheader from "../ridewatch/header-hibiki.png";
+//import bladeheader from "../ridewatch/header-blade.png";
+//import faizheader from "../ridewatch/header-faiz.png";
+//import ryukiheader from "../ridewatch/header-ryuki.png";
+//import agitoheader from "../ridewatch/header-agito.png";
+//import kuugaheader from "../ridewatch/header-kuuga.png";
+//import anotherheader from "../ridewatch/header-another.png";
+//import mischeader from "../ridewatch/header-misc.png";
 
 
 const tryRequire = (path) => {
@@ -132,15 +132,12 @@ export class RidewatchList extends Component {
   }
 
   render() {
-    const headerBackground = {
-      backgroundImage: "url(" + zioheader + ")"
-    };
     if (this.state.Collapsed === true) {
       return (
-        <div className={this.state.series + "-div"}>
+        <div className={this.props.series + "-div"}>
           <h1 onClick={this.onClick} className={this.state.series}>
-            <i id={this.state.series + "-header"} />
-            {headerBackground}
+            <i id={this.props.series + "-header"} />
+            <img src={zioheader} />
           </h1>
         </div>
       );
@@ -154,9 +151,9 @@ export class RidewatchList extends Component {
               className={this.props.series + "-open"}
             >
               <i id={this.props.series + "-header"} />
-              <div
-              
-              />
+              <div>
+                <img src={zioheader}></img>
+              </div>
             </h1>
             <ul className={this.props.series}>{this.ridewatchMaker()}</ul>
           </div>
