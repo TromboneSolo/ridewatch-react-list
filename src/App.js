@@ -50,16 +50,16 @@ export class App extends Component {
   }
 
   sidebarHeaderClick(series) {
+    var newList = this.state.invisibleHeaders;
     if (this.state.invisibleHeaders.includes(series)) {
-      this.setState(state => {
-        const list = state.invisibleHeaders.concat(series);
-
-        return {
-        list,
-        value: '',
-        }
-      }
-    )};
+      // remove from newlist
+      // TBD
+    }
+    else {
+      // ADD to new List
+      newList.push(series);
+    }
+    this.setState({invisibleHeaders: newList});
   }
 
   componentDidMount() {
