@@ -199,6 +199,10 @@ li {
   cursor: url("https://i.imgur.com/XqSw7Ok.png"), auto;
 }
 
+.listHeaderImage {
+    max-height: 100px;
+}
+
 .zio {
   background-image: linear-gradient(
     rgba(255, 0, 234, 0.212),

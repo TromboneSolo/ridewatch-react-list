@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import imagine from "./ridewatch/test.png";
+//import imagine from "../images/icons/test.png";
 import mainRoutes from "./MainRoutes";
 import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
@@ -14,9 +14,9 @@ class Sidebar extends Component {
     };
   }
 
- 
 
   render() {
+    var imagine = "/images/icons/test.png";
     var allWatches = this.dataService.fetchAll();
     const sidebarBackground = {
       backgroundImage: "url(" + imagine + ")"
@@ -62,6 +62,11 @@ class Sidebar extends Component {
             </ul>
             <div>
               <p id="totalText">Total Owned: {this.props.totalOwned}/{allWatches.length}</p>
+            </div>
+            <div id = "minimizedLists">
+              <ul>
+                
+              </ul>
             </div>
           </div>
         </div>

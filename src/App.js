@@ -5,8 +5,8 @@ import Sidebar from "./Sidebar.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
-import JapaneseLogo from "./ridewatch/header-zio.png";
-import EnglishLogo from "./ridewatch/ZioEnglishLogo.png";
+//import JapaneseLogo from "/images/icons/header-zio.png";
+//import EnglishLogo from "/images/icons/ZioEnglishLogo.png";
 
 export class App extends Component {
   constructor(props) {
@@ -14,10 +14,11 @@ export class App extends Component {
     this.state = {
       katakana: false,
       language: "English",
-      logo: EnglishLogo,
+      logo: "/images/icons/ZioEnglishLogo.png",
       totalOwned: ""
     };
     this.languageClick = this.languageClick.bind(this);
+    this.headerClick = this.headerClick.bind(this);
   }
 
   languageClick() {
@@ -25,18 +26,26 @@ export class App extends Component {
       this.setState({
         katakana: true,
         language: "Japanese",
-        logo: JapaneseLogo
+        logo: "/images/icons/header-zio.png"
       });
     } else {
       this.setState({
         katakana: false,
         language: "English",
-        logo: EnglishLogo
+        logo: "/images/icons/ZioEnglishLogo.png"
       });
     }
   }
 
-  componentWillMount() {
+  headerClick(series){
+    if (!this.state.headerVisible(includes(series))) {
+      this.setState({
+        headerVisible: [series],
+      })
+    }
+  }
+
+  componentDidMount() {
     
     this.setState({ totalOwned: localStorage.length.toString() });
   }

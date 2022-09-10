@@ -1,28 +1,5 @@
 import React, { Component } from "react";
 import Ridewatch from "./Ridewatch";
-import zioheader from "../ridewatch/header-zio.png";
-//import buildheader from "../ridewatch/header-build.png";
-//import exaidheader from "../ridewatch/header-exaid.png";
-//import ghostheader from "../ridewatch/header-ghost.png";
-//import driveheader from "../ridewatch/header-drive.png";
-//import gaimheader from "../ridewatch/header-gaim.png";
-//import wizardheader from "../ridewatch/header-wizard.png";
-//import fourzeheader from "../ridewatch/header-fourze.png";
-//import oooheader from "../ridewatch/header-ooo.png";
-//import wheader from "../ridewatch/header-w.png";
-//import decadeheader from "../ridewatch/header-decade.png";
-//import kivaheader from "../ridewatch/header-kiva.png";
-//import denoheader from "../ridewatch/header-deno.png";
-//import kabutoheader from "../ridewatch/header-kabuto.png";
-//import hibikiheader from "../ridewatch/header-hibiki.png";
-//import bladeheader from "../ridewatch/header-blade.png";
-//import faizheader from "../ridewatch/header-faiz.png";
-//import ryukiheader from "../ridewatch/header-ryuki.png";
-//import agitoheader from "../ridewatch/header-agito.png";
-//import kuugaheader from "../ridewatch/header-kuuga.png";
-//import anotherheader from "../ridewatch/header-another.png";
-//import mischeader from "../ridewatch/header-misc.png";
-
 
 const tryRequire = (path) => {
   try {
@@ -89,19 +66,23 @@ export class RidewatchList extends Component {
     this.onClick = this.onClick.bind(this);
   }
 
+  headerUrlGet(){
+    var headerUrl = (process.env.PUBLIC_URL + "/images/icons/" + "header-" + this.props.series + ".png");
+    return headerUrl;
+  }
 
   onClick() {
     if (this.state.Collapsed === false) {
       this.setState({
         Collapsed: true,
         series: this.props.series + "-closed",
-        imgsrc: [".png"]
+        imgsrc: [process.env.PUBLIC_URL + "/images/icons/" + "header-" + this.state.series + ".png"]
       });
     } else {
       this.setState({
         Collapsed: false,
         series: this.props.series,
-        imgsrc: zioheader
+        imgsrc: [process.env.PUBLIC_URL + "/images/icons/" + "header-" + this.state.series + ".png"]
       });
     }
   }
@@ -137,7 +118,9 @@ export class RidewatchList extends Component {
         <div className={this.props.series + "-div"}>
           <h1 onClick={this.onClick} className={this.state.series}>
             <i id={this.props.series + "-header"} />
-            <img src={zioheader} />
+            <img
+            className = {"listHeaderImage"}
+             src={this.headerUrlGet()} />
           </h1>
         </div>
       );
@@ -152,7 +135,9 @@ export class RidewatchList extends Component {
             >
               <i id={this.props.series + "-header"} />
               <div>
-                <img src={zioheader}></img>
+                <img
+                className = {"listHeaderImage"}
+                 src={this.headerUrlGet()}></img>
               </div>
             </h1>
             <ul className={this.props.series}>{this.ridewatchMaker()}</ul>

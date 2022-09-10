@@ -2222,6 +2222,18 @@
       "imagesource": "https://i.imgur.com/4TOlLYd.png",
       "primaryColor": "black",
       "secondaryColor": "black"
+    },
+    {
+      "id": "garbage",
+      "DX": true,
+
+      "series": "zio",
+      "name": "Vice",
+      "katakana": "ブランク",
+      "year": "0000",
+      "imagesource": "https://i.imgur.com/4TOlLYd.png",
+      "primaryColor": "black",
+      "secondaryColor": "black"
     }
   ]
 }
