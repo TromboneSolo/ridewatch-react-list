@@ -11,18 +11,19 @@ class Sidebar extends Component {
     this.dataService = new DataService();
     this.state = {
       width: window.innerWidth,
-      invisibleHeaders: this.props.invisibleHeaders
     };
+    this.headerMinimized = this.headerMinimized.bind(this)
   }
 
 
   headerMinimized(){
-    this.state.invisibleHeaders.map(series => {
+    var minimizedList = this.props.invisibleHeaders
+    minimizedList.map(series => {
       return (
         <li>
           <button
-            imgsrc = {process.env.PUBLIC_URL + "/images/icons/" + series + ".png"}
-            onClick = {this.props.headerClick()}
+            imgsrc = {process.env.PUBLIC_URL + "/images/icons/" + "header-" + series + ".png"}
+            onClick = { () => this.props.headerSummon(series)}
           />
           </li>
       )
@@ -79,10 +80,8 @@ class Sidebar extends Component {
               <p id="totalText">Total Owned: {this.props.totalOwned}/{allWatches.length}</p>
             </div>
             <div id = "minimizedLists">
-              <ul>
-          <li className = "sidebarHeader">
+              <ul className = "sidebarHeader">
               {this.headerMinimized()}
-          </li>
               </ul>
             </div>
           </div>

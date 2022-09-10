@@ -62,8 +62,8 @@ export class RidewatchList extends Component {
       allChecked: false,
       Collapsed: false,
       Checked: "false",
+      invisibleHeaders: this.props.invisibleHeaders,
     };
-    this.onClick = this.onClick.bind(this);
   }
 
   headerUrlGet(){
@@ -71,20 +71,6 @@ export class RidewatchList extends Component {
     return headerUrl;
   }
 
-  onClick() {
-    if (this.state.Collapsed === false) {
-      this.setState({
-        Collapsed: true,
-        imgsrc: [process.env.PUBLIC_URL + "/images/icons/" + "header-" + this.state.series + ".png"]
-      });
-      this.props.headerClick(this.props.series);
-    } else {
-      this.setState({
-        Collapsed: false,
-        imgsrc: [process.env.PUBLIC_URL + "/images/icons/" + "header-" + this.state.series + ".png"]
-      });
-    }
-  }
 
   ridewatchMaker() {
     let ridewatches = this.props.watches.map(watch => {
@@ -112,10 +98,10 @@ export class RidewatchList extends Component {
   }
 
   render() {
-    if (this.state.Collapsed === true) {
+    if (this.state.invisibleHeaders.includes(this.props.series)) {
       return (
         <div className={this.props.series + "-div"}>
-          <h1 onClick={this.onClick} className={this.state.series}>
+          <h1 onClick={this.props.headerDesummon(this.props.series)} className={this.props.series}>
             <i id={this.props.series + "-header"} />
             <img
             className = {"listHeaderImage"}
@@ -129,7 +115,7 @@ export class RidewatchList extends Component {
           <div className={this.props.series + "-div"}>
             <h1
               id={this.props.series + "-header"}
-              onClick={this.onClick}
+              onClick={ () => this.props.headerDesummon(this.props.series)}
               className={this.props.series + "-open"}
             >
               <i id={this.props.series + "-header"} />

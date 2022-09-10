@@ -16,10 +16,10 @@ export class App extends Component {
       language: "English",
       logo: "/images/icons/ZioEnglishLogo.png",
       totalOwned: "",
-      invisibleHeaders: [],
+      invisibleHeaders: ["zio"],
     };
     this.languageClick = this.languageClick.bind(this);
-    this.headerClick = this.headerClick.bind(this);
+    this.headerDesummon = this.headerDesummon.bind(this);
   }
 
   languageClick() {
@@ -38,29 +38,33 @@ export class App extends Component {
     }
   }
 
-  headerClick(series) {
+  headerDesummon(series) {
     if (!this.state.invisibleHeaders.includes(series)) {
       
-        const list = this.state.invisibleHeaders.concat(series);
+        const list = this.state.invisibleHeaders;
+        list.push(series);
+
         this.setState({
           invisibleHeaders: list
-        })
 
-        }
+        });
   }
+  else {return}
+}
 
-  sidebarHeaderClick(series) {
+  headerSummon(series) {
     if (this.state.invisibleHeaders.includes(series)) {
-      this.setState(state => {
-        const list = state.invisibleHeaders.concat(series);
+      
+      const list = this.state.invisibleHeaders;
+        list.push(series);
 
-        return {
-        list,
-        value: '',
-        }
+        this.setState({
+          invisibleHeaders: list
+
+        });
       }
-    )};
-  }
+      else {return}
+    }
 
   componentDidMount() {
     
@@ -80,7 +84,7 @@ export class App extends Component {
           languageClick={this.languageClick}
           logo={this.state.logo}
           totalOwned={this.state.totalOwned}
-          headerClick={this.headerClick}
+          headerSummon={this.headerSummon}
           invisibleHeaders={this.state.invisibleHeaders}
         />
         <div id="main-panel" className="main-panel" ref="mainPanel">
@@ -98,7 +102,7 @@ export class App extends Component {
                       {...props}
                       katakana={this.state.katakana}
                       ridewatchClick={this.ridewatchClick.bind(this)}
-                      headerClick={this.headerClick}
+                      headerDesummon={this.headerDesummon}
                       invisibleHeaders={this.state.invisibleHeaders}
                     />
                   )}
