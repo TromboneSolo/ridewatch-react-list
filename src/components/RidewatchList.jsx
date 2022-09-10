@@ -61,7 +61,7 @@ export class RidewatchList extends Component {
       imgsrc: this.props.imgsrc,
       allChecked: false,
       Collapsed: false,
-      Checked: "false"
+      Checked: "false",
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -75,13 +75,12 @@ export class RidewatchList extends Component {
     if (this.state.Collapsed === false) {
       this.setState({
         Collapsed: true,
-        series: this.props.series + "-closed",
         imgsrc: [process.env.PUBLIC_URL + "/images/icons/" + "header-" + this.state.series + ".png"]
       });
+      this.props.headerClick(this.props.series);
     } else {
       this.setState({
         Collapsed: false,
-        series: this.props.series,
         imgsrc: [process.env.PUBLIC_URL + "/images/icons/" + "header-" + this.state.series + ".png"]
       });
     }

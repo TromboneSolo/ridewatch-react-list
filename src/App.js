@@ -15,7 +15,8 @@ export class App extends Component {
       katakana: false,
       language: "English",
       logo: "/images/icons/ZioEnglishLogo.png",
-      totalOwned: ""
+      totalOwned: "",
+      invisibleHeaders: [],
     };
     this.languageClick = this.languageClick.bind(this);
     this.headerClick = this.headerClick.bind(this);
@@ -26,7 +27,7 @@ export class App extends Component {
       this.setState({
         katakana: true,
         language: "Japanese",
-        logo: "/images/icons/header-zio.png"
+        logo: "/images/icons/ZioJapaneseLogo.png"
       });
     } else {
       this.setState({
@@ -37,12 +38,28 @@ export class App extends Component {
     }
   }
 
-  headerClick(series){
-    if (!this.state.headerVisible(includes(series))) {
-      this.setState({
-        headerVisible: [series],
-      })
-    }
+  headerClick(series) {
+    if (!this.state.invisibleHeaders.includes(series)) {
+      
+        const list = this.state.invisibleHeaders.concat(series);
+        this.setState({
+          invisibleHeaders: list
+        })
+
+        }
+  }
+
+  sidebarHeaderClick(series) {
+    if (this.state.invisibleHeaders.includes(series)) {
+      this.setState(state => {
+        const list = state.invisibleHeaders.concat(series);
+
+        return {
+        list,
+        value: '',
+        }
+      }
+    )};
   }
 
   componentDidMount() {
@@ -63,6 +80,8 @@ export class App extends Component {
           languageClick={this.languageClick}
           logo={this.state.logo}
           totalOwned={this.state.totalOwned}
+          headerClick={this.headerClick}
+          invisibleHeaders={this.state.invisibleHeaders}
         />
         <div id="main-panel" className="main-panel" ref="mainPanel">
           <Header {...this.props} />
@@ -79,6 +98,8 @@ export class App extends Component {
                       {...props}
                       katakana={this.state.katakana}
                       ridewatchClick={this.ridewatchClick.bind(this)}
+                      headerClick={this.headerClick}
+                      invisibleHeaders={this.state.invisibleHeaders}
                     />
                   )}
                 />
