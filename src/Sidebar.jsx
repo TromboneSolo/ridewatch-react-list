@@ -23,7 +23,7 @@ class Sidebar extends Component {
         <li>
           <button
             imgsrc = {process.env.PUBLIC_URL + "/images/icons/" + "header-" + series + ".png"}
-            onClick = { () => this.props.headerSummon(series)}
+            onClick = { () => this.props.headerToggle(series)}
             
           >yes</button>
           </li>

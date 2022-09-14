@@ -20,7 +20,6 @@ export class App extends Component {
     };
     this.languageClick = this.languageClick.bind(this);
     this.headerToggle = this.headerToggle.bind(this);
-    this.headerSummon = this.headerSummon.bind(this);
   }
 
   languageClick() {
@@ -58,7 +57,7 @@ export class App extends Component {
     }
 }
 
-  headerSummon(series) {
+  /*headerSummon(series) {
     if (this.state.invisibleHeaders.includes(series)) {
       
       const list = this.state.invisibleHeaders.filter(w => w !== series);
@@ -71,7 +70,7 @@ export class App extends Component {
       else {this.setState({
         invisibleHeaders: this.state.invisibleHeaders
       })}
-    }
+    }*/
 
   componentDidMount() {
     
@@ -91,7 +90,7 @@ export class App extends Component {
           languageClick={this.languageClick}
           logo={this.state.logo}
           totalOwned={this.state.totalOwned}
-          headerSummon={this.headerSummon}
+          headerToggle={this.headerToggle}
           invisibleHeaders={this.state.invisibleHeaders}
         />
         <div id="main-panel" className="main-panel" ref="mainPanel">
@@ -110,7 +109,6 @@ export class App extends Component {
                       katakana={this.state.katakana}
                       ridewatchClick={this.ridewatchClick.bind(this)}
                       headerToggle={this.headerToggle}
-                      headerSummon={this.headerSummon}
                       invisibleHeaders={this.state.invisibleHeaders}
                     />
                   )}

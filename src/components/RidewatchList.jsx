@@ -105,7 +105,7 @@ export class RidewatchList extends Component {
             <i id={this.props.series + "-header"} />
             <img
             className = {"listHeaderImage"}
-            onClick= { () =>this.props.headerSummon(this.props.series)}
+            onClick= { () =>this.props.headerToggle(this.props.series)}
              src={this.headerUrlGet()} />
           </h1>
         </div>
