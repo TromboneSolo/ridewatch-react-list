@@ -16,10 +16,11 @@ export class App extends Component {
       language: "English",
       logo: "/images/icons/ZioEnglishLogo.png",
       totalOwned: "",
-      invisibleHeaders: ["zio"],
+      invisibleHeaders: ["zio", "build", "ryuki"],
     };
     this.languageClick = this.languageClick.bind(this);
     this.headerDesummon = this.headerDesummon.bind(this);
+    this.headerSummon = this.headerSummon.bind(this);
   }
 
   languageClick() {
@@ -41,29 +42,35 @@ export class App extends Component {
   headerDesummon(series) {
     if (!this.state.invisibleHeaders.includes(series)) {
       
-        const list = this.state.invisibleHeaders;
-        list.push(series);
+        const removedHeaders = this.state.invisibleHeaders;
+        removedHeaders.push(series);
 
         this.setState({
-          invisibleHeaders: list
+          invisibleHeaders: removedHeaders
 
         });
   }
-  else {return}
+  else{
+  const restoredHeaders = this.state.invisibleHeaders.filter(w => w !== series);
+      this.setState({
+        invisibleHeaders: restoredHeaders
+      });
+    }
 }
 
   headerSummon(series) {
     if (this.state.invisibleHeaders.includes(series)) {
       
-      const list = this.state.invisibleHeaders;
-        list.push(series);
+      const list = this.state.invisibleHeaders.filter(w => w !== series);
 
         this.setState({
           invisibleHeaders: list
 
         });
       }
-      else {return}
+      else {this.setState({
+        invisibleHeaders: this.state.invisibleHeaders
+      })}
     }
 
   componentDidMount() {
@@ -103,6 +110,7 @@ export class App extends Component {
                       katakana={this.state.katakana}
                       ridewatchClick={this.ridewatchClick.bind(this)}
                       headerDesummon={this.headerDesummon}
+                      headerSummon={this.headerSummon}
                       invisibleHeaders={this.state.invisibleHeaders}
                     />
                   )}

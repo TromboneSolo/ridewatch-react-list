@@ -22,6 +22,7 @@ class Checklist extends Component {
       watches={allWatches.filter(w => w.series === series)}
       ridewatchClick={this.props.ridewatchClick}
       headerDesummon={this.props.headerDesummon}
+      headerSummon={this.props.headerSummon}
       invisibleHeaders={this.props.invisibleHeaders}
     /> 
     );

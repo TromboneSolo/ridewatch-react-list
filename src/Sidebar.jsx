@@ -24,7 +24,8 @@ class Sidebar extends Component {
           <button
             imgsrc = {process.env.PUBLIC_URL + "/images/icons/" + "header-" + series + ".png"}
             onClick = { () => this.props.headerSummon(series)}
-          />
+            
+          >yes</button>
           </li>
       )
     })
