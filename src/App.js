@@ -19,7 +19,7 @@ export class App extends Component {
       invisibleHeaders: ["zio", "build", "ryuki"],
     };
     this.languageClick = this.languageClick.bind(this);
-    this.headerDesummon = this.headerDesummon.bind(this);
+    this.headerToggle = this.headerToggle.bind(this);
     this.headerSummon = this.headerSummon.bind(this);
   }
 
@@ -39,7 +39,7 @@ export class App extends Component {
     }
   }
 
-  headerDesummon(series) {
+  headerToggle(series) {
     if (!this.state.invisibleHeaders.includes(series)) {
       
         const removedHeaders = this.state.invisibleHeaders;
@@ -109,7 +109,7 @@ export class App extends Component {
                       {...props}
                       katakana={this.state.katakana}
                       ridewatchClick={this.ridewatchClick.bind(this)}
-                      headerDesummon={this.headerDesummon}
+                      headerToggle={this.headerToggle}
                       headerSummon={this.headerSummon}
                       invisibleHeaders={this.state.invisibleHeaders}
                     />

@@ -116,7 +116,7 @@ export class RidewatchList extends Component {
           <div className={this.props.series + "-div"}>
             <h1
               id={this.props.series + "-header"}
-              onClick={ () => this.props.headerDesummon(this.props.series)}
+              onClick={ () => this.props.headerToggle(this.props.series)}
               className={this.props.series + "-open"}
             >
               <i id={this.props.series + "-header"} />
