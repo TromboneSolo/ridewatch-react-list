@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://trombonesolo.github.io/ridewatch-react-list",
   "dependencies": {
+    "canvas-confetti": "^1.5.1",
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

@@ -101,13 +101,7 @@ export class RidewatchList extends Component {
     if (this.props.invisibleHeaders.includes(this.props.series)) {
       return (
         <div className={this.props.series + "-div"}>
-          <h1 className={this.props.series}>
-            <i id={this.props.series + "-header"} />
-            <img
-            className = {"listHeaderImage"}
-            onClick= { () =>this.props.headerToggle(this.props.series)}
-             src={this.headerUrlGet()} />
-          </h1>
+         
         </div>
       );
     } else {

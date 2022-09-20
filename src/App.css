@@ -38,6 +38,11 @@ button {
   cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 
+#confettiCanvas {
+  width: calc(100% - 260px);
+  height: calc(100% - 123px);
+}
+
 p {
   font-size: 16px;
   font-family: "robotoblack_italic";

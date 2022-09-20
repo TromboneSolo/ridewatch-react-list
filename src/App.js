@@ -16,7 +16,7 @@ export class App extends Component {
       language: "English",
       logo: "/images/icons/ZioEnglishLogo.png",
       totalOwned: "",
-      invisibleHeaders: ["zio", "build", "ryuki"],
+      invisibleHeaders: [],
     };
     this.languageClick = this.languageClick.bind(this);
     this.headerToggle = this.headerToggle.bind(this);

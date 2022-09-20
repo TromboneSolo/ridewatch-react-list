@@ -82,3 +82,8 @@
 #totalText {
   margin-left:40px;
 }
+
+.sidebarHeaderButton {
+max-height:50px;
+max-width:50px;
+}

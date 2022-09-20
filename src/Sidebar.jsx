@@ -12,24 +12,10 @@ class Sidebar extends Component {
     this.state = {
       width: window.innerWidth,
     };
-    this.headerMinimized = this.headerMinimized.bind(this)
   }
 
 
-  headerMinimized(){
-    var minimizedList = this.props.invisibleHeaders
-    minimizedList.map(series => {
-      return (
-        <li>
-          <button
-            imgsrc = {process.env.PUBLIC_URL + "/images/icons/" + "header-" + series + ".png"}
-            onClick = { () => this.props.headerToggle(series)}
-            
-          >yes</button>
-          </li>
-      )
-    })
-   }
+ 
 
 
   render() {
@@ -82,7 +68,15 @@ class Sidebar extends Component {
             </div>
             <div id = "minimizedLists">
               <ul className = "sidebarHeader">
-              {this.headerMinimized()}
+              {this.props.invisibleHeaders.map(series => {
+      return (
+        <li>
+          <button className={"sidebarHeaderButton"}
+            onClick = { () => this.props.headerToggle(series)}>
+          <img src={process.env.PUBLIC_URL + "/images/icons/" + "icon-" + series + ".png"} alt={series} height={"45px"}width={"45px"}/></button>
+        </li>
+      )
+    })}
               </ul>
             </div>
           </div>
