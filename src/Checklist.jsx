@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import RidewatchList from "./components/RidewatchList.jsx";
 import DataService from "./services/DataService";
 import confetti from "canvas-confetti";
-
+import Canvas from "./components/Canvas";
 class Checklist extends Component {
   constructor(props) {
     super(props);
@@ -36,7 +36,6 @@ class Checklist extends Component {
   }
 
   render() {
-
     var allWatches = this.dataService.fetchAll();
     var uniqueSeriesList = this.dataService.fetchUniqueSeries(allWatches);
     var ridewatchLists = uniqueSeriesList.map(series =>
@@ -61,7 +60,11 @@ if(this.props.invisibleHeaders.length === 22) {
 
     return (
       <div>
-
+        <Canvas 
+          height = "320"
+          width = "640"
+          canvasText = "I am Canvas. Here me roar!" 
+        />
         {ridewatchLists}
 
       </div>
