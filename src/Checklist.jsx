@@ -13,26 +13,7 @@ class Checklist extends Component {
 
   canvasGenerator()
   {
-    var myCanvas = document.createElement('canvas');
-    document.body.appendChild(myCanvas);
-    var myConfetti = confetti.create(myCanvas, {
-      resize: true,
-      height: window.innerHeight - 30,
-      width: window.innerWidth - 150,
-    });
-
-    return(
-      myConfetti({
-      particleCount: 100,
-      spread: 160,
-      origin: {
-        x: Math.random(),
-        // since they fall down, start a bit higher than random
-        y: 1000
-      }
-      // any other options from the global
-      // confetti function
-    }))
+    return("shit")
   }
 
   render() {
@@ -53,18 +34,20 @@ if(this.props.invisibleHeaders.length === 22) {
   return (
     <div>
       Congratutions!
-      {this.canvasGenerator()}
+      <Canvas 
+          id="myCanvas"
+          height = "320"
+          width = "640"
+          canvasText = "I am Canvas. Here me roar!" 
+        />
     </div>
+    
   )}
   else{
 
     return (
       <div>
-        <Canvas 
-          height = "320"
-          width = "640"
-          canvasText = "I am Canvas. Here me roar!" 
-        />
+        
         {ridewatchLists}
 
       </div>
