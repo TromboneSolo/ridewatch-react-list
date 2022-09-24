@@ -12,17 +12,27 @@ class Sidebar extends Component {
     this.state = {
       width: window.innerWidth,
     };
+    this.easterEgg = this.easterEgg.bind(this);
   }
 
-
- 
-
+  easterEgg() {
+    if (this.props.invisibleHeaders.length === 3) {
+      return (
+        <img
+          src={process.env.PUBLIC_URL + "/images/icons/dankurogo.png"}
+          alt="dan"
+        />
+      );
+    } else {
+      return;
+    }
+  }
 
   render() {
     var imagine = "/images/icons/test.png";
     var allWatches = this.dataService.fetchAll();
     const sidebarBackground = {
-      backgroundImage: "url(" + imagine + ")"
+      backgroundImage: "url(" + imagine + ")",
     };
 
     return (
@@ -64,20 +74,39 @@ class Sidebar extends Component {
               })}
             </ul>
             <div>
-              <p id="totalText">Total Owned: {this.props.totalOwned}/{allWatches.length}</p>
+              <p id="totalText">
+                Total Owned: {this.props.totalOwned}/{allWatches.length}
+              </p>
             </div>
-            <div id = "minimizedLists">
-              <ul className = "sidebarHeader">
-              {this.props.invisibleHeaders.map(series => {
-      return (
-        <li>
-          <button className={"sidebarHeaderButton"}
-            onClick = { () => this.props.headerToggle(series)}>
-          <img src={process.env.PUBLIC_URL + "/images/icons/" + "icon-" + series + ".png"} alt={series} height={"45px"}width={"45px"}/></button>
-        </li>
-      )
-    })}
+            <div id="minimizedLists">
+              <ul className="sidebarHeader">
+                {this.props.invisibleHeaders.map((series) => {
+                  return (
+                    <li>
+                      <button
+                        className={"sidebarHeaderButton"}
+                        onClick={() => this.props.headerToggle(series)}
+                        height={"62px"}
+                        width={"62px"}
+                      >
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/icons/" +
+                            "icon-" +
+                            series +
+                            ".png"
+                          }
+                          alt={series}
+                          height={"30px"}
+                          width={"30px"}
+                        />
+                      </button>
+                    </li>
+                  );
+                })}
               </ul>
+              {this.easterEgg()}
             </div>
           </div>
         </div>

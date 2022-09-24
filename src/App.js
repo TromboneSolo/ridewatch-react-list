@@ -77,7 +77,7 @@ export class App extends Component {
     this.setState({ totalOwned: localStorage.length.toString() });
   }
 
-  ridewatchClick() {
+  totalOwnedUpdate() {
     this.setState({ totalOwned: localStorage.length.toString() });
   }
 
@@ -107,7 +107,7 @@ export class App extends Component {
                     <prop.page
                       {...props}
                       katakana={this.state.katakana}
-                      ridewatchClick={this.ridewatchClick.bind(this)}
+                      totalOwnedUpdate={this.totalOwnedUpdate.bind(this)}
                       headerToggle={this.headerToggle}
                       invisibleHeaders={this.state.invisibleHeaders}
                     />

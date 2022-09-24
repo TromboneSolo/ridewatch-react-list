@@ -103,6 +103,10 @@ h1 {
   cursor: url("https://i.imgur.com/z2BEc4D.png"), auto;
 }
 
+.search-header{
+  font-style: italic;
+}
+
 #searchCheckbox {
   margin-top: 5px;
   margin-right: 20px;

@@ -4,11 +4,11 @@ import DataService from "./services/DataService";
 
 const tryRequire = (path) => {
   try {
-   return require(`${path}`);
+    return require(`${path}`);
   } catch (err) {
-   return null;
+    return null;
   }
-}
+};
 
 class Search extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class Search extends Component {
       secondaryColorSearch: "all",
       DX: null,
       nameSearch: "",
-      ownedSearch: "all"
+      ownedSearch: "all",
     };
 
     this.dataService = new DataService();
@@ -30,26 +30,24 @@ class Search extends Component {
     this.searchClick = this.searchClick.bind(this);
   }
 
-
-
   handlePrimaryChange(event) {
     let value = event.target.value;
     this.setState({
-      primaryColorSearch: value
+      primaryColorSearch: value,
     });
   }
 
   handleSecondaryChange(event) {
     let value = event.target.value;
     this.setState({
-      secondaryColorSearch: value
+      secondaryColorSearch: value,
     });
   }
 
   handleOwnedChange(event) {
     let value = event.target.value;
     this.setState({
-      ownedSearch: value
+      ownedSearch: value,
     });
   }
 
@@ -57,15 +55,15 @@ class Search extends Component {
     let value = event.target.value;
     if (value === "both") {
       this.setState({
-        DX: null
+        DX: null,
       });
     } else if (value === "true") {
       this.setState({
-        DX: true
+        DX: true,
       });
     } else if (value === "false") {
       this.setState({
-        DX: false
+        DX: false,
       });
     }
   }
@@ -73,29 +71,29 @@ class Search extends Component {
   handleNamedChange(event) {
     let value = event.target.value;
     this.setState({
-      nameSearch: value
+      nameSearch: value,
     });
   }
-
-
 
   searchClick() {
     //var filteredList = ridewatchJson.watch;
     //var filteredList = this.dataService.fetchAll();
     var search = {
-      displayWatches: this.state.displayWatches, 
+      displayWatches: this.state.displayWatches,
       primaryColorSearch: this.state.primaryColorSearch,
       secondaryColorSearch: this.state.secondaryColorSearch,
       DX: this.state.DX,
       nameSearch: this.state.nameSearch,
-      ownedSearch: this.state.ownedSearch
-    }
+      ownedSearch: this.state.ownedSearch,
+    };
     var filteredList = this.dataService.fetch(search);
-    let finalWatchArray = filteredList.map(watch => {
+    let finalWatchArray = filteredList.map((watch) => {
       return (
         <li>
           <Ridewatch
-            imgsrc= {process.env.PUBLIC_URL + "/images/watches/" + watch.id + ".png"}
+            imgsrc={
+              process.env.PUBLIC_URL + "/images/watches/" + watch.id + ".png"
+            }
             alt={watch.name}
             identity={this.props.katakana ? watch.katakana : watch.name}
             year={watch.year}
@@ -103,7 +101,7 @@ class Search extends Component {
             key={watch.id}
             series={watch.series}
             checked={this.state.Checked}
-            ridewatchClick={this.props.ridewatchClick}
+            totalOwnedUpdate={this.props.totalOwnedUpdate}
           />
         </li>
       );
