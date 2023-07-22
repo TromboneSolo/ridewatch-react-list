@@ -43,7 +43,7 @@ class Sidebar extends Component {
         data-image={imagine}
       >
         <div className="sidebar-background" style={sidebarBackground} />
-        <div style={{ height: 105 }} className="logo">
+        <div style={{ height: 90 }} className="logo">
           <div>
             <img
               src={this.props.logo}
@@ -86,8 +86,8 @@ class Sidebar extends Component {
                       <button
                         className={"sidebarHeaderButton"}
                         onClick={() => this.props.headerToggle(series)}
-                        height={"62px"}
-                        width={"62px"}
+                        height={"20px"}
+                        width={"20px"}
                       >
                         <img
                           src={
