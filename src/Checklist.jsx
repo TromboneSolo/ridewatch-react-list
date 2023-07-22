@@ -31,12 +31,12 @@ class Checklist extends Component {
     if (this.props.invisibleHeaders.length === 22) {
       return (
         <div>
-          Congratutions!
+          Congratutions! You have wasted as much money as me.
           <Canvas
             id="myCanvas"
             height="320"
             width="640"
-            canvasText="I am Canvas. Here me roar!"
+            canvasText="God Will Not Forgive Bandai"
           />
         </div>
       );
