@@ -31,7 +31,7 @@ class Checklist extends Component {
     if (this.props.invisibleHeaders.length === 22) {
       return (
         <div>
-          Congratutions! You have wasted as much money as me.
+          Congratutions! You have wasted even more money than me.
           <Canvas
             id="myCanvas"
             height="320"
