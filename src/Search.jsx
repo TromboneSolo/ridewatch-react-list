@@ -109,6 +109,14 @@ class Search extends Component {
     this.setState({ displayWatches: finalWatchArray });
   }
 
+  handleKeyPress = (event) => {
+    if(event.key === 'Enter'){
+      event.preventDefault();
+      this.searchClick();
+    }
+  }
+  
+
   ridewatchSearcher() {
     let ridewatches = this.state.searchResult;
     return ridewatches;
@@ -136,6 +144,7 @@ class Search extends Component {
             id="searchBar"
             placeholder="Rider Time"
             onChange={this.handleNamedChange.bind(this)}
+            onKeyDown={this.handleKeyPress.bind(this)}
           />
           Primary Color:
           <select
