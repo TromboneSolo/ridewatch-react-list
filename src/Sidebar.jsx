@@ -16,7 +16,7 @@ class Sidebar extends Component {
   }
 
   easterEgg() {
-    if (this.props.invisibleHeaders === 3) {
+    if (this.props.invisibleHeaders[0] === "exaid") {
       return (
         <img
           src={process.env.PUBLIC_URL + "/images/icons/dankuroto.png"}
