@@ -29,7 +29,7 @@ class Sidebar extends Component {
   }
 
   render() {
-    var imagine = "/images/icons/test.png";
+    var imagine = process.env.PUBLIC_URL + "/images/icons/test.png";
     var allWatches = this.dataService.fetchAll();
     const sidebarBackground = {
       backgroundImage: "url(" + imagine + ")",

@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
+import Config from "./config"
 //import JapaneseLogo from "/images/icons/header-zio.png";
 //import EnglishLogo from "/images/icons/ZioEnglishLogo.png";
 
@@ -27,13 +28,13 @@ export class App extends Component {
       this.setState({
         katakana: true,
         language: "Japanese",
-        logo: "/images/icons/ZioJapaneseLogo.png"
+        logo: process.env.PUBLIC_URL + "/images/icons/ZioJapaneseLogo.png"
       });
     } else {
       this.setState({
         katakana: false,
         language: "English",
-        logo: "/images/icons/ZioEnglishLogo.png"
+        logo: process.env.PUBLIC_URL + "/images/icons/ZioEnglishLogo.png"
       });
     }
   }
