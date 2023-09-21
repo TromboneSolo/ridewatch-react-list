@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
-import Config from "./config"
+import ConfigService from "./config.jsx";
 //import JapaneseLogo from "/images/icons/header-zio.png";
 //import EnglishLogo from "/images/icons/ZioEnglishLogo.png";
 
@@ -15,10 +15,12 @@ export class App extends Component {
     this.state = {
       katakana: false,
       language: "English",
-      logo: "/images/icons/ZioEnglishLogo.png",
+      logo: "ZioEnglishLogo.png",
       totalOwned: "",
       invisibleHeaders: [],
     };
+
+    this.configService = new ConfigService();
     this.languageClick = this.languageClick.bind(this);
     this.headerToggle = this.headerToggle.bind(this);
   }
@@ -28,13 +30,13 @@ export class App extends Component {
       this.setState({
         katakana: true,
         language: "Japanese",
-        logo: process.env.PUBLIC_URL + "/images/icons/ZioJapaneseLogo.png"
+        logo: this.configService.iconDirectory() + "ZioJapaneseLogo.png"
       });
     } else {
       this.setState({
         katakana: false,
         language: "English",
-        logo: process.env.PUBLIC_URL + "/images/icons/ZioEnglishLogo.png"
+        logo: this.configService.iconDirectory() + "ZioEnglishLogo.png"
       });
     }
   }
@@ -75,7 +77,7 @@ export class App extends Component {
 
   componentDidMount() {
     
-    this.setState({ totalOwned: localStorage.length.toString() });
+    this.setState({ totalOwned: localStorage.length.toString(), logo: this.configService.iconDirectory() + "ZioEnglishLogo.png" });
   }
 
   totalOwnedUpdate() {

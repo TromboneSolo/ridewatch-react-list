@@ -4,6 +4,7 @@ import mainRoutes from "./MainRoutes";
 import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
 import DataService from "./services/DataService";
+import ConfigService from "./config.jsx";
 
 class Sidebar extends Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class Sidebar extends Component {
     this.state = {
       width: window.innerWidth,
     };
+    this.configService = new ConfigService();
     this.easterEgg = this.easterEgg.bind(this);
   }
 
@@ -19,7 +21,7 @@ class Sidebar extends Component {
     if (this.props.invisibleHeaders[0] === "exaid") {
       return (
         <img
-          src={process.env.PUBLIC_URL + "/images/icons/dankuroto.png"}
+          src={this.configService.iconDirectory() +"dankuroto.png"}
           alt="dan"
         />
       );
@@ -29,7 +31,7 @@ class Sidebar extends Component {
   }
 
   render() {
-    var imagine = process.env.PUBLIC_URL + "/images/icons/test.png";
+    var imagine = this.configService.iconDirectory() + "test.png";
     var allWatches = this.dataService.fetchAll();
     const sidebarBackground = {
       backgroundImage: "url(" + imagine + ")",
@@ -91,8 +93,7 @@ class Sidebar extends Component {
                       >
                         <img
                           src={
-                            process.env.PUBLIC_URL +
-                            "/images/icons/" +
+                            this.configService.iconDirectory() +
                             "icon-" +
                             series +
                             ".png"

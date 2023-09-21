@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Ridewatch from "./Ridewatch";
+import ConfigService from "../config.jsx";
 
 const tryRequire = (path) => {
   try {
@@ -56,13 +57,12 @@ export class RidewatchList extends Component {
       Checked: "false",
       invisibleHeaders: this.props.invisibleHeaders,
     };
-    //this.checkAll = this.checkAll.bind(this);
+    this.configService = new ConfigService();
   }
 
   headerUrlGet() {
     var headerUrl =
-      process.env.PUBLIC_URL +
-      "/images/icons/" +
+    this.configService.iconDirectory() +
       "header-" +
       this.props.series +
       ".png";
@@ -77,7 +77,7 @@ export class RidewatchList extends Component {
             <Ridewatch
               //imgsrc={this.localImageUrl(watch)}
               imgsrc={
-                process.env.PUBLIC_URL + "/images/watches/" + watch.id + ".png"
+                this.configService.watchDirectory() + watch.id + ".png"
               }
               alt={watch.name}
               soundex={soundex(watch.name)}
