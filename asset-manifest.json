@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/ridewatch-react-list/static/css/main.3b647b89.chunk.css",
-    "main.js": "/ridewatch-react-list/static/js/main.817f6bed.chunk.js",
-    "main.js.map": "/ridewatch-react-list/static/js/main.817f6bed.chunk.js.map",
-    "runtime~main.js": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js",
-    "runtime~main.js.map": "/ridewatch-react-list/static/js/runtime~main.1e75759b.js.map",
-    "static/js/2.09a57012.chunk.js": "/ridewatch-react-list/static/js/2.09a57012.chunk.js",
-    "static/js/2.09a57012.chunk.js.map": "/ridewatch-react-list/static/js/2.09a57012.chunk.js.map",
+    "main.css": "/ridewatch-react-list/static/css/main.feaf0ccd.css",
+    "main.js": "/ridewatch-react-list/static/js/main.86d73e71.js",
+    "static/media/roboto-blackitalic-webfont.woff": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.66ab51ca6ba71db5f86f.woff",
+    "static/media/roboto-blackitalic-webfont.woff2": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.71def6a847bd6ce6c7a4.woff2",
     "index.html": "/ridewatch-react-list/index.html",
-    "precache-manifest.dbd874ca461636bae69c249f9b2109c8.js": "/ridewatch-react-list/precache-manifest.dbd874ca461636bae69c249f9b2109c8.js",
-    "service-worker.js": "/ridewatch-react-list/service-worker.js",
-    "static/css/main.3b647b89.chunk.css.map": "/ridewatch-react-list/static/css/main.3b647b89.chunk.css.map",
-    "static/media/roboto-blackitalic-webfont.woff": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.1a225cfa.woff",
-    "static/media/roboto-blackitalic-webfont.woff2": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.44871b57.woff2"
-  }
+    "main.feaf0ccd.css.map": "/ridewatch-react-list/static/css/main.feaf0ccd.css.map",
+    "main.86d73e71.js.map": "/ridewatch-react-list/static/js/main.86d73e71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feaf0ccd.css",
+    "static/js/main.86d73e71.js"
+  ]
 }
