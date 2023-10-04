@@ -47,6 +47,7 @@ export class Ridewatch extends Component {
 
     this.props.totalOwnedUpdate();
   }
+  
 
   render() {
     return (

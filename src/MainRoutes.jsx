@@ -5,6 +5,7 @@ const mainRoutes = [
   {
     path: "/checklist",
     name: "Checklist",
+    katakana: "リスト",
     icon: "checklist-icon",
     component: Checklist,
     page: Checklist
@@ -13,6 +14,7 @@ const mainRoutes = [
   {
     path: "/search",
     name: "Search",
+    katakana: "探索",
     icon: "search-icon",
     component: Search,
     page: Search

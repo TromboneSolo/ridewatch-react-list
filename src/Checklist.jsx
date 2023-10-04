@@ -7,12 +7,9 @@ class Checklist extends Component {
     super(props);
     this.dataService = new DataService();
     this.state = {};
-    this.canvasGenerator = this.canvasGenerator.bind(this);
+    
   }
 
-  canvasGenerator() {
-    return "shit";
-  }
 
   render() {
     var allWatches = this.dataService.fetchAll();

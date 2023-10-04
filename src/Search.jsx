@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Ridewatch from "./components/Ridewatch";
 import DataService from "./services/DataService";
+import ConfigService from "./config.jsx";
 
 const tryRequire = (path) => {
   try {
@@ -25,6 +26,7 @@ class Search extends Component {
     };
 
     this.dataService = new DataService();
+    this.configService = new ConfigService();
     this.ridewatchSearcher = this.ridewatchSearcher.bind(this);
 
     this.searchClick = this.searchClick.bind(this);
@@ -92,7 +94,7 @@ class Search extends Component {
         <li>
           <Ridewatch
             imgsrc={
-              process.env.PUBLIC_URL + "/images/watches/" + watch.id + ".png"
+              this.configService.watchDirectory() + watch.id + ".png"
             }
             alt={watch.name}
             identity={this.props.katakana ? watch.katakana : watch.name}
