@@ -1893,6 +1893,138 @@
       "primaryColor": "black",
       "secondaryColor": "purple"
     },
+        {
+      "id": "ichigou",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Ichigou",
+      "katakana": "1号",
+      "year": "1971",
+      "primaryColor": "green",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "nigou",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Nigou",
+      "katakana": "2号",
+      "year": "1971",
+      "primaryColor": "green",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "v3",
+      "DX": true,
+
+      "series": "misc",
+      "name": "V3",
+      "katakana": "V3",
+      "year": "1973",
+      "primaryColor": "white",
+      "secondaryColor": "red"
+    },
+    {
+      "id": "riderman",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Riderman",
+      "katakana": "ライダーマン",
+      "year": "1973",
+      "primaryColor": "yellow",
+      "secondaryColor": "blue"
+    },
+    {
+      "id": "x",
+      "DX": true,
+
+      "series": "misc",
+      "name": "X",
+      "katakana": "X",
+      "year": "1974",
+      "primaryColor": "black",
+      "secondaryColor": "silver"
+    },
+    {
+      "id": "amazon",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Amazon",
+      "katakana": "アマゾン",
+      "year": "1974",
+      "primaryColor": "green",
+      "secondaryColor": "mustard"
+    },
+    {
+      "id": "stronger",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Stronger",
+      "katakana": "ストロンガー",
+      "year": "1975",
+      "primaryColor": "red",
+      "secondaryColor": "black"
+    },
+    {
+      "id": "skyrider",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Skyrider",
+      "katakana": "スカイライダー",
+      "year": "1975",
+      "primaryColor": "red",
+      "secondaryColor": "green"
+    },
+    {
+      "id": "super1",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Super-1",
+      "katakana": "スーパー1",
+      "year": "1980",
+      "primaryColor": "silver",
+      "secondaryColor": "black"
+    },
+     {
+      "id": "zx",
+      "DX": true,
+
+      "series": "misc",
+      "name": "ZX",
+      "katakana": "ZX",
+      "year": "1984",
+      "primaryColor": "silver",
+      "secondaryColor": "red"
+    },
+     {
+      "id": "black",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Black",
+      "katakana": "BLACK",
+      "year": "1987",
+      "primaryColor": "black",
+      "secondaryColor": "black"
+    },
+     {
+      "id": "shadowmoon",
+      "DX": true,
+
+      "series": "misc",
+      "name": "Shadow Moon",
+      "katakana": "シャドームーン",
+      "year": "1987",
+      "primaryColor": "silver",
+      "secondaryColor": "silver"
+    },
     {
       "id": "blackrx",
       "DX": true,
