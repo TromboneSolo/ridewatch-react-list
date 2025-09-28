@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ridewatch-react-list/static/css/main.27ceacbc.css",
-    "main.js": "/ridewatch-react-list/static/js/main.f295a608.js",
+    "main.js": "/ridewatch-react-list/static/js/main.39f5e570.js",
     "static/media/roboto-blackitalic-webfont.woff": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.66ab51ca6ba71db5f86f.woff",
     "static/media/roboto-blackitalic-webfont.woff2": "/ridewatch-react-list/static/media/roboto-blackitalic-webfont.71def6a847bd6ce6c7a4.woff2",
     "index.html": "/ridewatch-react-list/index.html",
     "main.27ceacbc.css.map": "/ridewatch-react-list/static/css/main.27ceacbc.css.map",
-    "main.f295a608.js.map": "/ridewatch-react-list/static/js/main.f295a608.js.map"
+    "main.39f5e570.js.map": "/ridewatch-react-list/static/js/main.39f5e570.js.map"
   },
   "entrypoints": [
     "static/css/main.27ceacbc.css",
-    "static/js/main.f295a608.js"
+    "static/js/main.39f5e570.js"
   ]
 }
