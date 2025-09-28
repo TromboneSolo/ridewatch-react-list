@@ -1586,7 +1586,7 @@
       "secondaryColor": "black"
     },
     {
-      "id": "anotherichigo",
+      "id": "anotherichigou",
       "DX": true,
 
       "series": "another",
@@ -2070,7 +2070,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "zo",
+      "id": "ZO",
       "DX": true,
 
       "series": "misc",
@@ -2081,7 +2081,7 @@
       "secondaryColor": "green"
     },
     {
-      "id": "j",
+      "id": "J",
       "DX": true,
 
       "series": "misc",
