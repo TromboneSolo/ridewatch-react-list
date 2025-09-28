@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "https://trombonesolo.github.io/ridewatch-react-list",
   "dependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^6.1.1",
+    "mocha": "^10.5.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^5.0.1",
     "require-context": "^1.1.0"
   },
   "scripts": {
