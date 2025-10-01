@@ -2137,7 +2137,7 @@
     },
     {
       "id": "zeroone",
-      "DX": false,
+      "DX": true,
       "series": "misc",
 
       "name": "Zero-One",
@@ -2198,6 +2198,26 @@
       "year": "2023",
       "primaryColor": "blue",
       "secondaryColor": "orange"
+    },
+     {
+      "id": "gavv",
+      "DX": true,
+      "series": "misc",
+      "name": "Gavv",
+      "katakana": "ガヴ",
+      "year": "2024",
+      "primaryColor": "purple",
+      "secondaryColor": "blue"
+    },
+     {
+      "id": "zeztz",
+      "DX": true,
+      "series": "misc",
+      "name": "Zeztz",
+      "katakana": "ゼッツ",
+      "year": "2025",
+      "primaryColor": "green",
+      "secondaryColor": "black"
     },
     {
       "id": "blank",
