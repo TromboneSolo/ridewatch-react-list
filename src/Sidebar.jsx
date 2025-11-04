@@ -29,7 +29,7 @@ class Sidebar extends Component {
   }
 
   render() {
-    var imagine = "/images/icons/test.png";
+    var imagine = process.env.PUBLIC_URL + "/images/icons/test.png";
     var allWatches = this.dataService.fetchAll();
     const sidebarBackground = {
       backgroundImage: "url(" + imagine + ")",
@@ -50,6 +50,10 @@ class Sidebar extends Component {
               height={90}
               alt="logo_image"
               onClick={this.props.languageClick}
+              onError={(e) => {
+                console.error('Image failed to load:', e.target.src);
+                e.target.onerror = null; // Prevent infinite loop
+              }}
             />
           </div>
         </div>
@@ -100,6 +104,10 @@ class Sidebar extends Component {
                           alt={series}
                           height={"30px"}
                           width={"30px"}
+                          onError={(e) => {
+                            console.error('Series icon failed to load:', e.target.src);
+                            e.target.onerror = null;
+                          }}
                         />
                       </button>
                     </li>

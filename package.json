@@ -37,6 +37,8 @@
   },
   "devDependencies": {
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.8"
+    "enzyme-adapter-react-16": "^1.15.8",
+    "jsdom": "^27.1.0",
+    "jsdom-global": "^3.0.2"
   }
 }

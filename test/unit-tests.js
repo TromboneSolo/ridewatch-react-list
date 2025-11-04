@@ -5,6 +5,13 @@ const React = require('react');
 const Sidebar = require('../src/Sidebar.jsx').default;
 const { shallow } = require('enzyme');
 
+// Mock console.error if it doesn't exist
+if (!global.jest) {
+  global.jest = {
+    fn: () => jest.fn || (() => {})
+  };
+}
+
 describe('DataService', function() {
   let dataService;
 
@@ -222,6 +229,29 @@ describe('Sidebar', function() {
         invisibleHeaders: ['zio', 'build', 'exaid', 'ghost']
       });
       assert(!wrapper.find('img[alt="dan"]').exists());
+    });
+
+    it('should handle missing images gracefully', function() {
+      // Mock console.error to prevent test output noise
+      const originalError = console.error;
+      console.error = jest.fn();
+
+      // Test with invalid image path
+      wrapper.setProps({
+        logo: '/invalid/path/image.png'
+      });
+      const logoImg = wrapper.find('.logo img');
+      assert(logoImg.exists(), 'Logo image should still render even with invalid src');
+      
+      // Test error handling for minimized list icons
+      wrapper.setProps({
+        invisibleHeaders: ['nonexistent-series']
+      });
+      const minimizedIcon = wrapper.find('.sidebarHeader img');
+      assert(minimizedIcon.exists(), 'Minimized icon should still render even with invalid src');
+
+      // Restore console.error
+      console.error = originalError;
     });
   });
 });
