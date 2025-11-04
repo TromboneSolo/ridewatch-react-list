@@ -1,4 +1,4 @@
-import ridewatchJson from "../ridewatchdata.json";
+const ridewatchJson = require("../ridewatchdata.json");
 
 function soundex(name, maxLength)
 {
@@ -50,11 +50,14 @@ function soundex(name, maxLength)
     return s.join("");
 }
 
-export default class DataService 
-{
+class DataService {
+    constructor() {
+        this.ridewatchJson = require("../ridewatchdata.json");
+    }
 
-    fetch(search)
+    fetch(search = {})
     {
+        if (!search) search = {};
         var filteredList = this.fetchAll();
         let a;
         if (search.ownedSearch !== "all") {
@@ -148,3 +151,5 @@ export default class DataService
 
 
 }
+
+module.exports = DataService;

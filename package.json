@@ -17,7 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "test": "mocha",
+    "test": "mocha --require ./test/setupTests.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

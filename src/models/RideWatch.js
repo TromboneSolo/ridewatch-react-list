@@ -13,12 +13,10 @@
 */
 
 
-export default class RideWatch
-{
-    constructor(id, dx, series, name, katakana, year, primaryColor, secondaryColor)
-    {
+class RideWatch {
+    constructor(id, dx, series, name, katakana, year, primaryColor, secondaryColor) {
         this.id = id || "";
-        this.DX = dx || true;
+        this.DX = dx !== undefined ? dx : true;
         this.series = series || "";
         this.name = name || "";
         this.katakana = katakana || "";
@@ -26,4 +24,8 @@ export default class RideWatch
         this.primaryColor = primaryColor || "";
         this.secondaryColor = secondaryColor || "";
     }
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = RideWatch;
 }
