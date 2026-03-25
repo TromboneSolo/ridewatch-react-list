@@ -14,7 +14,7 @@ export class App extends Component {
     this.state = {
       katakana: false,
       language: "English",
-      logo: "/images/icons/ZioEnglishLogo.png",
+      logo: process.env.PUBLIC_URL + "/images/icons/ZioEnglishLogo.png",
       totalOwned: "",
       invisibleHeaders: [],
     };
@@ -27,13 +27,13 @@ export class App extends Component {
       this.setState({
         katakana: true,
         language: "Japanese",
-        logo: "/images/icons/ZioJapaneseLogo.png"
+        logo: process.env.PUBLIC_URL + "/images/icons/ZioJapaneseLogo.png"
       });
     } else {
       this.setState({
         katakana: false,
         language: "English",
-        logo: "/images/icons/ZioEnglishLogo.png"
+        logo: process.env.PUBLIC_URL + "/images/icons/ZioEnglishLogo.png"
       });
     }
   }
