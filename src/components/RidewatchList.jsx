@@ -46,6 +46,9 @@ function soundex(name) {
   return s.join("");
 }
 
+// RidewatchList renders a single series section on the Checklist page.
+// It shows a clickable header image and a list of Ridewatch buttons for that series.
+// If the series is in invisibleHeaders, the section is hidden (renders an empty div).
 export class RidewatchList extends Component {
   constructor(props) {
     super(props);
@@ -59,6 +62,7 @@ export class RidewatchList extends Component {
     //this.checkAll = this.checkAll.bind(this);
   }
 
+  // Builds the URL for the series header image (e.g. header-zio.png).
   headerUrlGet() {
     var headerUrl =
       process.env.PUBLIC_URL +
@@ -69,6 +73,7 @@ export class RidewatchList extends Component {
     return headerUrl;
   }
 
+  // Maps the watches for this series into individual Ridewatch components.
   ridewatchMaker() {
     let ridewatches = this.props.watches.map((watch) => {
       if (watch.series === this.props.series) {
@@ -114,6 +119,9 @@ export class RidewatchList extends Component {
   onClick={() => this.checkAll()}
 ></button>*/
 
+  // If this series is in invisibleHeaders, renders an empty div (hidden).
+  // Otherwise renders the series header image and the full list of watch buttons.
+  // Clicking the header image calls headerToggle to hide this series.
   render() {
     if (this.props.invisibleHeaders.includes(this.props.series)) {
       return <div className={this.props.series + "-div"}></div>;

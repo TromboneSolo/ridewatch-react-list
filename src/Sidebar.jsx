@@ -5,6 +5,8 @@ import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
 import DataService from "./services/DataService";
 
+// Sidebar renders the left navigation panel.
+// It displays the logo, page links, total owned count, and icons for any minimized series.
 class Sidebar extends Component {
   constructor(props) {
     super(props);
@@ -15,8 +17,9 @@ class Sidebar extends Component {
     this.easterEgg = this.easterEgg.bind(this);
   }
 
+  // The easter egg function. Renders a special image when the trigger condition is met.
   easterEgg() {
-    if (this.props.invisibleHeaders === 3) {
+    if (this.props.invisibleHeaders.length === 3) {
       return (
         <img
           src={process.env.PUBLIC_URL + "/images/icons/dankuroto.png"}
@@ -28,6 +31,9 @@ class Sidebar extends Component {
     }
   }
 
+  // Renders the sidebar: logo (clickable to toggle language), nav links,
+  // owned/total counter, and a row of icon buttons for any minimized series.
+  // Clicking a minimized series icon restores that series on the checklist.
   render() {
     var imagine = process.env.PUBLIC_URL + "/images/icons/test.png";
     var allWatches = this.dataService.fetchAll();

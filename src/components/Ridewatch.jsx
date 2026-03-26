@@ -1,23 +1,32 @@
 import React, { Component } from "react";
 
+// Ridewatch renders a single watch button with its name and year.
+// Clicking the button toggles the watch's owned status in localStorage
+// and updates the button's CSS class to reflect the change visually.
 export class Ridewatch extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      // "false" = not owned; "true-{series}" = owned (used as CSS class name)
       Checked: "false",
     };
 
     this.onClick = this.onClick.bind(this);
   }
-  /*this function (and the Checked state altogether) is only for changing the background css of ridewatches*/
+
+  // Runs before the component mounts. Checks localStorage to set the
+  // initial owned/not-owned visual state of the button.
+  // The Checked state value is only used to drive the button's CSS class.
   componentWillMount() {
     var tempIdentity = this.props.id;
     if (this.props.allChecked === true) {
+      // If a parent "check all" was triggered, mark this watch as owned
       localStorage.setItem(tempIdentity, tempIdentity);
       this.setState({
         Checked: "true-" + this.props.series,
       });
     } else {
+      // Otherwise, restore owned state from localStorage on page load
       if (localStorage.getItem(tempIdentity)) {
         this.setState({
           Checked: "true-" + this.props.series,
@@ -29,7 +38,11 @@ export class Ridewatch extends Component {
       }
     }
   }
-  /*when you click, grab the id and use it to mark the watch as owned in local storage, and change background*/
+
+  // Toggles owned status when the button is clicked.
+  // If the watch is already owned, removes it from localStorage and resets the CSS class.
+  // If not owned, saves it to localStorage and applies the series-specific CSS class.
+  // Calls totalOwnedUpdate() to refresh the owned counter in the sidebar.
   onClick() {
     var tempIdentity = this.props.id;
 
@@ -48,6 +61,8 @@ export class Ridewatch extends Component {
     this.props.totalOwnedUpdate();
   }
 
+  // Renders the watch button, its image, name (or katakana), and release year.
+  // The button's className is set to this.state.Checked, which controls its background color.
   render() {
     return (
       <div id="ridewatch">

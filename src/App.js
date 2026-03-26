@@ -8,20 +8,24 @@ import "./App.css";
 //import JapaneseLogo from "/images/icons/header-zio.png";
 //import EnglishLogo from "/images/icons/ZioEnglishLogo.png";
 
+// App is the root component. It holds all global state and passes it down
+// to the Sidebar and page components via props.
 export class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      katakana: false,
-      language: "English",
-      logo: process.env.PUBLIC_URL + "/images/icons/ZioEnglishLogo.png",
-      totalOwned: "",
-      invisibleHeaders: [],
+      katakana: false,                 // true = display Japanese (katakana) watch names
+      language: "English",            // current display language label
+      logo: process.env.PUBLIC_URL + "/images/icons/ZioEnglishLogo.png", // sidebar logo image
+      totalOwned: "",                 // count of owned watches, read from localStorage
+      invisibleHeaders: [],           // list of series names whose sections are currently hidden
     };
     this.languageClick = this.languageClick.bind(this);
     this.headerToggle = this.headerToggle.bind(this);
   }
 
+  // Toggles the display language between English and Japanese (katakana).
+  // Also swaps the sidebar logo image to match the selected language.
   languageClick() {
     if (!this.state.katakana) {
       this.setState({
@@ -38,6 +42,10 @@ export class App extends Component {
     }
   }
 
+  // Adds or removes a series from the invisibleHeaders list.
+  // If the series is not hidden, it gets added (hidden).
+  // If the series is already hidden, it gets removed (shown again).
+  // Called when a series header image is clicked.
   headerToggle(series) {
     if (!this.state.invisibleHeaders.includes(series)) {
       
@@ -72,15 +80,20 @@ export class App extends Component {
       })}
     }*/
 
+  // On mount, reads the number of owned watches from localStorage
+  // and stores it in state so the sidebar can display the correct total.
   componentDidMount() {
-    
     this.setState({ totalOwned: localStorage.length.toString() });
   }
 
+  // Re-reads the owned watch count from localStorage and updates state.
+  // Called as a callback by Ridewatch whenever a watch is toggled.
   totalOwnedUpdate() {
     this.setState({ totalOwned: localStorage.length.toString() });
   }
 
+  // Renders the app shell: Sidebar on the left, and the active page on the right.
+  // Global state (language, logo, owned count, hidden series) is passed down as props.
   render() {
     return (
       <div className="App">

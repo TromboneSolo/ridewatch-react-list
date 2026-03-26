@@ -10,26 +10,29 @@ const tryRequire = (path) => {
   }
 };
 
+// Search is the filter/search page.
+// It lets users filter the watch catalog by name, color, DX/GP type, and owned status,
+// then displays matching watches as a list of Ridewatch buttons.
 class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
       Checked: "false",
-      searchResult: [],
-      displayWatches: null,
+      searchResult: [],       // raw result array (unused — results go into displayWatches)
+      displayWatches: null,   // rendered list of Ridewatch components to display
       primaryColorSearch: "all",
       secondaryColorSearch: "all",
-      DX: null,
+      DX: null,               // null = both DX and GP; true = DX only; false = GP only
       nameSearch: "",
       ownedSearch: "all",
     };
 
     this.dataService = new DataService();
     this.ridewatchSearcher = this.ridewatchSearcher.bind(this);
-
     this.searchClick = this.searchClick.bind(this);
   }
 
+  // Updates state when the primary color dropdown changes.
   handlePrimaryChange(event) {
     let value = event.target.value;
     this.setState({
@@ -37,6 +40,7 @@ class Search extends Component {
     });
   }
 
+  // Updates state when the secondary color dropdown changes.
   handleSecondaryChange(event) {
     let value = event.target.value;
     this.setState({
@@ -44,6 +48,7 @@ class Search extends Component {
     });
   }
 
+  // Updates state when the owned status dropdown changes.
   handleOwnedChange(event) {
     let value = event.target.value;
     this.setState({
@@ -51,6 +56,8 @@ class Search extends Component {
     });
   }
 
+  // Updates state when the DX/GP dropdown changes.
+  // Converts the string value from the select element into the correct boolean/null.
   handleDXChange(event) {
     let value = event.target.value;
     if (value === "both") {
@@ -68,6 +75,7 @@ class Search extends Component {
     }
   }
 
+  // Updates state as the user types in the name search box.
   handleNamedChange(event) {
     let value = event.target.value;
     this.setState({
@@ -75,9 +83,9 @@ class Search extends Component {
     });
   }
 
+  // Builds a search criteria object from current state and passes it to DataService.
+  // Maps the filtered results to Ridewatch components and stores them in displayWatches.
   searchClick() {
-    //var filteredList = ridewatchJson.watch;
-    //var filteredList = this.dataService.fetchAll();
     var search = {
       displayWatches: this.state.displayWatches,
       primaryColorSearch: this.state.primaryColorSearch,
@@ -109,14 +117,15 @@ class Search extends Component {
     this.setState({ displayWatches: finalWatchArray });
   }
 
+  // Triggers a search when the user presses Enter in the name search box.
   handleKeyPress = (event) => {
     if(event.key === 'Enter'){
       event.preventDefault();
       this.searchClick();
     }
   }
-  
 
+  // Returns the raw search result array from state (currently unused in render).
   ridewatchSearcher() {
     let ridewatches = this.state.searchResult;
     return ridewatches;
