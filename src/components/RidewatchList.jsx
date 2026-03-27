@@ -59,7 +59,7 @@ export class RidewatchList extends Component {
       Checked: "false",
       invisibleHeaders: this.props.invisibleHeaders,
     };
-    //this.checkAll = this.checkAll.bind(this);
+    this.checkAll = this.checkAll.bind(this);
   }
 
   // Builds the URL for the series header image (e.g. header-zio.png).
@@ -102,22 +102,19 @@ export class RidewatchList extends Component {
     return ridewatches;
   }
 
- /*checkAll() {
-    if (this.state.allChecked == false) {
-      this.setState({
-        allChecked: true,
-      });
+  // Toggles all watches in this series between owned and not owned.
+  // Updates localStorage for each watch and refreshes the owned counter.
+  checkAll() {
+    const watches = this.props.watches;
+    if (this.state.allChecked === false) {
+      watches.forEach(watch => localStorage.setItem(watch.id, watch.id));
+      this.setState({ allChecked: true });
     } else {
-      this.setState({
-        allChecked: false,
-      });
+      watches.forEach(watch => localStorage.removeItem(watch.id));
+      this.setState({ allChecked: false });
     }
     this.props.totalOwnedUpdate();
   }
-  <button
-  className={"sidebarHeaderButton"}
-  onClick={() => this.checkAll()}
-></button>*/
 
   // If this series is in invisibleHeaders, renders an empty div (hidden).
   // Otherwise renders the series header image and the full list of watch buttons.
@@ -140,6 +137,12 @@ export class RidewatchList extends Component {
                   src={this.headerUrlGet()}
                   onClick={() => this.props.headerToggle(this.props.series)}
                 ></img>
+                <button
+                  className={"checkAllButton"}
+                  onClick={() => this.checkAll()}
+                >
+                  {this.state.allChecked ? "Uncheck All" : "Check All"}
+                </button>
               </div>
             </h1>
             <ul className={this.props.series}>{this.ridewatchMaker()}</ul>

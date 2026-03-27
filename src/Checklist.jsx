@@ -9,13 +9,8 @@ class Checklist extends Component {
     super(props);
     this.dataService = new DataService();
     this.state = {};
-    this.canvasGenerator = this.canvasGenerator.bind(this);
   }
 
-  // Placeholder — not currently used.
-  canvasGenerator() {
-    return "shit";
-  }
 
   // Fetches all watches and groups them into per-series RidewatchList components.
   // If all 22 series are hidden, renders the easter egg Canvas instead of the list.

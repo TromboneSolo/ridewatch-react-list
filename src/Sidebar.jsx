@@ -31,6 +31,7 @@ class Sidebar extends Component {
     }
   }
 
+  
   // Renders the sidebar: logo (clickable to toggle language), nav links,
   // owned/total counter, and a row of icon buttons for any minimized series.
   // Clicking a minimized series icon restores that series on the checklist.
@@ -113,8 +114,20 @@ class Sidebar extends Component {
                 })}
               </ul>
               {this.easterEgg()}
+              <div>
+              <li>
+                      <button
+                        className={"sidebarResetButton"}
+                        onClick={() => this.props.reset()}
+                        height={"20px"}
+                        width={"20px"}
+                      >Reset
+                      </button>
+                    </li>
+            </div>
             </div>
           </div>
+          
         </div>
       </div>
     );

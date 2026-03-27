@@ -212,6 +212,12 @@ li {
     max-height: 150px;
 }
 
+.checkAllButton {
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+}
+
 .zio {
   background-image: linear-gradient(
     rgba(255, 0, 234, 0.212),

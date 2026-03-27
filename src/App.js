@@ -19,9 +19,11 @@ export class App extends Component {
       logo: process.env.PUBLIC_URL + "/images/icons/ZioEnglishLogo.png", // sidebar logo image
       totalOwned: "",                 // count of owned watches, read from localStorage
       invisibleHeaders: [],           // list of series names whose sections are currently hidden
+      resetKey: 0,                    // incremented on reset to force Ridewatch components to remount
     };
     this.languageClick = this.languageClick.bind(this);
     this.headerToggle = this.headerToggle.bind(this);
+    this.resetCount = this.resetCount.bind(this);
   }
 
   // Toggles the display language between English and Japanese (katakana).
@@ -65,6 +67,14 @@ export class App extends Component {
     }
 }
 
+// A simple function for resetting the website completely. It maximizes every header,
+// clears local storage, and implements a resetkey so that every ridewatch button is reset.
+
+resetCount(){
+  localStorage.clear();
+  this.setState({ invisibleHeaders: [], totalOwned: "0", resetKey: this.state.resetKey + 1 });
+}
+
   /*headerSummon(series) {
     if (this.state.invisibleHeaders.includes(series)) {
       
@@ -105,6 +115,7 @@ export class App extends Component {
           totalOwned={this.state.totalOwned}
           headerToggle={this.headerToggle}
           invisibleHeaders={this.state.invisibleHeaders}
+          reset={this.resetCount}
         />
         <div id="main-panel" className="main-panel" ref="mainPanel">
           <Header {...this.props} />
@@ -119,6 +130,7 @@ export class App extends Component {
                   render={props => (
                     <prop.page
                       {...props}
+                      key={this.state.resetKey}
                       katakana={this.state.katakana}
                       totalOwnedUpdate={this.totalOwnedUpdate.bind(this)}
                       headerToggle={this.headerToggle}

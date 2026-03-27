@@ -39,6 +39,20 @@ export class Ridewatch extends Component {
     }
   }
 
+  // Responds when the allChecked prop changes (i.e. the "Check All" button is clicked).
+  // Updates localStorage and the button's visual state to match.
+  componentDidUpdate(prevProps) {
+    if (prevProps.allChecked !== this.props.allChecked) {
+      if (this.props.allChecked === true) {
+        localStorage.setItem(this.props.id, this.props.id);
+        this.setState({ Checked: "true-" + this.props.series });
+      } else {
+        localStorage.removeItem(this.props.id);
+        this.setState({ Checked: "false" });
+      }
+    }
+  }
+
   // Toggles owned status when the button is clicked.
   // If the watch is already owned, removes it from localStorage and resets the CSS class.
   // If not owned, saves it to localStorage and applies the series-specific CSS class.
